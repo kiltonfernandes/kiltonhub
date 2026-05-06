@@ -1,162 +1,148 @@
-# 🚀 ProtoFlow
+# SF Rapid Prototyping Codex
 
-ProtoFlow is an MVP for turning **BDD specifications written in Gherkin** into a connected system of:
+SF Rapid Prototyping Codex is a React/Vite web project for creating high-fidelity Salesforce prototypes with Codex. The goal is simple: describe the Salesforce page you want, and Codex can assemble a realistic screen using Salesforce Lightning Design System styling and React components.
 
-- 📝 structured product documentation
-- 🧭 navigable user flows
-- 🧩 modular low-fidelity clickable prototypes
+The first included prototype is an Account record page with Salesforce navigation, a record highlights panel, actions, related lists, activity, and account details.
 
-The core idea is simple: a single source of truth powers everything.
+## Why This Exists
 
-If the user updates the BDD, the flow and the prototype change.
-If the user updates the flow, the documentation and the prototype should stay aligned.
-If the user updates the prototype, the flow and the BDD should reflect that change too.
+Salesforce prototypes are often slow to create when the team needs something that looks close enough to the real product for stakeholder review. Low-fidelity mockups are useful early, but they can fail when the conversation depends on Salesforce-specific patterns: record pages, object navigation, related lists, highlights panels, activity timelines, app navigation, modals, and form flows.
 
----
+This project gives Codex a working React surface and a Salesforce-flavored component baseline. Instead of starting from a blank page each time, Codex can turn a product request into a Vercel-ready prototype.
 
-## ✨ Vision
+## What It Can Prototype
 
-ProtoFlow helps product thinking move faster by connecting three layers that are usually separated:
+Use this project for Salesforce-style screens such as:
 
-- **BDD / requirements**
-- **navigation flow**
-- **prototype structure**
+- Account, Contact, Opportunity, Lead, Case, or custom object record pages
+- List views with filters, row actions, and status states
+- Console-style workspaces with side panels and utility regions
+- Admin setup pages and guided configuration flows
+- Approval, onboarding, service, sales, or operations flows
+- Dashboards and summary pages that need Salesforce visual language
 
-Instead of writing scenarios in one tool, mapping the flow in another, and building mockups somewhere else, ProtoFlow keeps these artifacts tied together.
+## Current Demo
 
----
+The current app ships with:
 
-## 🧠 Current MVP
+- A landing page that explains the project and the prototyping workflow
+- A prompt contract section that documents how to ask Codex for new screens
+- A high-fidelity Account record page demo
+- Salesforce Lightning Design System CSS loaded globally
+- Salesforce Design System React installed for reusable primitives
 
-This first version already supports:
+## Prompt Contract
 
-- parsing Gherkin-style text from a freeform editor
-- recognizing custom semantic markers
-- generating screens, scenarios, transitions, modals, and UI blocks
-- rendering a clickable prototype canvas
-- syncing screen/component edits back into normalized BDD text
+When asking Codex to build a new Salesforce prototype, include:
 
-### Supported markers
+1. The Salesforce surface: record page, list view, console, wizard, flow screen, dashboard, or modal.
+2. The object or business domain: Account, Opportunity, Case, onboarding, approvals, billing, service, or custom object.
+3. The regions that should appear: highlights panel, path, tabs, activity, related lists, right rail, form, table, or empty state.
+4. The actions users need: edit, save, submit, approve, assign, convert, log a call, create task, or open modal.
+5. Realistic data: record names, stages, amounts, owners, dates, statuses, and business context.
+6. Any important states: loading, empty, error, validation, success, read-only, draft, or submitted.
 
-- `@screen` for screens
-- `#component` for generic components
-- `$modal` for modals
-- `!action` for primary actions
-- `%form` for forms
-- `&state` for states
+Example request:
 
-Example:
-
-```gherkin
-Feature: Credential
-
-Scenario: Login
-Given que eu estou em @teladelogin
-And vejo o %formulariologin com os componentes #login e #senha
-And vejo a acao !entrar
-When eu executo !entrar com dados validos
-Then o sistema me autentica
-And o sistema me apresenta $modaldeconfirmacaodelogin
-And o sistema me leva para @telainicial
+```text
+Create an Opportunity record page for an enterprise seller.
+Use Salesforce Lightning styling.
+Show highlights, stage path, key fields, related contacts, products, next steps, and an activity composer.
+Use realistic data for a $480k renewal opportunity closing in Q3.
 ```
 
----
+## Tech Stack
 
-## 🧩 Product Concept
+- React 19
+- Vite 8
+- Salesforce Lightning Design System CSS
+- `@salesforce/design-system-react`
+- `@salesforce-ux/design-system`
+- ESLint
 
-ProtoFlow was designed around a **unified data model** that feeds:
+## Local Development
 
-- the BDD editor
-- the flow between screens
-- the clickable prototype
-
-This makes the project especially useful for:
-
-- solo product discovery
-- early feature design
-- flow validation before UI polish
-- documentation-first prototyping
-
----
-
-## 🛠️ Stack
-
-- **React 19**
-- **Vite**
-- **ESLint**
-- custom parser logic for semantic Gherkin markers
-
----
-
-## 🖥️ Local Development
-
-### Install
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Run
+Run locally:
 
 ```bash
 npm run dev
 ```
 
-### Validate
+Build for production:
 
 ```bash
-npm run lint
 npm run build
 ```
 
----
+Preview the production build:
 
-## 📁 Project Structure
+```bash
+npm run preview
+```
+
+Run lint:
+
+```bash
+npm run lint
+```
+
+## Vercel Deployment
+
+This is a standard Vite app, so Vercel can deploy it with the default settings:
+
+- Framework preset: Vite
+- Install command: `npm install`
+- Build command: `npm run build`
+- Output directory: `dist`
+
+No custom server is required.
+
+## Project Structure
 
 ```text
 src/
-  App.jsx       # main MVP logic, parser, flow model, prototype rendering
-  App.css       # product UI and layout styling
-  index.css     # global styles
+  App.jsx       Main landing page and Account demo components
+  App.css       Landing page, layout, and Salesforce prototype styling
+  index.css     Global reset and font defaults
+  main.jsx      React entrypoint and SLDS stylesheet import
+public/
+  favicon.svg
+  icons.svg
 ```
 
----
+## Design Notes
 
-## 🎯 What Makes ProtoFlow Interesting
+- The landing page explains the project before showing the live Salesforce prototype.
+- The Account demo intentionally uses realistic data so reviewers can judge density, hierarchy, labels, and Salesforce behavior.
+- SLDS classes are used for Salesforce-native surfaces such as global headers, page headers, tabs, cards, and tables.
+- The Salesforce React package is used for button primitives. Because the package is older than the current React version, new prototypes should keep build validation as part of the workflow.
 
-- **BDD-first**: scenarios are the entry point
-- **modular UI**: screens are assembled from reusable blocks
-- **traceable changes**: one artifact influences the others
-- **product-oriented**: built for thinking through behavior, not just polishing visuals
+## Commit Workflow
 
----
+Every meaningful commit should update the changelog below with:
 
-## 🔭 Next Steps
+- Date
+- Short summary
+- Files or surfaces changed
+- Validation performed
 
-Planned evolutions for the next iterations:
+Keep the newest entry at the top.
 
-- visual graph with nodes and edges between screens
-- richer bidirectional editing between flow and BDD
-- persistent storage for features and scenarios
-- reusable component presets for common product management flows
-- export/share options for documentation and prototype review
+## Changelog
 
----
+### 2026-05-06 - Landing page and Salesforce Account demo
 
-## 🤝 Repository
-
-GitHub: [kiltonfernandes/ProtoFlow](https://github.com/kiltonfernandes/ProtoFlow)
-
----
-
-## 📜 Changelog
-
-### `v0.1.0` - Initial MVP
-
-- created the React + Vite project base
-- added a Gherkin editor with semantic parsing
-- introduced support for `@`, `#`, `$`, `!`, `%`, and `&` markers
-- generated a unified model for documentation, flow, and prototype
-- built a modular prototype canvas with a starter component library
-- enabled clickable navigation between generated screens
-- added initial GitHub-ready project documentation
+- Renamed the project package to `sfrapidprototypingcodex`.
+- Added a landing page explaining the Codex + Salesforce rapid prototyping workflow.
+- Added a prompt contract section for requesting new Salesforce prototype pages.
+- Added a high-fidelity Account record page demo using SLDS patterns.
+- Installed `@salesforce/design-system-react` and `@salesforce-ux/design-system`.
+- Imported the official Salesforce Lightning Design System stylesheet.
+- Updated the app title for Vercel deployment.
+- Validated with `npm run build`.
