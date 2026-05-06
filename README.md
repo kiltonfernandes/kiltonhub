@@ -70,6 +70,10 @@ The intended product loop is:
 
 The current implementation stores projects in local React state. Persistence can be added later with a database, local storage, or a backend service.
 
+## Replication Playbook
+
+Use [`SALESFORCE_PROTOTYPE_PLAYBOOK.md`](./SALESFORCE_PROTOTYPE_PLAYBOOK.md) when another AI agent needs to recreate this product style in a different project. It documents the required dependencies, SLDS import, Salesforce visual patterns, state architecture, data modeling rules, relationship navigation, executable actions, prompt template, Vercel settings, and validation checklist.
+
 ## Data Model
 
 The included demo uses a fictional B2B company that sells office supplies and peripherals. The prototype connects four Salesforce-style objects:
@@ -189,6 +193,14 @@ Every meaningful commit should update the changelog below with:
 Keep the newest entry at the top.
 
 ## Changelog
+
+### 2026-05-06 - Replication playbook
+
+- Added `SALESFORCE_PROTOTYPE_PLAYBOOK.md` as a portable guide for recreating this Salesforce prototype identity in other AI tools.
+- Documented the required dependencies and SLDS stylesheet import.
+- Documented architecture patterns for dashboards, workspaces, object metadata, related records, executable actions, modals, and toasts.
+- Added a reusable prompt template and quality checklist for future Salesforce-style prototypes.
+- Validated documentation-only change with `npm run lint` and `npm run build`.
 
 ### 2026-05-06 - Living multi-object Salesforce prototype
 
