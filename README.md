@@ -2,7 +2,7 @@
 
 SF Rapid Prototyping Codex is a React/Vite web project for creating high-fidelity Salesforce prototypes with Codex. The goal is simple: describe the Salesforce page you want, and Codex can assemble a realistic screen using Salesforce Lightning Design System styling and React components.
 
-The app now opens on a project dashboard. From there, users can create Salesforce prototype projects, choose a starter template, and open a navigable workspace that renders Salesforce-style screens.
+The app now opens on a project dashboard. From there, users can create Salesforce prototype projects, choose a starter template, and open a navigable workspace that renders Salesforce-style screens with live object relationships and executable prototype actions.
 
 ## Why This Exists
 
@@ -27,10 +27,12 @@ The current app ships with:
 
 - A project dashboard for managing multiple Salesforce prototype projects
 - A new-project form for creating prototype workspaces from Salesforce starter templates
-- A navigable prototype workspace with list view, record detail, and guided flow screens
+- A living Salesforce workspace with Account, Opportunity, Contract, and Product objects
+- A navigable prototype workspace with list views, record pages, relationship maps, and guided action flows
+- Executable actions such as create opportunity, advance stage, activate contract, reserve inventory, and create task
 - A landing page that explains the project and the prototyping workflow
 - A prompt contract section that documents how to ask Codex for new screens
-- A high-fidelity Account record page demo
+- A high-fidelity office supplies and peripherals sales demo
 - Salesforce Lightning Design System CSS loaded globally
 - Salesforce Design System React installed for reusable primitives
 
@@ -68,13 +70,36 @@ The intended product loop is:
 
 The current implementation stores projects in local React state. Persistence can be added later with a database, local storage, or a backend service.
 
+## Data Model
+
+The included demo uses a fictional B2B company that sells office supplies and peripherals. The prototype connects four Salesforce-style objects:
+
+- Account: customer or prospect organizations
+- Opportunity: revenue pursuits linked to accounts, products, and contracts
+- Contract: supply agreements linked to accounts, opportunities, and covered products
+- Product: office supplies, peripherals, and warehouse devices linked to open pipeline and active contracts
+
+The relationships are intentionally navigable. From an Account, users can click into related Opportunities, Contracts, and Products. From a Product, users can see the Accounts, Opportunities, and Contracts where that product appears.
+
+## Executable Prototype Actions
+
+The workspace includes actions that mutate the mock state so the prototype feels alive:
+
+- Create Opportunity: adds a new opportunity and navigates to it
+- Advance Stage: moves an opportunity to Contracting
+- Activate Contract: updates contract status and risk
+- Reserve Inventory: updates product inventory state
+- Create Task: adds a task to the activity panel
+
+These actions are not backend operations yet. They are front-end state transitions that make stakeholder reviews more realistic.
+
 ## Starter Templates
 
 The first starter templates are:
 
-- Account workspace
-- Opportunity pursuit
-- Service console
+- Sales operating system
+- Contract renewal workspace
+- Product catalog planning
 
 Each template is designed to give Codex a Salesforce-specific starting point while keeping the app flexible enough for custom objects and bespoke enterprise workflows.
 
@@ -147,8 +172,8 @@ public/
 
 - The landing page explains the project before showing the live Salesforce prototype.
 - The dashboard is the first product screen because the tool is meant to manage many prototype projects.
-- The workspace uses internal screen navigation to make prototypes feel like flows, not static screenshots.
-- The Account demo intentionally uses realistic data so reviewers can judge density, hierarchy, labels, and Salesforce behavior.
+- The workspace uses object navigation, mode navigation, record links, modals, toasts, and state updates to make prototypes feel alive.
+- The demo intentionally uses realistic office supplies and peripheral sales data so reviewers can judge density, hierarchy, labels, and Salesforce behavior.
 - SLDS classes are used for Salesforce-native surfaces such as global headers, page headers, tabs, cards, and tables.
 - The Salesforce React package is used for button primitives. Because the package is older than the current React version, new prototypes should keep build validation as part of the workflow.
 
@@ -164,6 +189,18 @@ Every meaningful commit should update the changelog below with:
 Keep the newest entry at the top.
 
 ## Changelog
+
+### 2026-05-06 - Living multi-object Salesforce prototype
+
+- Added a connected mock data model for Accounts, Opportunities, Contracts, and Products.
+- Added office supplies and peripherals sample data for a fictional B2B supplier.
+- Added object navigation for all four Salesforce-style objects.
+- Added list views, record pages, relationship maps, and guided action flow modes.
+- Added clickable related records across Account, Opportunity, Contract, and Product relationships.
+- Added executable prototype actions: create opportunity, advance opportunity stage, activate contract, reserve inventory, and create task.
+- Added modal and toast feedback for live prototype actions.
+- Reworked the landing demo to showcase the connected living prototype.
+- Validated with `npm run lint` and `npm run build`.
 
 ### 2026-05-06 - Project dashboard and navigable workspace
 
