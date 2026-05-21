@@ -235,7 +235,10 @@ def build_analytics(meetings: list[dict]) -> dict:
         },
         "pillars": summarize_pillars(meetings, pillar_terms),
         "word_cloud": build_word_cloud(meetings),
-        "word_cloud_by_pillar": {pillar: build_word_cloud(meetings, pillar, 45) for pillar in {meeting["pillar"] for meeting in meetings}},
+        "word_cloud_by_pillar": {
+            pillar: build_word_cloud(meetings, pillar, 45)
+            for pillar in sorted({meeting["pillar"] for meeting in meetings})
+        },
         "epics": [{"name": name, "meetings": count} for name, count in epic_counter.most_common()],
         "folders": [{"name": name, "meetings": count} for name, count in folder_counter.most_common()],
         "timeline": build_timeline(meetings),

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T23:20:05.862593+00:00",
+  "generated_at": "2026-05-21T23:22:29.306944+00:00",
   "source": {
     "kind": "notion-read-ai-seed",
     "database_id": "11bd0217325e4dd9a7fac0a27b69fd48",
@@ -908,957 +908,6 @@
     }
   ],
   "word_cloud_by_pillar": {
-    "DET": [
-      {
-        "term": "you",
-        "count": 3709,
-        "weight": 1.0,
-        "size": 44,
-        "tone": 0
-      },
-      {
-        "term": "have",
-        "count": 2136,
-        "weight": 0.526,
-        "size": 30,
-        "tone": 1
-      },
-      {
-        "term": "can",
-        "count": 1980,
-        "weight": 0.48,
-        "size": 28,
-        "tone": 2
-      },
-      {
-        "term": "speaker",
-        "count": 1698,
-        "weight": 0.395,
-        "size": 26,
-        "tone": 3
-      },
-      {
-        "term": "like",
-        "count": 1503,
-        "weight": 0.336,
-        "size": 24,
-        "tone": 4
-      },
-      {
-        "term": "but",
-        "count": 1456,
-        "weight": 0.322,
-        "size": 24,
-        "tone": 0
-      },
-      {
-        "term": "one",
-        "count": 1348,
-        "weight": 0.289,
-        "size": 23,
-        "tone": 1
-      },
-      {
-        "term": "yeah",
-        "count": 1308,
-        "weight": 0.277,
-        "size": 22,
-        "tone": 2
-      },
-      {
-        "term": "just",
-        "count": 1135,
-        "weight": 0.225,
-        "size": 21,
-        "tone": 3
-      },
-      {
-        "term": "what",
-        "count": 1090,
-        "weight": 0.212,
-        "size": 20,
-        "tone": 4
-      },
-      {
-        "term": "here",
-        "count": 1023,
-        "weight": 0.191,
-        "size": 20,
-        "tone": 0
-      },
-      {
-        "term": "not",
-        "count": 988,
-        "weight": 0.181,
-        "size": 19,
-        "tone": 1
-      },
-      {
-        "term": "right",
-        "count": 957,
-        "weight": 0.172,
-        "size": 19,
-        "tone": 2
-      },
-      {
-        "term": "unknown",
-        "count": 933,
-        "weight": 0.164,
-        "size": 19,
-        "tone": 3
-      },
-      {
-        "term": "think",
-        "count": 925,
-        "weight": 0.162,
-        "size": 19,
-        "tone": 4
-      },
-      {
-        "term": "they",
-        "count": 905,
-        "weight": 0.156,
-        "size": 19,
-        "tone": 0
-      },
-      {
-        "term": "okay",
-        "count": 883,
-        "weight": 0.149,
-        "size": 18,
-        "tone": 1
-      },
-      {
-        "term": "there",
-        "count": 866,
-        "weight": 0.144,
-        "size": 18,
-        "tone": 2
-      },
-      {
-        "term": "all",
-        "count": 844,
-        "weight": 0.138,
-        "size": 18,
-        "tone": 3
-      },
-      {
-        "term": "story",
-        "count": 816,
-        "weight": 0.129,
-        "size": 18,
-        "tone": 4
-      },
-      {
-        "term": "know",
-        "count": 747,
-        "weight": 0.108,
-        "size": 17,
-        "tone": 0
-      },
-      {
-        "term": "then",
-        "count": 742,
-        "weight": 0.107,
-        "size": 17,
-        "tone": 1
-      },
-      {
-        "term": "work",
-        "count": 734,
-        "weight": 0.104,
-        "size": 17,
-        "tone": 2
-      },
-      {
-        "term": "going",
-        "count": 673,
-        "weight": 0.086,
-        "size": 17,
-        "tone": 3
-      },
-      {
-        "term": "don",
-        "count": 665,
-        "weight": 0.084,
-        "size": 17,
-        "tone": 4
-      },
-      {
-        "term": "some",
-        "count": 629,
-        "weight": 0.073,
-        "size": 16,
-        "tone": 0
-      },
-      {
-        "term": "about",
-        "count": 601,
-        "weight": 0.064,
-        "size": 16,
-        "tone": 1
-      },
-      {
-        "term": "because",
-        "count": 577,
-        "weight": 0.057,
-        "size": 16,
-        "tone": 2
-      },
-      {
-        "term": "case",
-        "count": 572,
-        "weight": 0.056,
-        "size": 16,
-        "tone": 3
-      },
-      {
-        "term": "see",
-        "count": 568,
-        "weight": 0.054,
-        "size": 16,
-        "tone": 4
-      },
-      {
-        "term": "let",
-        "count": 564,
-        "weight": 0.053,
-        "size": 16,
-        "tone": 0
-      },
-      {
-        "term": "your",
-        "count": 464,
-        "weight": 0.023,
-        "size": 15,
-        "tone": 1
-      },
-      {
-        "term": "would",
-        "count": 460,
-        "weight": 0.022,
-        "size": 15,
-        "tone": 2
-      },
-      {
-        "term": "now",
-        "count": 446,
-        "weight": 0.018,
-        "size": 15,
-        "tone": 3
-      },
-      {
-        "term": "get",
-        "count": 423,
-        "weight": 0.011,
-        "size": 14,
-        "tone": 4
-      },
-      {
-        "term": "these",
-        "count": 421,
-        "weight": 0.01,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "want",
-        "count": 420,
-        "weight": 0.01,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "how",
-        "count": 419,
-        "weight": 0.01,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "something",
-        "count": 397,
-        "weight": 0.003,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "has",
-        "count": 396,
-        "weight": 0.003,
-        "size": 14,
-        "tone": 4
-      },
-      {
-        "term": "our",
-        "count": 394,
-        "weight": 0.002,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "when",
-        "count": 393,
-        "weight": 0.002,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "sure",
-        "count": 389,
-        "weight": 0.001,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "more",
-        "count": 388,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "thank",
-        "count": 387,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 4
-      }
-    ],
-    "VLI Innovation Day": [
-      {
-        "term": "não",
-        "count": 204,
-        "weight": 1.0,
-        "size": 44,
-        "tone": 0
-      },
-      {
-        "term": "você",
-        "count": 155,
-        "weight": 0.731,
-        "size": 36,
-        "tone": 1
-      },
-      {
-        "term": "aqui",
-        "count": 139,
-        "weight": 0.643,
-        "size": 33,
-        "tone": 2
-      },
-      {
-        "term": "gente",
-        "count": 121,
-        "weight": 0.544,
-        "size": 30,
-        "tone": 3
-      },
-      {
-        "term": "vou",
-        "count": 106,
-        "weight": 0.462,
-        "size": 28,
-        "tone": 4
-      },
-      {
-        "term": "vai",
-        "count": 102,
-        "weight": 0.44,
-        "size": 27,
-        "tone": 0
-      },
-      {
-        "term": "pra",
-        "count": 95,
-        "weight": 0.401,
-        "size": 26,
-        "tone": 1
-      },
-      {
-        "term": "então",
-        "count": 88,
-        "weight": 0.363,
-        "size": 25,
-        "tone": 2
-      },
-      {
-        "term": "tem",
-        "count": 82,
-        "weight": 0.33,
-        "size": 24,
-        "tone": 3
-      },
-      {
-        "term": "speaker",
-        "count": 82,
-        "weight": 0.33,
-        "size": 24,
-        "tone": 4
-      },
-      {
-        "term": "unknown",
-        "count": 81,
-        "weight": 0.324,
-        "size": 24,
-        "tone": 0
-      },
-      {
-        "term": "ele",
-        "count": 65,
-        "weight": 0.236,
-        "size": 21,
-        "tone": 1
-      },
-      {
-        "term": "fazer",
-        "count": 60,
-        "weight": 0.209,
-        "size": 20,
-        "tone": 2
-      },
-      {
-        "term": "falar",
-        "count": 58,
-        "weight": 0.198,
-        "size": 20,
-        "tone": 3
-      },
-      {
-        "term": "acho",
-        "count": 50,
-        "weight": 0.154,
-        "size": 19,
-        "tone": 4
-      },
-      {
-        "term": "vocês",
-        "count": 47,
-        "weight": 0.137,
-        "size": 18,
-        "tone": 0
-      },
-      {
-        "term": "porque",
-        "count": 46,
-        "weight": 0.132,
-        "size": 18,
-        "tone": 1
-      },
-      {
-        "term": "entendeu",
-        "count": 46,
-        "weight": 0.132,
-        "size": 18,
-        "tone": 2
-      },
-      {
-        "term": "pode",
-        "count": 43,
-        "weight": 0.115,
-        "size": 17,
-        "tone": 3
-      },
-      {
-        "term": "precificação",
-        "count": 38,
-        "weight": 0.088,
-        "size": 17,
-        "tone": 4
-      },
-      {
-        "term": "também",
-        "count": 36,
-        "weight": 0.077,
-        "size": 16,
-        "tone": 0
-      },
-      {
-        "term": "assim",
-        "count": 35,
-        "weight": 0.071,
-        "size": 16,
-        "tone": 1
-      },
-      {
-        "term": "muito",
-        "count": 34,
-        "weight": 0.066,
-        "size": 16,
-        "tone": 2
-      },
-      {
-        "term": "apresentação",
-        "count": 32,
-        "weight": 0.055,
-        "size": 16,
-        "tone": 3
-      },
-      {
-        "term": "kilton",
-        "count": 31,
-        "weight": 0.049,
-        "size": 15,
-        "tone": 4
-      },
-      {
-        "term": "cara",
-        "count": 31,
-        "weight": 0.049,
-        "size": 15,
-        "tone": 0
-      },
-      {
-        "term": "está",
-        "count": 31,
-        "weight": 0.049,
-        "size": 15,
-        "tone": 1
-      },
-      {
-        "term": "marcelino",
-        "count": 30,
-        "weight": 0.044,
-        "size": 15,
-        "tone": 2
-      },
-      {
-        "term": "dar",
-        "count": 29,
-        "weight": 0.038,
-        "size": 15,
-        "tone": 3
-      },
-      {
-        "term": "seu",
-        "count": 29,
-        "weight": 0.038,
-        "size": 15,
-        "tone": 4
-      },
-      {
-        "term": "time",
-        "count": 28,
-        "weight": 0.033,
-        "size": 15,
-        "tone": 0
-      },
-      {
-        "term": "ter",
-        "count": 28,
-        "weight": 0.033,
-        "size": 15,
-        "tone": 1
-      },
-      {
-        "term": "vli",
-        "count": 26,
-        "weight": 0.022,
-        "size": 15,
-        "tone": 2
-      },
-      {
-        "term": "até",
-        "count": 26,
-        "weight": 0.022,
-        "size": 15,
-        "tone": 3
-      },
-      {
-        "term": "sei",
-        "count": 26,
-        "weight": 0.022,
-        "size": 15,
-        "tone": 4
-      },
-      {
-        "term": "material",
-        "count": 25,
-        "weight": 0.016,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "tenho",
-        "count": 25,
-        "weight": 0.016,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "coisa",
-        "count": 25,
-        "weight": 0.016,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "bom",
-        "count": 24,
-        "weight": 0.011,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "meu",
-        "count": 24,
-        "weight": 0.011,
-        "size": 14,
-        "tone": 4
-      },
-      {
-        "term": "empresa",
-        "count": 23,
-        "weight": 0.005,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "ali",
-        "count": 23,
-        "weight": 0.005,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "falando",
-        "count": 23,
-        "weight": 0.005,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "revenue",
-        "count": 22,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "cliente",
-        "count": 22,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 4
-      }
-    ],
-    "Sem pillar": [
-      {
-        "term": "you",
-        "count": 108,
-        "weight": 1.0,
-        "size": 44,
-        "tone": 0
-      },
-      {
-        "term": "speaker",
-        "count": 80,
-        "weight": 0.717,
-        "size": 36,
-        "tone": 1
-      },
-      {
-        "term": "unknown",
-        "count": 79,
-        "weight": 0.707,
-        "size": 35,
-        "tone": 2
-      },
-      {
-        "term": "but",
-        "count": 39,
-        "weight": 0.303,
-        "size": 23,
-        "tone": 3
-      },
-      {
-        "term": "very",
-        "count": 35,
-        "weight": 0.263,
-        "size": 22,
-        "tone": 4
-      },
-      {
-        "term": "have",
-        "count": 34,
-        "weight": 0.253,
-        "size": 22,
-        "tone": 0
-      },
-      {
-        "term": "shopping",
-        "count": 29,
-        "weight": 0.202,
-        "size": 20,
-        "tone": 1
-      },
-      {
-        "term": "not",
-        "count": 27,
-        "weight": 0.182,
-        "size": 19,
-        "tone": 2
-      },
-      {
-        "term": "malls",
-        "count": 23,
-        "weight": 0.141,
-        "size": 18,
-        "tone": 3
-      },
-      {
-        "term": "one",
-        "count": 21,
-        "weight": 0.121,
-        "size": 18,
-        "tone": 4
-      },
-      {
-        "term": "can",
-        "count": 20,
-        "weight": 0.111,
-        "size": 17,
-        "tone": 0
-      },
-      {
-        "term": "two",
-        "count": 19,
-        "weight": 0.101,
-        "size": 17,
-        "tone": 1
-      },
-      {
-        "term": "think",
-        "count": 19,
-        "weight": 0.101,
-        "size": 17,
-        "tone": 2
-      },
-      {
-        "term": "buy",
-        "count": 19,
-        "weight": 0.101,
-        "size": 17,
-        "tone": 3
-      },
-      {
-        "term": "yes",
-        "count": 17,
-        "weight": 0.081,
-        "size": 16,
-        "tone": 4
-      },
-      {
-        "term": "what",
-        "count": 16,
-        "weight": 0.071,
-        "size": 16,
-        "tone": 0
-      },
-      {
-        "term": "more",
-        "count": 16,
-        "weight": 0.071,
-        "size": 16,
-        "tone": 1
-      },
-      {
-        "term": "many",
-        "count": 15,
-        "weight": 0.061,
-        "size": 16,
-        "tone": 2
-      },
-      {
-        "term": "stores",
-        "count": 14,
-        "weight": 0.051,
-        "size": 16,
-        "tone": 3
-      },
-      {
-        "term": "new",
-        "count": 14,
-        "weight": 0.051,
-        "size": 16,
-        "tone": 4
-      },
-      {
-        "term": "good",
-        "count": 14,
-        "weight": 0.051,
-        "size": 16,
-        "tone": 0
-      },
-      {
-        "term": "right",
-        "count": 14,
-        "weight": 0.051,
-        "size": 16,
-        "tone": 1
-      },
-      {
-        "term": "want",
-        "count": 14,
-        "weight": 0.051,
-        "size": 16,
-        "tone": 2
-      },
-      {
-        "term": "mall",
-        "count": 13,
-        "weight": 0.04,
-        "size": 15,
-        "tone": 3
-      },
-      {
-        "term": "english",
-        "count": 13,
-        "weight": 0.04,
-        "size": 15,
-        "tone": 4
-      },
-      {
-        "term": "week",
-        "count": 13,
-        "weight": 0.04,
-        "size": 15,
-        "tone": 0
-      },
-      {
-        "term": "all",
-        "count": 13,
-        "weight": 0.04,
-        "size": 15,
-        "tone": 1
-      },
-      {
-        "term": "okay",
-        "count": 13,
-        "weight": 0.04,
-        "size": 15,
-        "tone": 2
-      },
-      {
-        "term": "know",
-        "count": 13,
-        "weight": 0.04,
-        "size": 15,
-        "tone": 3
-      },
-      {
-        "term": "because",
-        "count": 12,
-        "weight": 0.03,
-        "size": 15,
-        "tone": 4
-      },
-      {
-        "term": "your",
-        "count": 12,
-        "weight": 0.03,
-        "size": 15,
-        "tone": 0
-      },
-      {
-        "term": "like",
-        "count": 12,
-        "weight": 0.03,
-        "size": 15,
-        "tone": 1
-      },
-      {
-        "term": "about",
-        "count": 11,
-        "weight": 0.02,
-        "size": 15,
-        "tone": 2
-      },
-      {
-        "term": "how",
-        "count": 11,
-        "weight": 0.02,
-        "size": 15,
-        "tone": 3
-      },
-      {
-        "term": "store",
-        "count": 11,
-        "weight": 0.02,
-        "size": 15,
-        "tone": 4
-      },
-      {
-        "term": "there",
-        "count": 11,
-        "weight": 0.02,
-        "size": 15,
-        "tone": 0
-      },
-      {
-        "term": "don",
-        "count": 11,
-        "weight": 0.02,
-        "size": 15,
-        "tone": 1
-      },
-      {
-        "term": "retail",
-        "count": 10,
-        "weight": 0.01,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "say",
-        "count": 10,
-        "weight": 0.01,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "get",
-        "count": 10,
-        "weight": 0.01,
-        "size": 14,
-        "tone": 4
-      },
-      {
-        "term": "people",
-        "count": 10,
-        "weight": 0.01,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "customer",
-        "count": 9,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "they",
-        "count": 9,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "area",
-        "count": 9,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "revenue",
-        "count": 9,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 4
-      }
-    ],
     "Amanda": [
       {
         "term": "gente",
@@ -2493,6 +1542,323 @@
         "tone": 4
       }
     ],
+    "DET": [
+      {
+        "term": "you",
+        "count": 3709,
+        "weight": 1.0,
+        "size": 44,
+        "tone": 0
+      },
+      {
+        "term": "have",
+        "count": 2136,
+        "weight": 0.526,
+        "size": 30,
+        "tone": 1
+      },
+      {
+        "term": "can",
+        "count": 1980,
+        "weight": 0.48,
+        "size": 28,
+        "tone": 2
+      },
+      {
+        "term": "speaker",
+        "count": 1698,
+        "weight": 0.395,
+        "size": 26,
+        "tone": 3
+      },
+      {
+        "term": "like",
+        "count": 1503,
+        "weight": 0.336,
+        "size": 24,
+        "tone": 4
+      },
+      {
+        "term": "but",
+        "count": 1456,
+        "weight": 0.322,
+        "size": 24,
+        "tone": 0
+      },
+      {
+        "term": "one",
+        "count": 1348,
+        "weight": 0.289,
+        "size": 23,
+        "tone": 1
+      },
+      {
+        "term": "yeah",
+        "count": 1308,
+        "weight": 0.277,
+        "size": 22,
+        "tone": 2
+      },
+      {
+        "term": "just",
+        "count": 1135,
+        "weight": 0.225,
+        "size": 21,
+        "tone": 3
+      },
+      {
+        "term": "what",
+        "count": 1090,
+        "weight": 0.212,
+        "size": 20,
+        "tone": 4
+      },
+      {
+        "term": "here",
+        "count": 1023,
+        "weight": 0.191,
+        "size": 20,
+        "tone": 0
+      },
+      {
+        "term": "not",
+        "count": 988,
+        "weight": 0.181,
+        "size": 19,
+        "tone": 1
+      },
+      {
+        "term": "right",
+        "count": 957,
+        "weight": 0.172,
+        "size": 19,
+        "tone": 2
+      },
+      {
+        "term": "unknown",
+        "count": 933,
+        "weight": 0.164,
+        "size": 19,
+        "tone": 3
+      },
+      {
+        "term": "think",
+        "count": 925,
+        "weight": 0.162,
+        "size": 19,
+        "tone": 4
+      },
+      {
+        "term": "they",
+        "count": 905,
+        "weight": 0.156,
+        "size": 19,
+        "tone": 0
+      },
+      {
+        "term": "okay",
+        "count": 883,
+        "weight": 0.149,
+        "size": 18,
+        "tone": 1
+      },
+      {
+        "term": "there",
+        "count": 866,
+        "weight": 0.144,
+        "size": 18,
+        "tone": 2
+      },
+      {
+        "term": "all",
+        "count": 844,
+        "weight": 0.138,
+        "size": 18,
+        "tone": 3
+      },
+      {
+        "term": "story",
+        "count": 816,
+        "weight": 0.129,
+        "size": 18,
+        "tone": 4
+      },
+      {
+        "term": "know",
+        "count": 747,
+        "weight": 0.108,
+        "size": 17,
+        "tone": 0
+      },
+      {
+        "term": "then",
+        "count": 742,
+        "weight": 0.107,
+        "size": 17,
+        "tone": 1
+      },
+      {
+        "term": "work",
+        "count": 734,
+        "weight": 0.104,
+        "size": 17,
+        "tone": 2
+      },
+      {
+        "term": "going",
+        "count": 673,
+        "weight": 0.086,
+        "size": 17,
+        "tone": 3
+      },
+      {
+        "term": "don",
+        "count": 665,
+        "weight": 0.084,
+        "size": 17,
+        "tone": 4
+      },
+      {
+        "term": "some",
+        "count": 629,
+        "weight": 0.073,
+        "size": 16,
+        "tone": 0
+      },
+      {
+        "term": "about",
+        "count": 601,
+        "weight": 0.064,
+        "size": 16,
+        "tone": 1
+      },
+      {
+        "term": "because",
+        "count": 577,
+        "weight": 0.057,
+        "size": 16,
+        "tone": 2
+      },
+      {
+        "term": "case",
+        "count": 572,
+        "weight": 0.056,
+        "size": 16,
+        "tone": 3
+      },
+      {
+        "term": "see",
+        "count": 568,
+        "weight": 0.054,
+        "size": 16,
+        "tone": 4
+      },
+      {
+        "term": "let",
+        "count": 564,
+        "weight": 0.053,
+        "size": 16,
+        "tone": 0
+      },
+      {
+        "term": "your",
+        "count": 464,
+        "weight": 0.023,
+        "size": 15,
+        "tone": 1
+      },
+      {
+        "term": "would",
+        "count": 460,
+        "weight": 0.022,
+        "size": 15,
+        "tone": 2
+      },
+      {
+        "term": "now",
+        "count": 446,
+        "weight": 0.018,
+        "size": 15,
+        "tone": 3
+      },
+      {
+        "term": "get",
+        "count": 423,
+        "weight": 0.011,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "these",
+        "count": 421,
+        "weight": 0.01,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "want",
+        "count": 420,
+        "weight": 0.01,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "how",
+        "count": 419,
+        "weight": 0.01,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "something",
+        "count": 397,
+        "weight": 0.003,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "has",
+        "count": 396,
+        "weight": 0.003,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "our",
+        "count": 394,
+        "weight": 0.002,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "when",
+        "count": 393,
+        "weight": 0.002,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "sure",
+        "count": 389,
+        "weight": 0.001,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "more",
+        "count": 388,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "thank",
+        "count": 387,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      }
+    ],
     "Pulse": [
       {
         "term": "you",
@@ -2805,6 +2171,640 @@
       {
         "term": "class",
         "count": 40,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      }
+    ],
+    "Sem pillar": [
+      {
+        "term": "you",
+        "count": 108,
+        "weight": 1.0,
+        "size": 44,
+        "tone": 0
+      },
+      {
+        "term": "speaker",
+        "count": 80,
+        "weight": 0.717,
+        "size": 36,
+        "tone": 1
+      },
+      {
+        "term": "unknown",
+        "count": 79,
+        "weight": 0.707,
+        "size": 35,
+        "tone": 2
+      },
+      {
+        "term": "but",
+        "count": 39,
+        "weight": 0.303,
+        "size": 23,
+        "tone": 3
+      },
+      {
+        "term": "very",
+        "count": 35,
+        "weight": 0.263,
+        "size": 22,
+        "tone": 4
+      },
+      {
+        "term": "have",
+        "count": 34,
+        "weight": 0.253,
+        "size": 22,
+        "tone": 0
+      },
+      {
+        "term": "shopping",
+        "count": 29,
+        "weight": 0.202,
+        "size": 20,
+        "tone": 1
+      },
+      {
+        "term": "not",
+        "count": 27,
+        "weight": 0.182,
+        "size": 19,
+        "tone": 2
+      },
+      {
+        "term": "malls",
+        "count": 23,
+        "weight": 0.141,
+        "size": 18,
+        "tone": 3
+      },
+      {
+        "term": "one",
+        "count": 21,
+        "weight": 0.121,
+        "size": 18,
+        "tone": 4
+      },
+      {
+        "term": "can",
+        "count": 20,
+        "weight": 0.111,
+        "size": 17,
+        "tone": 0
+      },
+      {
+        "term": "two",
+        "count": 19,
+        "weight": 0.101,
+        "size": 17,
+        "tone": 1
+      },
+      {
+        "term": "think",
+        "count": 19,
+        "weight": 0.101,
+        "size": 17,
+        "tone": 2
+      },
+      {
+        "term": "buy",
+        "count": 19,
+        "weight": 0.101,
+        "size": 17,
+        "tone": 3
+      },
+      {
+        "term": "yes",
+        "count": 17,
+        "weight": 0.081,
+        "size": 16,
+        "tone": 4
+      },
+      {
+        "term": "what",
+        "count": 16,
+        "weight": 0.071,
+        "size": 16,
+        "tone": 0
+      },
+      {
+        "term": "more",
+        "count": 16,
+        "weight": 0.071,
+        "size": 16,
+        "tone": 1
+      },
+      {
+        "term": "many",
+        "count": 15,
+        "weight": 0.061,
+        "size": 16,
+        "tone": 2
+      },
+      {
+        "term": "stores",
+        "count": 14,
+        "weight": 0.051,
+        "size": 16,
+        "tone": 3
+      },
+      {
+        "term": "new",
+        "count": 14,
+        "weight": 0.051,
+        "size": 16,
+        "tone": 4
+      },
+      {
+        "term": "good",
+        "count": 14,
+        "weight": 0.051,
+        "size": 16,
+        "tone": 0
+      },
+      {
+        "term": "right",
+        "count": 14,
+        "weight": 0.051,
+        "size": 16,
+        "tone": 1
+      },
+      {
+        "term": "want",
+        "count": 14,
+        "weight": 0.051,
+        "size": 16,
+        "tone": 2
+      },
+      {
+        "term": "mall",
+        "count": 13,
+        "weight": 0.04,
+        "size": 15,
+        "tone": 3
+      },
+      {
+        "term": "english",
+        "count": 13,
+        "weight": 0.04,
+        "size": 15,
+        "tone": 4
+      },
+      {
+        "term": "week",
+        "count": 13,
+        "weight": 0.04,
+        "size": 15,
+        "tone": 0
+      },
+      {
+        "term": "all",
+        "count": 13,
+        "weight": 0.04,
+        "size": 15,
+        "tone": 1
+      },
+      {
+        "term": "okay",
+        "count": 13,
+        "weight": 0.04,
+        "size": 15,
+        "tone": 2
+      },
+      {
+        "term": "know",
+        "count": 13,
+        "weight": 0.04,
+        "size": 15,
+        "tone": 3
+      },
+      {
+        "term": "because",
+        "count": 12,
+        "weight": 0.03,
+        "size": 15,
+        "tone": 4
+      },
+      {
+        "term": "your",
+        "count": 12,
+        "weight": 0.03,
+        "size": 15,
+        "tone": 0
+      },
+      {
+        "term": "like",
+        "count": 12,
+        "weight": 0.03,
+        "size": 15,
+        "tone": 1
+      },
+      {
+        "term": "about",
+        "count": 11,
+        "weight": 0.02,
+        "size": 15,
+        "tone": 2
+      },
+      {
+        "term": "how",
+        "count": 11,
+        "weight": 0.02,
+        "size": 15,
+        "tone": 3
+      },
+      {
+        "term": "store",
+        "count": 11,
+        "weight": 0.02,
+        "size": 15,
+        "tone": 4
+      },
+      {
+        "term": "there",
+        "count": 11,
+        "weight": 0.02,
+        "size": 15,
+        "tone": 0
+      },
+      {
+        "term": "don",
+        "count": 11,
+        "weight": 0.02,
+        "size": 15,
+        "tone": 1
+      },
+      {
+        "term": "retail",
+        "count": 10,
+        "weight": 0.01,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "say",
+        "count": 10,
+        "weight": 0.01,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "get",
+        "count": 10,
+        "weight": 0.01,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "people",
+        "count": 10,
+        "weight": 0.01,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "customer",
+        "count": 9,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "they",
+        "count": 9,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "area",
+        "count": 9,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "revenue",
+        "count": 9,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      }
+    ],
+    "VLI Innovation Day": [
+      {
+        "term": "não",
+        "count": 204,
+        "weight": 1.0,
+        "size": 44,
+        "tone": 0
+      },
+      {
+        "term": "você",
+        "count": 155,
+        "weight": 0.731,
+        "size": 36,
+        "tone": 1
+      },
+      {
+        "term": "aqui",
+        "count": 139,
+        "weight": 0.643,
+        "size": 33,
+        "tone": 2
+      },
+      {
+        "term": "gente",
+        "count": 121,
+        "weight": 0.544,
+        "size": 30,
+        "tone": 3
+      },
+      {
+        "term": "vou",
+        "count": 106,
+        "weight": 0.462,
+        "size": 28,
+        "tone": 4
+      },
+      {
+        "term": "vai",
+        "count": 102,
+        "weight": 0.44,
+        "size": 27,
+        "tone": 0
+      },
+      {
+        "term": "pra",
+        "count": 95,
+        "weight": 0.401,
+        "size": 26,
+        "tone": 1
+      },
+      {
+        "term": "então",
+        "count": 88,
+        "weight": 0.363,
+        "size": 25,
+        "tone": 2
+      },
+      {
+        "term": "tem",
+        "count": 82,
+        "weight": 0.33,
+        "size": 24,
+        "tone": 3
+      },
+      {
+        "term": "speaker",
+        "count": 82,
+        "weight": 0.33,
+        "size": 24,
+        "tone": 4
+      },
+      {
+        "term": "unknown",
+        "count": 81,
+        "weight": 0.324,
+        "size": 24,
+        "tone": 0
+      },
+      {
+        "term": "ele",
+        "count": 65,
+        "weight": 0.236,
+        "size": 21,
+        "tone": 1
+      },
+      {
+        "term": "fazer",
+        "count": 60,
+        "weight": 0.209,
+        "size": 20,
+        "tone": 2
+      },
+      {
+        "term": "falar",
+        "count": 58,
+        "weight": 0.198,
+        "size": 20,
+        "tone": 3
+      },
+      {
+        "term": "acho",
+        "count": 50,
+        "weight": 0.154,
+        "size": 19,
+        "tone": 4
+      },
+      {
+        "term": "vocês",
+        "count": 47,
+        "weight": 0.137,
+        "size": 18,
+        "tone": 0
+      },
+      {
+        "term": "porque",
+        "count": 46,
+        "weight": 0.132,
+        "size": 18,
+        "tone": 1
+      },
+      {
+        "term": "entendeu",
+        "count": 46,
+        "weight": 0.132,
+        "size": 18,
+        "tone": 2
+      },
+      {
+        "term": "pode",
+        "count": 43,
+        "weight": 0.115,
+        "size": 17,
+        "tone": 3
+      },
+      {
+        "term": "precificação",
+        "count": 38,
+        "weight": 0.088,
+        "size": 17,
+        "tone": 4
+      },
+      {
+        "term": "também",
+        "count": 36,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 0
+      },
+      {
+        "term": "assim",
+        "count": 35,
+        "weight": 0.071,
+        "size": 16,
+        "tone": 1
+      },
+      {
+        "term": "muito",
+        "count": 34,
+        "weight": 0.066,
+        "size": 16,
+        "tone": 2
+      },
+      {
+        "term": "apresentação",
+        "count": 32,
+        "weight": 0.055,
+        "size": 16,
+        "tone": 3
+      },
+      {
+        "term": "kilton",
+        "count": 31,
+        "weight": 0.049,
+        "size": 15,
+        "tone": 4
+      },
+      {
+        "term": "cara",
+        "count": 31,
+        "weight": 0.049,
+        "size": 15,
+        "tone": 0
+      },
+      {
+        "term": "está",
+        "count": 31,
+        "weight": 0.049,
+        "size": 15,
+        "tone": 1
+      },
+      {
+        "term": "marcelino",
+        "count": 30,
+        "weight": 0.044,
+        "size": 15,
+        "tone": 2
+      },
+      {
+        "term": "dar",
+        "count": 29,
+        "weight": 0.038,
+        "size": 15,
+        "tone": 3
+      },
+      {
+        "term": "seu",
+        "count": 29,
+        "weight": 0.038,
+        "size": 15,
+        "tone": 4
+      },
+      {
+        "term": "time",
+        "count": 28,
+        "weight": 0.033,
+        "size": 15,
+        "tone": 0
+      },
+      {
+        "term": "ter",
+        "count": 28,
+        "weight": 0.033,
+        "size": 15,
+        "tone": 1
+      },
+      {
+        "term": "vli",
+        "count": 26,
+        "weight": 0.022,
+        "size": 15,
+        "tone": 2
+      },
+      {
+        "term": "até",
+        "count": 26,
+        "weight": 0.022,
+        "size": 15,
+        "tone": 3
+      },
+      {
+        "term": "sei",
+        "count": 26,
+        "weight": 0.022,
+        "size": 15,
+        "tone": 4
+      },
+      {
+        "term": "material",
+        "count": 25,
+        "weight": 0.016,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "tenho",
+        "count": 25,
+        "weight": 0.016,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "coisa",
+        "count": 25,
+        "weight": 0.016,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "bom",
+        "count": 24,
+        "weight": 0.011,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "meu",
+        "count": 24,
+        "weight": 0.011,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "empresa",
+        "count": 23,
+        "weight": 0.005,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "ali",
+        "count": 23,
+        "weight": 0.005,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "falando",
+        "count": 23,
+        "weight": 0.005,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "revenue",
+        "count": 22,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "cliente",
+        "count": 22,
         "weight": 0.0,
         "size": 14,
         "tone": 4
