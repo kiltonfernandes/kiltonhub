@@ -1,0 +1,151 @@
+[
+  {
+    "id": "367195bb0be881f59146fba984a5d4f4",
+    "title": "21/05/2026 - C-SAT Duplicate Invitation Investigation",
+    "url": "https://www.notion.so/367195bb0be881f59146fba984a5d4f4",
+    "report_link": "https://app.read.ai/analytics/meetings/01KS5VD9C1F12Z0RN78FKP8G14",
+    "date": "2026-05-21T18:05:00Z",
+    "pillar": "DET",
+    "epic": "Agente de Atendimento",
+    "folders": ["Status Update"],
+    "owner": "Kilton Fernandes",
+    "participants": ["Kilton Fernandes"],
+    "summary": "The meeting reviewed a work item reporting a custom survey field validation exception tied to duplicate C-SAT survey invitations after case closure. The error shows that a survey invitation record already exists for the same case ID, indicating duplicate links for one case. The proposed path is to add a pre-insert check and investigate whether retries or submission errors caused repeated survey attempts.",
+    "action_items": [
+      {"owner": "Participant 1", "text": "Share the work item with Participant 2", "status": "open"},
+      {"owner": "Participant 1", "text": "Double-check where the error was reported", "status": "open"},
+      {"owner": "Participant 1", "text": "Add the survey validation investigation to the to-do list", "status": "open"}
+    ],
+    "key_questions": [
+      "Who is the business owner for the C-SAT expected behavior?",
+      "Where was the duplicate survey invitation error reported?",
+      "Why were multiple survey links attempted for a single case?"
+    ],
+    "decisions": [
+      "A pre-insert validation check should be considered before creating survey invitation records."
+    ],
+    "blockers": [
+      "Business ownership and source of the error report still need confirmation."
+    ],
+    "transcript": "C-SAT survey custom field validation exception survey invitation record already exists for case ID duplicate survey links sent after case closure. Need to understand scenario retries submission errors business expectation confirmation Thomas org62 error logs."
+  },
+  {
+    "id": "365195bb0be881bc82c9db0434243459",
+    "title": "19/05/2026 - 19.05 Grooming Session",
+    "url": "https://www.notion.so/365195bb0be881bc82c9db0434243459",
+    "report_link": "https://app.read.ai/analytics/meetings/01KS0EK2QNYTWZZE7MC4A1VWNJ",
+    "date": "2026-05-19T15:45:00Z",
+    "pillar": "DET",
+    "epic": "Scrum Rites",
+    "folders": ["Planning Meeting"],
+    "owner": "Kilton Fernandes",
+    "participants": ["Kilton Fernandes", "Valerie", "Anu"],
+    "summary": "The meeting reviewed Omni-Channel and case-routing items including RevRack capacity counting, Slack and Org62 sharing impacts, language routing, priority routing, routing-rule implementation and persona-based testing. Several items remain blocked by missing business requirements and require confirmation from Tomas, Jess, Drashti and Ain.",
+    "action_items": [
+      {"owner": "Participant 1", "text": "Obtain confirmation from Tomas about case record types for the capacity-bypass behavior", "status": "open"},
+      {"owner": "Valerie", "text": "Provide the relevant record type list for the capacity-bypass implementation", "status": "open"},
+      {"owner": "Participant 1", "text": "Seek a green light from Jess on the personas-and-journeys document", "status": "waiting"},
+      {"owner": "Participant 1", "text": "Clarify preferred language storage and fallback behavior with Drashti and Jessica", "status": "open"},
+      {"owner": "Participant 1", "text": "Bring UAT versus production form examples to a parking-lot discussion", "status": "open"}
+    ],
+    "key_questions": [
+      "What percentage of cases are manually transferred to RevRec users?",
+      "Where is preferred language stored and what fallback should apply?",
+      "Do we already have the emergency skill or must it be created?",
+      "How should the team compare UAT and production form discrepancies?"
+    ],
+    "decisions": [
+      "Implement RevRack routing rules exactly as specified in column F of the Quip document.",
+      "Incoming Omni-Channel cases should register silently without auto-focusing for all users.",
+      "Two story points were recommended for the analysis task."
+    ],
+    "blockers": [
+      "RevRack capacity bypass is blocked until Tomas provides target record types.",
+      "Slack and Org62 behavior is blocked until Jess approves the personas-and-journeys document.",
+      "Language routing is blocked until preferred language source and fallback rules are confirmed."
+    ],
+    "transcript": "RevRack Omni-Channel capacity contract modification manual transfer RevRec users record types SalesOps legal Kmod Tomas Valerie Jess Slack Org62 sharing rules unauthorized child cases personas journeys language based billing routing preferred language fallback emergency skill priority routing Quip column F source of truth UAT production form discrepancies root cause."
+  },
+  {
+    "id": "367195bb0be8810880f3e561ec889e9d",
+    "title": "21/05/2026 - Alinhamento Manual com Anima",
+    "url": "https://www.notion.so/367195bb0be8810880f3e561ec889e9d",
+    "report_link": "https://app.read.ai/analytics/meetings/01KS5WBADXGX8A9F9FVDS5PCFQ",
+    "date": "2026-05-21T18:21:00Z",
+    "pillar": "Anima",
+    "epic": "Agente de Cobranca",
+    "folders": ["Planning Meeting"],
+    "owner": "Kilton Fernandes",
+    "participants": ["Kilton Fernandes"],
+    "summary": "A reuniao tratou da origem da preferencia de idioma do usuario e da definicao de fluxos e conteudo minimo para catalogos da plataforma. A equipe debateu quais fluxos precisam de confirmacao completa, onde evitar validacoes redundantes, e quais campos minimos devem existir em catalogos: fotografias, pais de venda, modelo e vendedores.",
+    "action_items": [
+      {"owner": "Participant 1", "text": "Contactar o Thomas para obter detalhes do fluxo e requisitos", "status": "open"},
+      {"owner": "Team", "text": "Definir formato final e responsabilidades do catalogo minimo", "status": "waiting"}
+    ],
+    "key_questions": [
+      "Onde esta armazenada a preferencia de idioma do usuario?",
+      "Quais fluxos precisam ser incluidos na proxima historia?",
+      "Qual formato definitivo de catalogo deve ser entregue?"
+    ],
+    "decisions": [
+      "O catalogo minimo deve conter fotografia, pais de venda, modelo e vendedor."
+    ],
+    "blockers": [
+      "Requisitos completos dos fluxos e proprietarios das tarefas de inspecao seguem indefinidos."
+    ],
+    "transcript": "preferencia de idioma usuario account preferred language billing case fluxos requisitos concierge Thomas AIN catalogo plataforma fotografia pais venda modelo vendedores documentacao inspees formato final responsabilidades minimo catalogo."
+  },
+  {
+    "id": "361195bb0be88048841df30c6ced03ed",
+    "title": "VLI - Innovation day (1)",
+    "url": "https://www.notion.so/361195bb0be88048841df30c6ced03ed",
+    "report_link": "",
+    "date": "2026-05-12",
+    "pillar": "VLI Innovation Day",
+    "epic": "Eventos",
+    "folders": ["Educational", "Training"],
+    "owner": "",
+    "participants": ["Rafael", "Felipe Pastor", "Camilo", "Marcelo", "Victor"],
+    "summary": "A sessao de inovacao da VLI abordou Revenue Cloud para precificacao em escala, Price Book, descontos condicionais, campanhas e desafios atuais como falta de extracao de valor, processos nao padronizados e necessidade de quick wins. Tambem foram discutidos ROI, integracoes com sistemas existentes e rastreabilidade nas negociacoes.",
+    "action_items": [
+      {"owner": "Leadership", "text": "Definir estrategia de implementacao do Revenue Cloud com Rafael, Felipe Pastor, Camilo, Marcelo e Victor", "status": "open"},
+      {"owner": "Team", "text": "Identificar quick wins que demonstrem ROI para VLI", "status": "open"}
+    ],
+    "key_questions": [
+      "Como justificar investimento em Revenue Cloud se os processos atuais funcionam?",
+      "Quais quick wins podem mostrar valor incremental?",
+      "Como integrar pricing, comercial, SAP, Salesforce e sistemas legados?"
+    ],
+    "decisions": [
+      "O foco inicial deve ser demonstrar valor incremental antes de ampliar investimento."
+    ],
+    "blockers": [
+      "Processos de precificacao variam por cliente e segmento, dificultando padronizacao."
+    ],
+    "transcript": "Revenue Cloud precificacao escala Price Book Price Book Entry descontos condicionais campanhas rastreabilidade pricing comercial Salesforce SAP Smart Price Jetson ROI quick wins processos nao padronizados integracao complexa dados estruturados analise de performance margem negociacao."
+  },
+  {
+    "id": "367195bb0be8817aabb1cdf4c48697fe",
+    "title": "21/05/2026 - Sync With Anu K",
+    "url": "https://www.notion.so/367195bb0be8817aabb1cdf4c48697fe",
+    "report_link": "https://app.read.ai/analytics/meetings/01KS5R3N09ERAN23XDCCS2X1D5",
+    "date": "2026-05-21T17:30:00Z",
+    "pillar": "DET",
+    "epic": "Alinhamento Externo",
+    "folders": ["One-On-One", "Status Update"],
+    "owner": "Kilton Fernandes",
+    "participants": ["Kilton Fernandes", "Anu"],
+    "summary": "Sync rapido para alinhar duvidas sobre survey insert field e direcionar perguntas para Drashti. O encontro reforcou dependencia externa para confirmar detalhes antes de mover itens tecnicos.",
+    "action_items": [
+      {"owner": "Participant 1", "text": "Raise the survey insert-field question with Drashti", "status": "open"}
+    ],
+    "key_questions": [
+      "Qual e o comportamento esperado para insert-field em survey?"
+    ],
+    "decisions": [],
+    "blockers": [
+      "A resposta de Drashti e necessaria para avancar."
+    ],
+    "transcript": "survey insert field Drashti alinhamento Anu duvida tecnica dependencia externa confirmacao comportamento esperado follow up."
+  }
+]

@@ -1,0 +1,49 @@
+name: "Glasp to Airtable"
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # Daily at 09:00 UTC - change to your preferred time
+  workflow_dispatch:       # Allow manual trigger from Actions tab
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check required secrets
+        id: check
+        run: |
+          if [ -z "${{ secrets.GLASP_ACCESS_TOKEN }}" ] || \
+             [ -z "${{ secrets.AIRTABLE_API_KEY }}" ] || \
+             [ -z "${{ secrets.AIRTABLE_BASE_ID }}" ]; then
+            echo "Secrets not configured yet. Skipping workflow."
+            echo "See docs/glasp-export-setup.md for setup instructions."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "Secrets found. Proceeding."
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Python
+        if: steps.check.outputs.skip != 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        if: steps.check.outputs.skip != 'true'
+        run: pip install requests
+
+      - name: Run Glasp to Airtable
+        if: steps.check.outputs.skip != 'true'
+        env:
+          GLASP_ACCESS_TOKEN: ${{ secrets.GLASP_ACCESS_TOKEN }}
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+          PYTHONPATH: scripts
+          # Optional configuration
+          # LOOKBACK_HOURS: "24"          # How far back to fetch (default: 24)
+          # AIRTABLE_TABLE_NAME: "Highlights"  # Table name (default: Highlights)
+        run: python scripts/glasp_to_airtable.py

@@ -1,3 +1,35 @@
+# KiltonHub Meeting Cockpit
+
+Web app para acompanhar reunioes capturadas no Read AI e organizadas no Notion. O fluxo usa Python para transformar transcricoes, resumos, action items, perguntas, decisoes e bloqueios em um JSON analitico servido pelo Vite/React.
+
+## Meeting Analytics
+
+Pipeline atual:
+
+1. `data/meeting_notes_seed.json` guarda uma amostra inicial extraida da database `Read AI Meeting Notes`.
+2. `scripts/analyze_meetings.py` normaliza datas, tokeniza texto, remove stopwords, calcula recorrencias, TF-IDF por `Pillar`, action items, blockers, decisoes, perguntas e timeline.
+3. `public/data/meeting_analytics.json` e gerado como artefato estatico para a web app consumir.
+4. `src/App.jsx` renderiza dashboard por `Pillar` e `Epic`, word cloud das transcricoes, pendencias, bloqueios, decisoes, timeline e lista auditavel de reunioes.
+
+Comandos:
+
+```bash
+pip install -r requirements.txt
+npm run analyze:data
+npm run dev
+npm run build
+```
+
+O `prebuild` roda o pipeline Python automaticamente antes do build, entao o deploy na Vercel sempre empacota o JSON mais recente que estiver no repo.
+
+## Next Steps
+
+- Trocar `meeting_notes_seed.json` por uma exportacao completa da database do Notion.
+- Adicionar uma rotina de sync via Notion API ou export JSON agendado.
+- Persistir status de action items em uma database derivada, em vez de depender apenas da extracao textual.
+
+---
+
 # SF Rapid Prototyping Codex
 
 SF Rapid Prototyping Codex is a React/Vite web project for creating high-fidelity Salesforce prototypes with Codex. The goal is simple: describe the Salesforce page you want, and Codex can assemble a realistic screen using Salesforce Lightning Design System styling and React components.

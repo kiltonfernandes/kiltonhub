@@ -1,0 +1,2047 @@
+{
+  "generated_at": "2026-05-21T21:43:32.485765+00:00",
+  "source": {
+    "kind": "notion-read-ai-seed",
+    "database_id": "11bd0217325e4dd9a7fac0a27b69fd48",
+    "records": 5
+  },
+  "metrics": {
+    "meetings": 5,
+    "pillars": 3,
+    "open_actions": 13,
+    "blockers": 7,
+    "questions": 14,
+    "decisions": 6,
+    "first_meeting": "2026-05-12",
+    "last_meeting": "2026-05-21"
+  },
+  "pillars": [
+    {
+      "name": "DET",
+      "meetings": 3,
+      "first_meeting": "2026-05-19",
+      "last_meeting": "2026-05-21",
+      "open_actions": 9,
+      "blockers": 5,
+      "questions": 8,
+      "decisions": 4,
+      "top_epics": [
+        {
+          "name": "Agente de Atendimento",
+          "count": 1
+        },
+        {
+          "name": "Scrum Rites",
+          "count": 1
+        },
+        {
+          "name": "Alinhamento Externo",
+          "count": 1
+        }
+      ],
+      "top_terms": [
+        {
+          "term": "survey",
+          "score": 0.8541
+        },
+        {
+          "term": "drashti",
+          "score": 0.3743
+        },
+        {
+          "term": "routing",
+          "score": 0.286
+        },
+        {
+          "term": "duplicate",
+          "score": 0.2704
+        },
+        {
+          "term": "error",
+          "score": 0.2704
+        },
+        {
+          "term": "invitation",
+          "score": 0.2704
+        },
+        {
+          "term": "language",
+          "score": 0.2692
+        },
+        {
+          "term": "survey insert",
+          "score": 0.2319
+        }
+      ],
+      "recent_meetings": [
+        {
+          "id": "367195bb0be881f59146fba984a5d4f4",
+          "title": "21/05/2026 - C-SAT Duplicate Invitation Investigation",
+          "date": "2026-05-21",
+          "epic": "Agente de Atendimento",
+          "summary": "The meeting reviewed a work item reporting a custom survey field validation exception tied to duplicate C-SAT survey invitations after case closure. The error shows that a survey invitation record already exists for the same case ID, indicating duplicate links for one case. The proposed path is to add a pre-insert check and investigate whether retries or submission errors caused repeated survey attempts.",
+          "url": "https://www.notion.so/367195bb0be881f59146fba984a5d4f4"
+        },
+        {
+          "id": "367195bb0be8817aabb1cdf4c48697fe",
+          "title": "21/05/2026 - Sync With Anu K",
+          "date": "2026-05-21",
+          "epic": "Alinhamento Externo",
+          "summary": "Sync rapido para alinhar duvidas sobre survey insert field e direcionar perguntas para Drashti. O encontro reforcou dependencia externa para confirmar detalhes antes de mover itens tecnicos.",
+          "url": "https://www.notion.so/367195bb0be8817aabb1cdf4c48697fe"
+        },
+        {
+          "id": "365195bb0be881bc82c9db0434243459",
+          "title": "19/05/2026 - 19.05 Grooming Session",
+          "date": "2026-05-19",
+          "epic": "Scrum Rites",
+          "summary": "The meeting reviewed Omni-Channel and case-routing items including RevRack capacity counting, Slack and Org62 sharing impacts, language routing, priority routing, routing-rule implementation and persona-based testing. Several items remain blocked by missing business requirements and require confirmation from Tomas, Jess, Drashti and Ain.",
+          "url": "https://www.notion.so/365195bb0be881bc82c9db0434243459"
+        }
+      ]
+    },
+    {
+      "name": "Anima",
+      "meetings": 1,
+      "first_meeting": "2026-05-21",
+      "last_meeting": "2026-05-21",
+      "open_actions": 2,
+      "blockers": 1,
+      "questions": 3,
+      "decisions": 1,
+      "top_epics": [
+        {
+          "name": "Agente de Cobranca",
+          "count": 1
+        }
+      ],
+      "top_terms": [
+        {
+          "term": "catalogo",
+          "score": 0.3242
+        },
+        {
+          "term": "fluxos",
+          "score": 0.3242
+        },
+        {
+          "term": "minimo",
+          "score": 0.2594
+        },
+        {
+          "term": "venda modelo",
+          "score": 0.1945
+        },
+        {
+          "term": "pais venda",
+          "score": 0.1945
+        },
+        {
+          "term": "preferencia",
+          "score": 0.1945
+        },
+        {
+          "term": "idioma",
+          "score": 0.1945
+        },
+        {
+          "term": "modelo",
+          "score": 0.1945
+        }
+      ],
+      "recent_meetings": [
+        {
+          "id": "367195bb0be8810880f3e561ec889e9d",
+          "title": "21/05/2026 - Alinhamento Manual com Anima",
+          "date": "2026-05-21",
+          "epic": "Agente de Cobranca",
+          "summary": "A reuniao tratou da origem da preferencia de idioma do usuario e da definicao de fluxos e conteudo minimo para catalogos da plataforma. A equipe debateu quais fluxos precisam de confirmacao completa, onde evitar validacoes redundantes, e quais campos minimos devem existir em catalogos: fotografias, pais de venda, modelo e vendedores.",
+          "url": "https://www.notion.so/367195bb0be8810880f3e561ec889e9d"
+        }
+      ]
+    },
+    {
+      "name": "VLI Innovation Day",
+      "meetings": 1,
+      "first_meeting": "2026-05-12",
+      "last_meeting": "2026-05-12",
+      "open_actions": 2,
+      "blockers": 1,
+      "questions": 3,
+      "decisions": 1,
+      "top_epics": [
+        {
+          "name": "Eventos",
+          "count": 1
+        }
+      ],
+      "top_terms": [
+        {
+          "term": "wins",
+          "score": 0.2391
+        },
+        {
+          "term": "revenue",
+          "score": 0.2391
+        },
+        {
+          "term": "revenue cloud",
+          "score": 0.2391
+        },
+        {
+          "term": "quick wins",
+          "score": 0.2391
+        },
+        {
+          "term": "processos",
+          "score": 0.2391
+        },
+        {
+          "term": "price",
+          "score": 0.2391
+        },
+        {
+          "term": "quick",
+          "score": 0.2391
+        },
+        {
+          "term": "cloud",
+          "score": 0.2391
+        }
+      ],
+      "recent_meetings": [
+        {
+          "id": "361195bb0be88048841df30c6ced03ed",
+          "title": "VLI - Innovation day (1)",
+          "date": "2026-05-12",
+          "epic": "Eventos",
+          "summary": "A sessao de inovacao da VLI abordou Revenue Cloud para precificacao em escala, Price Book, descontos condicionais, campanhas e desafios atuais como falta de extracao de valor, processos nao padronizados e necessidade de quick wins. Tambem foram discutidos ROI, integracoes com sistemas existentes e rastreabilidade nas negociacoes.",
+          "url": "https://www.notion.so/361195bb0be88048841df30c6ced03ed"
+        }
+      ]
+    }
+  ],
+  "word_cloud": [
+    {
+      "term": "survey",
+      "count": 15,
+      "weight": 1.0,
+      "size": 44,
+      "tone": 0
+    },
+    {
+      "term": "case",
+      "count": 8,
+      "weight": 0.417,
+      "size": 26,
+      "tone": 1
+    },
+    {
+      "term": "language",
+      "count": 8,
+      "weight": 0.417,
+      "size": 26,
+      "tone": 2
+    },
+    {
+      "term": "record",
+      "count": 6,
+      "weight": 0.25,
+      "size": 22,
+      "tone": 3
+    },
+    {
+      "term": "routing",
+      "count": 6,
+      "weight": 0.25,
+      "size": 22,
+      "tone": 4
+    },
+    {
+      "term": "drashti",
+      "count": 6,
+      "weight": 0.25,
+      "size": 22,
+      "tone": 0
+    },
+    {
+      "term": "duplicate",
+      "count": 5,
+      "weight": 0.167,
+      "size": 19,
+      "tone": 1
+    },
+    {
+      "term": "invitation",
+      "count": 5,
+      "weight": 0.167,
+      "size": 19,
+      "tone": 2
+    },
+    {
+      "term": "error",
+      "count": 5,
+      "weight": 0.167,
+      "size": 19,
+      "tone": 3
+    },
+    {
+      "term": "preferred",
+      "count": 5,
+      "weight": 0.167,
+      "size": 19,
+      "tone": 4
+    },
+    {
+      "term": "fluxos",
+      "count": 5,
+      "weight": 0.167,
+      "size": 19,
+      "tone": 0
+    },
+    {
+      "term": "catalogo",
+      "count": 5,
+      "weight": 0.167,
+      "size": 19,
+      "tone": 1
+    },
+    {
+      "term": "c-sat",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 2
+    },
+    {
+      "term": "field",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 3
+    },
+    {
+      "term": "validation",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 4
+    },
+    {
+      "term": "business",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 0
+    },
+    {
+      "term": "confirmation",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 1
+    },
+    {
+      "term": "org62",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 2
+    },
+    {
+      "term": "behavior",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 3
+    },
+    {
+      "term": "revrack",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 4
+    },
+    {
+      "term": "blocked",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 0
+    },
+    {
+      "term": "tomas",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 1
+    },
+    {
+      "term": "jess",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 2
+    },
+    {
+      "term": "fallback",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 3
+    },
+    {
+      "term": "minimo",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 4
+    },
+    {
+      "term": "revenue",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 0
+    },
+    {
+      "term": "cloud",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 1
+    },
+    {
+      "term": "price",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 2
+    },
+    {
+      "term": "processos",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 3
+    },
+    {
+      "term": "quick",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 4
+    },
+    {
+      "term": "wins",
+      "count": 4,
+      "weight": 0.083,
+      "size": 16,
+      "tone": 0
+    },
+    {
+      "term": "already",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 1
+    },
+    {
+      "term": "links",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 2
+    },
+    {
+      "term": "thomas",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 3
+    },
+    {
+      "term": "where",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 4
+    },
+    {
+      "term": "source",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 0
+    },
+    {
+      "term": "omni-channel",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 1
+    },
+    {
+      "term": "capacity",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 2
+    },
+    {
+      "term": "slack",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 3
+    },
+    {
+      "term": "users",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 4
+    },
+    {
+      "term": "types",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 0
+    },
+    {
+      "term": "rules",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 1
+    },
+    {
+      "term": "cases",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 2
+    },
+    {
+      "term": "uat",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 3
+    },
+    {
+      "term": "production",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 4
+    },
+    {
+      "term": "form",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 0
+    },
+    {
+      "term": "document",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 1
+    },
+    {
+      "term": "until",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 2
+    },
+    {
+      "term": "preferencia",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 3
+    },
+    {
+      "term": "idioma",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 4
+    },
+    {
+      "term": "usuario",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 0
+    },
+    {
+      "term": "pais",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 1
+    },
+    {
+      "term": "venda",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 2
+    },
+    {
+      "term": "modelo",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 3
+    },
+    {
+      "term": "requisitos",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 4
+    },
+    {
+      "term": "formato",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 0
+    },
+    {
+      "term": "deve",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 1
+    },
+    {
+      "term": "vli",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 2
+    },
+    {
+      "term": "precificacao",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 3
+    },
+    {
+      "term": "book",
+      "count": 3,
+      "weight": 0.0,
+      "size": 14,
+      "tone": 4
+    }
+  ],
+  "word_cloud_by_pillar": {
+    "DET": [
+      {
+        "term": "survey",
+        "count": 15,
+        "weight": 1.0,
+        "size": 44,
+        "tone": 0
+      },
+      {
+        "term": "case",
+        "count": 7,
+        "weight": 0.385,
+        "size": 26,
+        "tone": 1
+      },
+      {
+        "term": "language",
+        "count": 7,
+        "weight": 0.385,
+        "size": 26,
+        "tone": 2
+      },
+      {
+        "term": "record",
+        "count": 6,
+        "weight": 0.308,
+        "size": 23,
+        "tone": 3
+      },
+      {
+        "term": "routing",
+        "count": 6,
+        "weight": 0.308,
+        "size": 23,
+        "tone": 4
+      },
+      {
+        "term": "drashti",
+        "count": 6,
+        "weight": 0.308,
+        "size": 23,
+        "tone": 0
+      },
+      {
+        "term": "duplicate",
+        "count": 5,
+        "weight": 0.231,
+        "size": 21,
+        "tone": 1
+      },
+      {
+        "term": "invitation",
+        "count": 5,
+        "weight": 0.231,
+        "size": 21,
+        "tone": 2
+      },
+      {
+        "term": "error",
+        "count": 5,
+        "weight": 0.231,
+        "size": 21,
+        "tone": 3
+      },
+      {
+        "term": "c-sat",
+        "count": 4,
+        "weight": 0.154,
+        "size": 19,
+        "tone": 4
+      },
+      {
+        "term": "field",
+        "count": 4,
+        "weight": 0.154,
+        "size": 19,
+        "tone": 0
+      },
+      {
+        "term": "validation",
+        "count": 4,
+        "weight": 0.154,
+        "size": 19,
+        "tone": 1
+      },
+      {
+        "term": "business",
+        "count": 4,
+        "weight": 0.154,
+        "size": 19,
+        "tone": 2
+      },
+      {
+        "term": "confirmation",
+        "count": 4,
+        "weight": 0.154,
+        "size": 19,
+        "tone": 3
+      },
+      {
+        "term": "org62",
+        "count": 4,
+        "weight": 0.154,
+        "size": 19,
+        "tone": 4
+      },
+      {
+        "term": "behavior",
+        "count": 4,
+        "weight": 0.154,
+        "size": 19,
+        "tone": 0
+      },
+      {
+        "term": "revrack",
+        "count": 4,
+        "weight": 0.154,
+        "size": 19,
+        "tone": 1
+      },
+      {
+        "term": "blocked",
+        "count": 4,
+        "weight": 0.154,
+        "size": 19,
+        "tone": 2
+      },
+      {
+        "term": "tomas",
+        "count": 4,
+        "weight": 0.154,
+        "size": 19,
+        "tone": 3
+      },
+      {
+        "term": "jess",
+        "count": 4,
+        "weight": 0.154,
+        "size": 19,
+        "tone": 4
+      },
+      {
+        "term": "preferred",
+        "count": 4,
+        "weight": 0.154,
+        "size": 19,
+        "tone": 0
+      },
+      {
+        "term": "fallback",
+        "count": 4,
+        "weight": 0.154,
+        "size": 19,
+        "tone": 1
+      },
+      {
+        "term": "already",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 2
+      },
+      {
+        "term": "links",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 3
+      },
+      {
+        "term": "where",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 4
+      },
+      {
+        "term": "source",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 0
+      },
+      {
+        "term": "omni-channel",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 1
+      },
+      {
+        "term": "capacity",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 2
+      },
+      {
+        "term": "slack",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 3
+      },
+      {
+        "term": "users",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 4
+      },
+      {
+        "term": "types",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 0
+      },
+      {
+        "term": "rules",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 1
+      },
+      {
+        "term": "cases",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 2
+      },
+      {
+        "term": "uat",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 3
+      },
+      {
+        "term": "production",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 4
+      },
+      {
+        "term": "form",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 0
+      },
+      {
+        "term": "document",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 1
+      },
+      {
+        "term": "until",
+        "count": 3,
+        "weight": 0.077,
+        "size": 16,
+        "tone": 2
+      },
+      {
+        "term": "investigation",
+        "count": 2,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "reviewed",
+        "count": 2,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "work",
+        "count": 2,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "custom",
+        "count": 2,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "exception",
+        "count": 2,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "after",
+        "count": 2,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "closure",
+        "count": 2,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      }
+    ],
+    "Anima": [
+      {
+        "term": "fluxos",
+        "count": 5,
+        "weight": 1.0,
+        "size": 44,
+        "tone": 0
+      },
+      {
+        "term": "catalogo",
+        "count": 5,
+        "weight": 1.0,
+        "size": 44,
+        "tone": 1
+      },
+      {
+        "term": "minimo",
+        "count": 4,
+        "weight": 0.75,
+        "size": 36,
+        "tone": 2
+      },
+      {
+        "term": "preferencia",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 3
+      },
+      {
+        "term": "idioma",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 4
+      },
+      {
+        "term": "usuario",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 0
+      },
+      {
+        "term": "pais",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 1
+      },
+      {
+        "term": "venda",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 2
+      },
+      {
+        "term": "modelo",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 3
+      },
+      {
+        "term": "requisitos",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 4
+      },
+      {
+        "term": "formato",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 0
+      },
+      {
+        "term": "catalogos",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 1
+      },
+      {
+        "term": "plataforma",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 2
+      },
+      {
+        "term": "precisam",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 3
+      },
+      {
+        "term": "vendedores",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 4
+      },
+      {
+        "term": "thomas",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 0
+      },
+      {
+        "term": "fotografia",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 1
+      },
+      {
+        "term": "final",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 2
+      },
+      {
+        "term": "responsabilidades",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 3
+      },
+      {
+        "term": "deve",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 4
+      },
+      {
+        "term": "alinhamento",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "manual",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "anima",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "tratou",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "origem",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "definicao",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "conteudo",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "equipe",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "debateu",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "confirmacao",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "completa",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "evitar",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "validacoes",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "redundantes",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "campos",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "minimos",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "devem",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "existir",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "fotografias",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "account",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "preferred",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "language",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "billing",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "case",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "concierge",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      }
+    ],
+    "VLI Innovation Day": [
+      {
+        "term": "revenue",
+        "count": 4,
+        "weight": 1.0,
+        "size": 44,
+        "tone": 0
+      },
+      {
+        "term": "cloud",
+        "count": 4,
+        "weight": 1.0,
+        "size": 44,
+        "tone": 1
+      },
+      {
+        "term": "price",
+        "count": 4,
+        "weight": 1.0,
+        "size": 44,
+        "tone": 2
+      },
+      {
+        "term": "processos",
+        "count": 4,
+        "weight": 1.0,
+        "size": 44,
+        "tone": 3
+      },
+      {
+        "term": "quick",
+        "count": 4,
+        "weight": 1.0,
+        "size": 44,
+        "tone": 4
+      },
+      {
+        "term": "wins",
+        "count": 4,
+        "weight": 1.0,
+        "size": 44,
+        "tone": 0
+      },
+      {
+        "term": "vli",
+        "count": 3,
+        "weight": 0.667,
+        "size": 34,
+        "tone": 1
+      },
+      {
+        "term": "precificacao",
+        "count": 3,
+        "weight": 0.667,
+        "size": 34,
+        "tone": 2
+      },
+      {
+        "term": "book",
+        "count": 3,
+        "weight": 0.667,
+        "size": 34,
+        "tone": 3
+      },
+      {
+        "term": "valor",
+        "count": 3,
+        "weight": 0.667,
+        "size": 34,
+        "tone": 4
+      },
+      {
+        "term": "roi",
+        "count": 3,
+        "weight": 0.667,
+        "size": 34,
+        "tone": 0
+      },
+      {
+        "term": "escala",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 1
+      },
+      {
+        "term": "descontos",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 2
+      },
+      {
+        "term": "condicionais",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 3
+      },
+      {
+        "term": "campanhas",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 4
+      },
+      {
+        "term": "atuais",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 0
+      },
+      {
+        "term": "nao",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 1
+      },
+      {
+        "term": "padronizados",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 2
+      },
+      {
+        "term": "sistemas",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 3
+      },
+      {
+        "term": "rastreabilidade",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 4
+      },
+      {
+        "term": "pricing",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 0
+      },
+      {
+        "term": "comercial",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 1
+      },
+      {
+        "term": "salesforce",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 2
+      },
+      {
+        "term": "sap",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 3
+      },
+      {
+        "term": "investimento",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 4
+      },
+      {
+        "term": "incremental",
+        "count": 2,
+        "weight": 0.333,
+        "size": 24,
+        "tone": 0
+      },
+      {
+        "term": "innovation",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "day",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "sessao",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "inovacao",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "abordou",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "desafios",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "falta",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "extracao",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "necessidade",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "tambem",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "discutidos",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "integracoes",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "existentes",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "negociacoes",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "entry",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "smart",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "jetson",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "integracao",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "complexa",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      }
+    ]
+  },
+  "epics": [
+    {
+      "name": "Agente de Atendimento",
+      "meetings": 1
+    },
+    {
+      "name": "Scrum Rites",
+      "meetings": 1
+    },
+    {
+      "name": "Agente de Cobranca",
+      "meetings": 1
+    },
+    {
+      "name": "Eventos",
+      "meetings": 1
+    },
+    {
+      "name": "Alinhamento Externo",
+      "meetings": 1
+    }
+  ],
+  "folders": [
+    {
+      "name": "Status Update",
+      "meetings": 2
+    },
+    {
+      "name": "Planning Meeting",
+      "meetings": 2
+    },
+    {
+      "name": "Educational",
+      "meetings": 1
+    },
+    {
+      "name": "Training",
+      "meetings": 1
+    },
+    {
+      "name": "One-On-One",
+      "meetings": 1
+    }
+  ],
+  "timeline": [
+    {
+      "month": "2026-05",
+      "pillars": [
+        {
+          "name": "DET",
+          "meetings": 3
+        },
+        {
+          "name": "Anima",
+          "meetings": 1
+        },
+        {
+          "name": "VLI Innovation Day",
+          "meetings": 1
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "owner": "Participant 1",
+      "text": "Share the work item with Participant 2",
+      "status": "open",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - C-SAT Duplicate Invitation Investigation",
+      "meeting_url": "https://www.notion.so/367195bb0be881f59146fba984a5d4f4",
+      "date": "2026-05-21"
+    },
+    {
+      "owner": "Participant 1",
+      "text": "Double-check where the error was reported",
+      "status": "open",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - C-SAT Duplicate Invitation Investigation",
+      "meeting_url": "https://www.notion.so/367195bb0be881f59146fba984a5d4f4",
+      "date": "2026-05-21"
+    },
+    {
+      "owner": "Participant 1",
+      "text": "Add the survey validation investigation to the to-do list",
+      "status": "open",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - C-SAT Duplicate Invitation Investigation",
+      "meeting_url": "https://www.notion.so/367195bb0be881f59146fba984a5d4f4",
+      "date": "2026-05-21"
+    },
+    {
+      "owner": "Participant 1",
+      "text": "Contactar o Thomas para obter detalhes do fluxo e requisitos",
+      "status": "open",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Alinhamento Manual com Anima",
+      "meeting_url": "https://www.notion.so/367195bb0be8810880f3e561ec889e9d",
+      "date": "2026-05-21"
+    },
+    {
+      "owner": "Team",
+      "text": "Definir formato final e responsabilidades do catalogo minimo",
+      "status": "waiting",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Alinhamento Manual com Anima",
+      "meeting_url": "https://www.notion.so/367195bb0be8810880f3e561ec889e9d",
+      "date": "2026-05-21"
+    },
+    {
+      "owner": "Participant 1",
+      "text": "Raise the survey insert-field question with Drashti",
+      "status": "open",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - Sync With Anu K",
+      "meeting_url": "https://www.notion.so/367195bb0be8817aabb1cdf4c48697fe",
+      "date": "2026-05-21"
+    },
+    {
+      "owner": "Participant 1",
+      "text": "Obtain confirmation from Tomas about case record types for the capacity-bypass behavior",
+      "status": "open",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "meeting_url": "https://www.notion.so/365195bb0be881bc82c9db0434243459",
+      "date": "2026-05-19"
+    },
+    {
+      "owner": "Valerie",
+      "text": "Provide the relevant record type list for the capacity-bypass implementation",
+      "status": "open",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "meeting_url": "https://www.notion.so/365195bb0be881bc82c9db0434243459",
+      "date": "2026-05-19"
+    },
+    {
+      "owner": "Participant 1",
+      "text": "Seek a green light from Jess on the personas-and-journeys document",
+      "status": "waiting",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "meeting_url": "https://www.notion.so/365195bb0be881bc82c9db0434243459",
+      "date": "2026-05-19"
+    },
+    {
+      "owner": "Participant 1",
+      "text": "Clarify preferred language storage and fallback behavior with Drashti and Jessica",
+      "status": "open",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "meeting_url": "https://www.notion.so/365195bb0be881bc82c9db0434243459",
+      "date": "2026-05-19"
+    },
+    {
+      "owner": "Participant 1",
+      "text": "Bring UAT versus production form examples to a parking-lot discussion",
+      "status": "open",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "meeting_url": "https://www.notion.so/365195bb0be881bc82c9db0434243459",
+      "date": "2026-05-19"
+    },
+    {
+      "owner": "Leadership",
+      "text": "Definir estrategia de implementacao do Revenue Cloud com Rafael, Felipe Pastor, Camilo, Marcelo e Victor",
+      "status": "open",
+      "pillar": "VLI Innovation Day",
+      "meeting_title": "VLI - Innovation day (1)",
+      "meeting_url": "https://www.notion.so/361195bb0be88048841df30c6ced03ed",
+      "date": "2026-05-12"
+    },
+    {
+      "owner": "Team",
+      "text": "Identificar quick wins que demonstrem ROI para VLI",
+      "status": "open",
+      "pillar": "VLI Innovation Day",
+      "meeting_title": "VLI - Innovation day (1)",
+      "meeting_url": "https://www.notion.so/361195bb0be88048841df30c6ced03ed",
+      "date": "2026-05-12"
+    }
+  ],
+  "blockers": [
+    {
+      "text": "Business ownership and source of the error report still need confirmation.",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - C-SAT Duplicate Invitation Investigation",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Requisitos completos dos fluxos e proprietarios das tarefas de inspecao seguem indefinidos.",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Alinhamento Manual com Anima",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "A resposta de Drashti e necessaria para avancar.",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - Sync With Anu K",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "RevRack capacity bypass is blocked until Tomas provides target record types.",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "Slack and Org62 behavior is blocked until Jess approves the personas-and-journeys document.",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "Language routing is blocked until preferred language source and fallback rules are confirmed.",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "Processos de precificacao variam por cliente e segmento, dificultando padronizacao.",
+      "pillar": "VLI Innovation Day",
+      "meeting_title": "VLI - Innovation day (1)",
+      "date": "2026-05-12"
+    }
+  ],
+  "decisions": [
+    {
+      "text": "A pre-insert validation check should be considered before creating survey invitation records.",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - C-SAT Duplicate Invitation Investigation",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "O catalogo minimo deve conter fotografia, pais de venda, modelo e vendedor.",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Alinhamento Manual com Anima",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Implement RevRack routing rules exactly as specified in column F of the Quip document.",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "Incoming Omni-Channel cases should register silently without auto-focusing for all users.",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "Two story points were recommended for the analysis task.",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "O foco inicial deve ser demonstrar valor incremental antes de ampliar investimento.",
+      "pillar": "VLI Innovation Day",
+      "meeting_title": "VLI - Innovation day (1)",
+      "date": "2026-05-12"
+    }
+  ],
+  "questions": [
+    {
+      "text": "Who is the business owner for the C-SAT expected behavior?",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - C-SAT Duplicate Invitation Investigation",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Where was the duplicate survey invitation error reported?",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - C-SAT Duplicate Invitation Investigation",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Why were multiple survey links attempted for a single case?",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - C-SAT Duplicate Invitation Investigation",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Onde esta armazenada a preferencia de idioma do usuario?",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Alinhamento Manual com Anima",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Quais fluxos precisam ser incluidos na proxima historia?",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Alinhamento Manual com Anima",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Qual formato definitivo de catalogo deve ser entregue?",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Alinhamento Manual com Anima",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Qual e o comportamento esperado para insert-field em survey?",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - Sync With Anu K",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "What percentage of cases are manually transferred to RevRec users?",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "Where is preferred language stored and what fallback should apply?",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "Do we already have the emergency skill or must it be created?",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "How should the team compare UAT and production form discrepancies?",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "Como justificar investimento em Revenue Cloud se os processos atuais funcionam?",
+      "pillar": "VLI Innovation Day",
+      "meeting_title": "VLI - Innovation day (1)",
+      "date": "2026-05-12"
+    },
+    {
+      "text": "Quais quick wins podem mostrar valor incremental?",
+      "pillar": "VLI Innovation Day",
+      "meeting_title": "VLI - Innovation day (1)",
+      "date": "2026-05-12"
+    },
+    {
+      "text": "Como integrar pricing, comercial, SAP, Salesforce e sistemas legados?",
+      "pillar": "VLI Innovation Day",
+      "meeting_title": "VLI - Innovation day (1)",
+      "date": "2026-05-12"
+    }
+  ],
+  "action_heatmap": [
+    {
+      "pillar": "Anima",
+      "2026-05": 2
+    },
+    {
+      "pillar": "DET",
+      "2026-05": 9
+    },
+    {
+      "pillar": "VLI Innovation Day",
+      "2026-05": 2
+    }
+  ],
+  "meetings": [
+    {
+      "id": "367195bb0be8810880f3e561ec889e9d",
+      "title": "21/05/2026 - Alinhamento Manual com Anima",
+      "date": "2026-05-21",
+      "pillar": "Anima",
+      "epic": "Agente de Cobranca",
+      "folders": [
+        "Planning Meeting"
+      ],
+      "summary": "A reuniao tratou da origem da preferencia de idioma do usuario e da definicao de fluxos e conteudo minimo para catalogos da plataforma. A equipe debateu quais fluxos precisam de confirmacao completa, onde evitar validacoes redundantes, e quais campos minimos devem existir em catalogos: fotografias, pais de venda, modelo e vendedores.",
+      "url": "https://www.notion.so/367195bb0be8810880f3e561ec889e9d",
+      "report_link": "https://app.read.ai/analytics/meetings/01KS5WBADXGX8A9F9FVDS5PCFQ",
+      "actions": 2,
+      "blockers": 1,
+      "questions": 3
+    },
+    {
+      "id": "367195bb0be881f59146fba984a5d4f4",
+      "title": "21/05/2026 - C-SAT Duplicate Invitation Investigation",
+      "date": "2026-05-21",
+      "pillar": "DET",
+      "epic": "Agente de Atendimento",
+      "folders": [
+        "Status Update"
+      ],
+      "summary": "The meeting reviewed a work item reporting a custom survey field validation exception tied to duplicate C-SAT survey invitations after case closure. The error shows that a survey invitation record already exists for the same case ID, indicating duplicate links for one case. The proposed path is to add a pre-insert check and investigate whether retries or submission errors caused repeated survey attempts.",
+      "url": "https://www.notion.so/367195bb0be881f59146fba984a5d4f4",
+      "report_link": "https://app.read.ai/analytics/meetings/01KS5VD9C1F12Z0RN78FKP8G14",
+      "actions": 3,
+      "blockers": 1,
+      "questions": 3
+    },
+    {
+      "id": "367195bb0be8817aabb1cdf4c48697fe",
+      "title": "21/05/2026 - Sync With Anu K",
+      "date": "2026-05-21",
+      "pillar": "DET",
+      "epic": "Alinhamento Externo",
+      "folders": [
+        "One-On-One",
+        "Status Update"
+      ],
+      "summary": "Sync rapido para alinhar duvidas sobre survey insert field e direcionar perguntas para Drashti. O encontro reforcou dependencia externa para confirmar detalhes antes de mover itens tecnicos.",
+      "url": "https://www.notion.so/367195bb0be8817aabb1cdf4c48697fe",
+      "report_link": "https://app.read.ai/analytics/meetings/01KS5R3N09ERAN23XDCCS2X1D5",
+      "actions": 1,
+      "blockers": 1,
+      "questions": 1
+    },
+    {
+      "id": "365195bb0be881bc82c9db0434243459",
+      "title": "19/05/2026 - 19.05 Grooming Session",
+      "date": "2026-05-19",
+      "pillar": "DET",
+      "epic": "Scrum Rites",
+      "folders": [
+        "Planning Meeting"
+      ],
+      "summary": "The meeting reviewed Omni-Channel and case-routing items including RevRack capacity counting, Slack and Org62 sharing impacts, language routing, priority routing, routing-rule implementation and persona-based testing. Several items remain blocked by missing business requirements and require confirmation from Tomas, Jess, Drashti and Ain.",
+      "url": "https://www.notion.so/365195bb0be881bc82c9db0434243459",
+      "report_link": "https://app.read.ai/analytics/meetings/01KS0EK2QNYTWZZE7MC4A1VWNJ",
+      "actions": 5,
+      "blockers": 3,
+      "questions": 4
+    },
+    {
+      "id": "361195bb0be88048841df30c6ced03ed",
+      "title": "VLI - Innovation day (1)",
+      "date": "2026-05-12",
+      "pillar": "VLI Innovation Day",
+      "epic": "Eventos",
+      "folders": [
+        "Educational",
+        "Training"
+      ],
+      "summary": "A sessao de inovacao da VLI abordou Revenue Cloud para precificacao em escala, Price Book, descontos condicionais, campanhas e desafios atuais como falta de extracao de valor, processos nao padronizados e necessidade de quick wins. Tambem foram discutidos ROI, integracoes com sistemas existentes e rastreabilidade nas negociacoes.",
+      "url": "https://www.notion.so/361195bb0be88048841df30c6ced03ed",
+      "report_link": "",
+      "actions": 2,
+      "blockers": 1,
+      "questions": 3
+    }
+  ]
+}

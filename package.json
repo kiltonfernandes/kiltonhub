@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "analyze:data": "python scripts/analyze_meetings.py",
+    "prebuild": "python scripts/analyze_meetings.py",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
