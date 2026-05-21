@@ -4,7 +4,6 @@ import argparse
 import json
 import os
 import re
-import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -15,7 +14,12 @@ DATABASE_ID = "11bd0217325e4dd9a7fac0a27b69fd48"
 NOTION_VERSION = "2022-06-28"
 
 
-def request_json(method: str, url: str, token: str, payload: dict | None = None) -> dict:
+def log(message: str) -> None:
+    safe = message.encode("ascii", errors="replace").decode("ascii", errors="replace")
+    print(safe, flush=True)
+
+
+def request_json(method: str, url: str, token: str, payload: dict | None = None, retries: int = 4) -> dict:
     body = None if payload is None else json.dumps(payload).encode("utf-8")
     request = urllib.request.Request(
         url,
@@ -27,12 +31,26 @@ def request_json(method: str, url: str, token: str, payload: dict | None = None)
             "Content-Type": "application/json",
         },
     )
-    try:
-        with urllib.request.urlopen(request, timeout=60) as response:
-            return json.loads(response.read().decode("utf-8"))
-    except urllib.error.HTTPError as error:
-        detail = error.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"Notion API error {error.code}: {detail}") from error
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=90) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as error:
+            detail = error.read().decode("utf-8", errors="replace")
+            if error.code == 429 and attempt < retries:
+                retry_after = int(error.headers.get("Retry-After", "2"))
+                log(f"Rate limited by Notion. Waiting {retry_after}s...")
+                import time
+
+                time.sleep(retry_after)
+                continue
+            raise RuntimeError(f"Notion API error {error.code}: {detail}") from error
+        except TimeoutError:
+            if attempt < retries:
+                log("Notion request timed out. Retrying...")
+                continue
+            raise
+    raise RuntimeError("Unexpected Notion request failure")
 
 
 def rich_text(value: list[dict] | None) -> str:
@@ -133,7 +151,6 @@ def collect_blocks(block_id: str, token: str, depth: int = 0, max_depth: int = 2
             lines.append(f"{prefix}{text}")
         if block.get("has_children") and depth < max_depth:
             lines.extend(collect_blocks(block["id"], token, depth + 1, max_depth))
-        time.sleep(0.03)
     return lines
 
 
@@ -196,7 +213,12 @@ def main() -> None:
         raise SystemExit("Missing NOTION_TOKEN. Add it as a GitHub/Vercel secret before running sync.")
 
     pages = list_pages(args.database_id, token, args.limit)
-    records = [to_seed_record(page, token) for page in pages]
+    log(f"Found {len(pages)} Notion pages to sync.")
+    records = []
+    for index, page in enumerate(pages, start=1):
+        title = property_value(page.get("properties", {}), "Title") or page.get("id")
+        log(f"[{index}/{len(pages)}] Syncing {title}")
+        records.append(to_seed_record(page, token))
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")

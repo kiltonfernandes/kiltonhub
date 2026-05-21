@@ -27,7 +27,6 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
-          NOTION_SYNC_LIMIT: ${{ vars.NOTION_SYNC_LIMIT }}
         run: python scripts/sync_notion_meetings.py
 
       - name: Build analytics artifact
