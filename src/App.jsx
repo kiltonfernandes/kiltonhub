@@ -82,7 +82,8 @@ function App() {
           <span className="brand-mark">KH</span>
           <div>
             <p>Read AI + Notion intelligence</p>
-            <h1>KiltonHub Meeting Cockpit</h1>
+            <h1>Meeting Cockpit</h1>
+            <small>Atualizado em {new Date(analytics.generated_at).toLocaleString('pt-BR')}</small>
           </div>
         </div>
         <button type="button" onClick={() => { setSelectedPillar('Todos'); setSelectedEpic('Todos'); setQuery('') }}>
@@ -116,6 +117,21 @@ function App() {
             {epics.map((epic) => <option key={epic.name}>{epic.name}</option>)}
           </select>
         </label>
+      </section>
+
+      <section className="insight-strip" aria-label="Principais sinais">
+        <div>
+          <strong>Backend vivo no Notion</strong>
+          <span>Workflow horario sincroniza reunioes, recalcula NLP e publica o JSON do app.</span>
+        </div>
+        <div>
+          <strong>Word cloud sem chute</strong>
+          <span>Recorrencia, stopwords e TF-IDF gerados no Python antes do frontend renderizar.</span>
+        </div>
+        <div>
+          <strong>Fonte auditavel</strong>
+          <span>Cada card mantem link de volta para a pagina original no Notion.</span>
+        </div>
       </section>
 
       <section className="dashboard-grid">
@@ -211,7 +227,7 @@ function App() {
           ) : (
             <div className="overview-copy">
               <p>Use os filtros para acompanhar uma empresa/area ou um epic. A word cloud vem das transcricoes e resumos processados em Python, com stopwords e TF-IDF para destacar recorrencias relevantes.</p>
-              <p>O painel foi pensado para evoluir para uma sincronizacao real com a database do Notion e gerar novos JSONs a cada refresh.</p>
+              <p>O Notion funciona como backend: o GitHub Action sincroniza a database de hora em hora, gera o JSON analitico e publica o frontend atualizado.</p>
             </div>
           )}
         </aside>

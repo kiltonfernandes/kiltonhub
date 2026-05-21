@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T21:43:32.485765+00:00",
+  "generated_at": "2026-05-21T22:19:37.293659+00:00",
   "source": {
     "kind": "notion-read-ai-seed",
     "database_id": "11bd0217325e4dd9a7fac0a27b69fd48",
@@ -961,323 +961,6 @@
         "tone": 4
       }
     ],
-    "Anima": [
-      {
-        "term": "fluxos",
-        "count": 5,
-        "weight": 1.0,
-        "size": 44,
-        "tone": 0
-      },
-      {
-        "term": "catalogo",
-        "count": 5,
-        "weight": 1.0,
-        "size": 44,
-        "tone": 1
-      },
-      {
-        "term": "minimo",
-        "count": 4,
-        "weight": 0.75,
-        "size": 36,
-        "tone": 2
-      },
-      {
-        "term": "preferencia",
-        "count": 3,
-        "weight": 0.5,
-        "size": 29,
-        "tone": 3
-      },
-      {
-        "term": "idioma",
-        "count": 3,
-        "weight": 0.5,
-        "size": 29,
-        "tone": 4
-      },
-      {
-        "term": "usuario",
-        "count": 3,
-        "weight": 0.5,
-        "size": 29,
-        "tone": 0
-      },
-      {
-        "term": "pais",
-        "count": 3,
-        "weight": 0.5,
-        "size": 29,
-        "tone": 1
-      },
-      {
-        "term": "venda",
-        "count": 3,
-        "weight": 0.5,
-        "size": 29,
-        "tone": 2
-      },
-      {
-        "term": "modelo",
-        "count": 3,
-        "weight": 0.5,
-        "size": 29,
-        "tone": 3
-      },
-      {
-        "term": "requisitos",
-        "count": 3,
-        "weight": 0.5,
-        "size": 29,
-        "tone": 4
-      },
-      {
-        "term": "formato",
-        "count": 3,
-        "weight": 0.5,
-        "size": 29,
-        "tone": 0
-      },
-      {
-        "term": "catalogos",
-        "count": 2,
-        "weight": 0.25,
-        "size": 22,
-        "tone": 1
-      },
-      {
-        "term": "plataforma",
-        "count": 2,
-        "weight": 0.25,
-        "size": 22,
-        "tone": 2
-      },
-      {
-        "term": "precisam",
-        "count": 2,
-        "weight": 0.25,
-        "size": 22,
-        "tone": 3
-      },
-      {
-        "term": "vendedores",
-        "count": 2,
-        "weight": 0.25,
-        "size": 22,
-        "tone": 4
-      },
-      {
-        "term": "thomas",
-        "count": 2,
-        "weight": 0.25,
-        "size": 22,
-        "tone": 0
-      },
-      {
-        "term": "fotografia",
-        "count": 2,
-        "weight": 0.25,
-        "size": 22,
-        "tone": 1
-      },
-      {
-        "term": "final",
-        "count": 2,
-        "weight": 0.25,
-        "size": 22,
-        "tone": 2
-      },
-      {
-        "term": "responsabilidades",
-        "count": 2,
-        "weight": 0.25,
-        "size": 22,
-        "tone": 3
-      },
-      {
-        "term": "deve",
-        "count": 2,
-        "weight": 0.25,
-        "size": 22,
-        "tone": 4
-      },
-      {
-        "term": "alinhamento",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "manual",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "anima",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "tratou",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "origem",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 4
-      },
-      {
-        "term": "definicao",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "conteudo",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "equipe",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "debateu",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "confirmacao",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 4
-      },
-      {
-        "term": "completa",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "evitar",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "validacoes",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "redundantes",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "campos",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 4
-      },
-      {
-        "term": "minimos",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "devem",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "existir",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "fotografias",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "account",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 4
-      },
-      {
-        "term": "preferred",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "language",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "billing",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "case",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "concierge",
-        "count": 1,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 4
-      }
-    ],
     "VLI Innovation Day": [
       {
         "term": "revenue",
@@ -1589,6 +1272,323 @@
       },
       {
         "term": "complexa",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      }
+    ],
+    "Anima": [
+      {
+        "term": "fluxos",
+        "count": 5,
+        "weight": 1.0,
+        "size": 44,
+        "tone": 0
+      },
+      {
+        "term": "catalogo",
+        "count": 5,
+        "weight": 1.0,
+        "size": 44,
+        "tone": 1
+      },
+      {
+        "term": "minimo",
+        "count": 4,
+        "weight": 0.75,
+        "size": 36,
+        "tone": 2
+      },
+      {
+        "term": "preferencia",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 3
+      },
+      {
+        "term": "idioma",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 4
+      },
+      {
+        "term": "usuario",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 0
+      },
+      {
+        "term": "pais",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 1
+      },
+      {
+        "term": "venda",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 2
+      },
+      {
+        "term": "modelo",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 3
+      },
+      {
+        "term": "requisitos",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 4
+      },
+      {
+        "term": "formato",
+        "count": 3,
+        "weight": 0.5,
+        "size": 29,
+        "tone": 0
+      },
+      {
+        "term": "catalogos",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 1
+      },
+      {
+        "term": "plataforma",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 2
+      },
+      {
+        "term": "precisam",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 3
+      },
+      {
+        "term": "vendedores",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 4
+      },
+      {
+        "term": "thomas",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 0
+      },
+      {
+        "term": "fotografia",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 1
+      },
+      {
+        "term": "final",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 2
+      },
+      {
+        "term": "responsabilidades",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 3
+      },
+      {
+        "term": "deve",
+        "count": 2,
+        "weight": 0.25,
+        "size": 22,
+        "tone": 4
+      },
+      {
+        "term": "alinhamento",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "manual",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "anima",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "tratou",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "origem",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "definicao",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "conteudo",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "equipe",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "debateu",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "confirmacao",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "completa",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "evitar",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "validacoes",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "redundantes",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "campos",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "minimos",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "devem",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "existir",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "fotografias",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "account",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 4
+      },
+      {
+        "term": "preferred",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 0
+      },
+      {
+        "term": "language",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "billing",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "case",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "concierge",
         "count": 1,
         "weight": 0.0,
         "size": 14,

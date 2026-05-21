@@ -1,6 +1,8 @@
-# KiltonHub Meeting Cockpit
+# Meeting Cockpit
 
 Web app para acompanhar reunioes capturadas no Read AI e organizadas no Notion. O fluxo usa Python para transformar transcricoes, resumos, action items, perguntas, decisoes e bloqueios em um JSON analitico servido pelo Vite/React.
+
+O Notion funciona como backend operacional. Um workflow do GitHub Actions pode rodar de hora em hora, buscar ate `NOTION_SYNC_LIMIT` registros da database, recalcular o artefato analitico e commitar o JSON atualizado para disparar novo deploy.
 
 ## Meeting Analytics
 
@@ -21,6 +23,16 @@ npm run build
 ```
 
 O `prebuild` roda o pipeline Python automaticamente antes do build, entao o deploy na Vercel sempre empacota o JSON mais recente que estiver no repo.
+
+## Notion Sync
+
+Configure estes itens em `Settings > Secrets and variables > Actions` no GitHub:
+
+- Secret `NOTION_TOKEN`
+- Secret `NOTION_DATABASE_ID`
+- Variable opcional `NOTION_SYNC_LIMIT`, por exemplo `50`
+
+O workflow `.github/workflows/sync_meeting_analytics.yml` roda no minuto 7 de cada hora e tambem pode ser disparado manualmente por `workflow_dispatch`.
 
 ## Next Steps
 
