@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T00:30:28.477030+00:00",
+  "generated_at": "2026-05-22T00:34:55.747547+00:00",
   "source": {
     "kind": "notion-read-ai-seed",
     "database_id": "11bd0217325e4dd9a7fac0a27b69fd48",
@@ -11,7 +11,7 @@
     "open_actions": 1113,
     "blockers": 84,
     "questions": 633,
-    "decisions": 0,
+    "decisions": 173,
     "first_meeting": "2026-04-24",
     "last_meeting": "2026-05-21"
   },
@@ -14609,7 +14609,1219 @@
       "date": "2026-04-24"
     }
   ],
-  "decisions": [],
+  "decisions": [
+    {
+      "text": "The meeting reviewed the Brasilia mall project status, discussed retail strategy and customer experience examples, and confirmed an English coaching engagement to support Participant 2’s business communication.",
+      "pillar": "Sem pillar",
+      "meeting_title": "21/05/2026 - Gravação de Desktop 2026-05-21 19:20:15",
+      "meeting_url": "https://www.notion.so/21-05-2026-Grava-o-de-Desktop-2026-05-21-19-20-15-367195bb0be88163b73dfcdc16299b62",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Retail positioning and consumer trends: Participants agreed malls are evolving into social ecosystems prioritizing dining, wellness, services, and experiences over pure retail.",
+      "pillar": "Sem pillar",
+      "meeting_title": "21/05/2026 - Gravação de Desktop 2026-05-21 19:20:15",
+      "meeting_url": "https://www.notion.so/21-05-2026-Grava-o-de-Desktop-2026-05-21-19-20-15-367195bb0be88163b73dfcdc16299b62",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "The parties agreed to weekly Tuesday lessons at 7 p.m., with a recommended six to seven month cadence to reach comfort.",
+      "pillar": "Sem pillar",
+      "meeting_title": "21/05/2026 - Gravação de Desktop 2026-05-21 19:20:15",
+      "meeting_url": "https://www.notion.so/21-05-2026-Grava-o-de-Desktop-2026-05-21-19-20-15-367195bb0be88163b73dfcdc16299b62",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Um participante compartilhou a tela para ilustrar itens como o concierge e entradas que precisam de atribuição ou revisão; parte do trabalho foi delegada e acordou-se avançar de forma assíncrona enquanto um membro precisou se ausentar.",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Alinhamento Manual com Anima ",
+      "meeting_url": "https://www.notion.so/21-05-2026-Alinhamento-Manual-com-Anima-367195bb0be8810880f3e561ec889e9d",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Na discussão de catálogos, houve consenso parcial sobre campos essenciais para um catálogo mínimo — fotografias, país de venda, modelo e vendedores — e como esses campos se relacionam com funcionalidades e documentação da plataforma.",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Alinhamento Manual com Anima ",
+      "meeting_url": "https://www.notion.so/21-05-2026-Alinhamento-Manual-com-Anima-367195bb0be8810880f3e561ec889e9d",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Foram registrados pedidos funcional e técnico: a solicitação de desvincular na remessa foi decidida como não implementada nesta entrega e ficará para negociação futura; o cliente manifestou preferência por uma solução mais simples em vez de componente customizado para processamento em lote, opção que aumenta esforço e gera perda para Fabrício e não será parte desta entrega.",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Alinahmento OSF internal",
+      "meeting_url": "https://www.notion.so/21-05-2026-Alinahmento-OSF-internal-367195bb0be881acaacaf871a01caa6a",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Por fim, houve alinhamento sobre coordenação dos testes manuais para não atrasar colegas e preocupação com possível atraso do cliente que poderia empurrar a homologação para o final da semana; a equipe concordou em manter a janela ideal e monitorar o ruído operacional a partir de segunda-feira.",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Alinahmento OSF internal",
+      "meeting_url": "https://www.notion.so/21-05-2026-Alinahmento-OSF-internal-367195bb0be881acaacaf871a01caa6a",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Access provisioning is currently handled via Salesforce tickets; bulk provisioning of permission sets is technically feasible but contingent on receiving a confirmed user list and job-family mapping from the business.",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - Sync With Anu K",
+      "meeting_url": "https://www.notion.so/21-05-2026-Sync-With-Anu-K-367195bb0be8817aabb1cdf4c48697fe",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Test artifacts include two test sheets for case create/update and Omni routing, and one story was confirmed closable with attached test documents.",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - 21.05 DSU",
+      "meeting_url": "https://www.notion.so/21-05-2026-21-05-DSU-367195bb0be881c19218dfaf542ba228",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "The team agreed to create a ServiceNow ticket to deactivate/reactivate a flow post-deploy against UAT with MSP support, and testers will raise data issues to improve GovCloud test coverage.",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - 21.05 DSU",
+      "meeting_url": "https://www.notion.so/21-05-2026-21-05-DSU-367195bb0be881c19218dfaf542ba228",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "A handed-off dependency requires excluding business-added case reasons from current flows and is slated for the next sprint with confirmed ownership.",
+      "pillar": "DET",
+      "meeting_title": "21/05/2026 - 21.05 DSU",
+      "meeting_url": "https://www.notion.so/21-05-2026-21-05-DSU-367195bb0be881c19218dfaf542ba228",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Foi confirmado que múltiplos grupos compartilhados aparecem e que o estado do produto consolida progresso agregado (por exemplo, produto marcado “em andamento” quando um item se move).",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Teste granular campos tarefas, gt e  status e  grupos dependente s",
+      "meeting_url": "https://www.notion.so/21-05-2026-Teste-granular-campos-tarefas-gt-e-status-e-grupos-dependente-s-367195bb0be88112813ecec94ec71a29",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Houve menção a versão/histórico de objetos (ex.: versão 6) e opção de manter ou não múltiplas versões.",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Teste granular campos tarefas, gt e  status e  grupos dependente s",
+      "meeting_url": "https://www.notion.so/21-05-2026-Teste-granular-campos-tarefas-gt-e-status-e-grupos-dependente-s-367195bb0be88112813ecec94ec71a29",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Processo de mudança: Mohan orientou consolidar mudanças fora de PR, documentar alterações necessárias e usar títulos MSP para as alterações; a equipe confirmou entendimento.",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Teste granular campos tarefas, gt e  status e  grupos dependente s",
+      "meeting_url": "https://www.notion.so/21-05-2026-Teste-granular-campos-tarefas-gt-e-status-e-grupos-dependente-s-367195bb0be88112813ecec94ec71a29",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Foi confirmado que a validação no ambiente parcial deveria ser finalizada no dia, com homologação prevista para terça e subida para produção proposta para quarta, sujeita à duração das validações e correções durante o deploy.",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - 21.05 Daily",
+      "meeting_url": "https://www.notion.so/21-05-2026-21-05-Daily-367195bb0be881f5ae4bd7030eecc49c",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Houve atrito sobre responsabilidades técnicas e assinatura de entrega: o time técnico afirmou que nada será aceito sem a assinatura de um responsável específico, exigindo alinhamento prévio.",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Alinhamento saude mental com gilvandro",
+      "meeting_url": "https://www.notion.so/21-05-2026-Alinhamento-saude-mental-com-gilvandro-367195bb0be88161af1cebbda9570518",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "Organização da agenda e responsabilidades foram definidas parcialmente: a Wins/Winds deve entrar na primeira parte da pauta para expor necessidades e os AMP precisam demonstrar o fluxo ao time, caso contrário o avanço não será possível.",
+      "pillar": "Anima",
+      "meeting_title": "21/05/2026 - Alinhamento saude mental com gilvandro",
+      "meeting_url": "https://www.notion.so/21-05-2026-Alinhamento-saude-mental-com-gilvandro-367195bb0be88161af1cebbda9570518",
+      "date": "2026-05-21"
+    },
+    {
+      "text": "On Slack ARG-62, the team agreed three story areas (legal, GSC, analysis) are dependent and must be implemented together.",
+      "pillar": "DET",
+      "meeting_title": "20/05/2026 - FnE Sync",
+      "meeting_url": "https://www.notion.so/20-05-2026-FnE-Sync-366195bb0be881fa8dc7d20dd20614d0",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "The team agreed to improve requirements by sharing test accounts and test data to catch validation edge cases earlier.",
+      "pillar": "DET",
+      "meeting_title": "20/05/2026 - FnE Sync",
+      "meeting_url": "https://www.notion.so/20-05-2026-FnE-Sync-366195bb0be881fa8dc7d20dd20614d0",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "Several contract modification stories were triaged for development the week of June 8 with go-live on June 18; participants requested and agreed on three- to four-day advance notices before UAT to prepare test cases.",
+      "pillar": "DET",
+      "meeting_title": "20/05/2026 - FnE Sync",
+      "meeting_url": "https://www.notion.so/20-05-2026-FnE-Sync-366195bb0be881fa8dc7d20dd20614d0",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "Compromissos e pendências: ficou acordado testar mais no ambiente de desenvolvimento e abrir verificação com Fabrício; Participant 1 informou disponibilidade de aproximadamente seis horas para avançar com testes ou correções.",
+      "pillar": "Anima",
+      "meeting_title": "20/05/2026 - Alinhamento com Adriana sobre botao Reatribuir",
+      "meeting_url": "https://www.notion.so/20-05-2026-Alinhamento-com-Adriana-sobre-botao-Reatribuir-366195bb0be881218d85ec5a34ad60f3",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "The participants confirmed approval to push the new flow to production with the strict instruction that it be deployed in a deactivated state and not activated.",
+      "pillar": "DET",
+      "meeting_title": "20/05/2026 - Huddle with Drashti",
+      "meeting_url": "https://www.notion.so/20-05-2026-Huddle-with-Drashti-366195bb0be881e6aaede027105f62c1",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "The team confirmed attendees and noted a quorum for the call.",
+      "pillar": "DET",
+      "meeting_title": "20/05/2026 - NQE: Case Management Impacts Follow-Up",
+      "meeting_url": "https://www.notion.so/20-05-2026-NQE-Case-Management-Impacts-Follow-Up-367195bb0be881618de3cf7dfa4e2e83",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "Matthew confirmed a story in QA can be included in the June release.",
+      "pillar": "DET",
+      "meeting_title": "20/05/2026 - 1:1 Matthew Rodriguez",
+      "meeting_url": "https://www.notion.so/20-05-2026-1-1-Matthew-Rodriguez-366195bb0be8815f9ffbf896f43bcc1d",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "No alternate deployment options, new owners, or concrete dates were agreed beyond the deploy-with-flow-deactivated plus separate-fix approach.",
+      "pillar": "DET",
+      "meeting_title": "20/05/2026 - Govcloud Flow fix",
+      "meeting_url": "https://www.notion.so/20-05-2026-Govcloud-Flow-fix-366195bb0be881f0b81ef30b9db25867",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "Foi decidido manter o botão como está na interface atual, discutir a lógica de atribuição para que a pessoa seja marcada ao clicar em \"em andamento\" ou \"não iniciado\" como forma de resolver o problema mencionado por Matheus.",
+      "pillar": "Anima",
+      "meeting_title": "20/05/2026 - Tela de criacao de tarefas pt 2",
+      "meeting_url": "https://www.notion.so/20-05-2026-Tela-de-criacao-de-tarefas-pt-2-366195bb0be881cc84cbe7b4c1f7c753",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "Também foi mencionado que o ajuste já está pronto em dev e será alinhado com Diego para integração com o fluxo do filho conforme discutido.",
+      "pillar": "Anima",
+      "meeting_title": "20/05/2026 - Tela de criacao de tarefas pt 2",
+      "meeting_url": "https://www.notion.so/20-05-2026-Tela-de-criacao-de-tarefas-pt-2-366195bb0be881cc84cbe7b4c1f7c753",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "They confirmed USPS lacked an ARC/org ID in at least one check and discussed that org ID logic on the Account may influence queue routing to the Government Cloud Approval Process (Helen Lee / GPS UPS queue).",
+      "pillar": "DET",
+      "meeting_title": "20/05/2026 - GovCloud Failed Scenario Sync Wtih Drashti, Valerie and Anu",
+      "meeting_url": "https://www.notion.so/20-05-2026-GovCloud-Failed-Scenario-Sync-Wtih-Drashti-Valerie-and-Anu-366195bb0be881bd8ab0e9830e471dd3",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "Multiple users attempted live repros and agreed to capture debug logs and recorded sessions to correlate behavior across users and orgs.",
+      "pillar": "DET",
+      "meeting_title": "20/05/2026 - GovCloud Failed Scenario Sync Wtih Drashti, Valerie and Anu",
+      "meeting_url": "https://www.notion.so/20-05-2026-GovCloud-Failed-Scenario-Sync-Wtih-Drashti-Valerie-and-Anu-366195bb0be881bd8ab0e9830e471dd3",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "The team agreed to prioritize violation fixes for the next two days and time-box remaining technical work into subsequent sprints.",
+      "pillar": "DET",
+      "meeting_title": "20/05/2026 - 20.05 DSU",
+      "meeting_url": "https://www.notion.so/20-05-2026-20-05-DSU-366195bb0be881a8b9b7d14abc131188",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "Visibility and security for Slack/case sharing: The team confirmed current sharing rules make legal and commissions cases effectively public; narrowing visibility requires creating business user groups and updating sharing rules.",
+      "pillar": "DET",
+      "meeting_title": "20/05/2026 - 20.05 DSU",
+      "meeting_url": "https://www.notion.so/20-05-2026-20-05-DSU-366195bb0be881a8b9b7d14abc131188",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "Venkat agreed to stand by for up to one hour if the issue reproduces.",
+      "pillar": "DET",
+      "meeting_title": "20/05/2026 - 20.05 DSU",
+      "meeting_url": "https://www.notion.so/20-05-2026-20-05-DSU-366195bb0be881a8b9b7d14abc131188",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "Foram avaliadas alternativas técnicas: preencher o campo \"responsável pela última atribuição\" na criação da tarefa, usar o proprietário anterior como destino do devolver e adicionar validações que impeçam devoluções inválidas.",
+      "pillar": "Anima",
+      "meeting_title": "20/05/2026 - Alinhamento Entrega Botao devolver com o time",
+      "meeting_url": "https://www.notion.so/20-05-2026-Alinhamento-Entrega-Botao-devolver-com-o-time-366195bb0be881f9b66ffcd5e102a30d",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "Decidiu-se priorizar uma solução imediata e de baixo risco: remover o botão \"devolver\" da interface e utilizar o fluxo de \"reatribuir\", que já expõe histórico (último owner, criador e quem reatribuiu) como orientação ao usuário.",
+      "pillar": "Anima",
+      "meeting_title": "20/05/2026 - Alinhamento Entrega Botao devolver com o time",
+      "meeting_url": "https://www.notion.so/20-05-2026-Alinhamento-Entrega-Botao-devolver-com-o-time-366195bb0be881f9b66ffcd5e102a30d",
+      "date": "2026-05-20"
+    },
+    {
+      "text": "Mohan confirmed the sign‑off timing, agreed to ensure Dano is tagged and appropriate reviewers are engaged, and Kilton offered to join an APAC‑hour meeting if required.",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 1:1 with Mohan",
+      "meeting_url": "https://www.notion.so/19-05-2026-1-1-with-Mohan-365195bb0be881dca3b2dd2e79f498d0",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "Workstream and process changes: the team agreed to split the agent workflow into its own workstream and use a Kanban board for agent work, with Matt, Harish, and others assigned to that stream to improve clarity and ownership.",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 1:1 with Mohan",
+      "meeting_url": "https://www.notion.so/19-05-2026-1-1-with-Mohan-365195bb0be881dca3b2dd2e79f498d0",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "Technical constraints prevent a broad owner-change trigger; a limited set of record types must be confirmed to avoid running across hundreds of thousands of cases.",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "meeting_url": "https://www.notion.so/19-05-2026-19-05-Grooming-Session-365195bb0be881bc82c9db0434243459",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "For emergency-priority billing routing, the emergency picklist exists but a new skill and flow must be defined before implementation.",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "meeting_url": "https://www.notion.so/19-05-2026-19-05-Grooming-Session-365195bb0be881bc82c9db0434243459",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "Routing rules and scope: The team agreed to implement RevRack routing changes exactly as specified in the Quip document (column F = new rules), with no extra conditional logic beyond active-user checks.",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "meeting_url": "https://www.notion.so/19-05-2026-19-05-Grooming-Session-365195bb0be881bc82c9db0434243459",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "Leadership rotation for DSU was confirmed with Kilton, Venkat, and Anu taking turns.",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 DSU",
+      "meeting_url": "https://www.notion.so/19-05-2026-19-05-DSU-365195bb0be881adb900e0e03dcbba14",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "The team agreed one participant should clone the story so Valery, Venkat, or Kilton can assist.",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 DSU",
+      "meeting_url": "https://www.notion.so/19-05-2026-19-05-DSU-365195bb0be881adb900e0e03dcbba14",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "Kilton agreed to create and prioritize a follow-up story on the 5B backlog.",
+      "pillar": "DET",
+      "meeting_title": "19/05/2026 - 19.05 DSU",
+      "meeting_url": "https://www.notion.so/19-05-2026-19-05-DSU-365195bb0be881adb900e0e03dcbba14",
+      "date": "2026-05-19"
+    },
+    {
+      "text": "Operationally, the team confirmed there are four terminals in use, a slide deck and background materials exist to provide context, and a simple-format data figure is available.",
+      "pillar": "Anima",
+      "meeting_title": "18/05/2026 - 18.05 Catálogo CPQ - Refinamento Técnico PT 1",
+      "meeting_url": "https://www.notion.so/18-05-2026-18-05-Cat-logo-CPQ-Refinamento-T-cnico-PT-1-364195bb0be881cd9d52c0691a57daf3",
+      "date": "2026-05-18"
+    },
+    {
+      "text": "Participants confirmed the footprint work lives in NKV but did not decide whether to expose it at the account or contract/order level and identified Ramesh as the person to consult for that architecture decision.",
+      "pillar": "DET",
+      "meeting_title": "18/05/2026 - NQE: Sales team impacts assessment for Sequence 4",
+      "meeting_url": "https://www.notion.so/18-05-2026-NQE-Sales-team-impacts-assessment-for-Sequence-4-364195bb0be881e0ba87e18b8c20a950",
+      "date": "2026-05-18"
+    },
+    {
+      "text": "The team agreed each impacted team should nominate a product lead and an engineering lead, and the sales organization should be engaged weekly with a maintained point-of-contact roster.",
+      "pillar": "DET",
+      "meeting_title": "18/05/2026 - NQE: Sales team impacts assessment for Sequence 4",
+      "meeting_url": "https://www.notion.so/18-05-2026-NQE-Sales-team-impacts-assessment-for-Sequence-4-364195bb0be881e0ba87e18b8c20a950",
+      "date": "2026-05-18"
+    },
+    {
+      "text": "For execution tracking, the group clarified that whether a TD (technical document/ticket) is required will be decided as part of each track, that existing analytics work can be reused to determine impact, and that once assessments are complete teams should log TDs and cross-team dependencies between Scrum teams.",
+      "pillar": "DET",
+      "meeting_title": "18/05/2026 - NQE: Sales team impacts assessment for Sequence 4",
+      "meeting_url": "https://www.notion.so/18-05-2026-NQE-Sales-team-impacts-assessment-for-Sequence-4-364195bb0be881e0ba87e18b8c20a950",
+      "date": "2026-05-18"
+    },
+    {
+      "text": "The team confirmed snapshot-based workflow is preferable because snapshots preserve packages and data while OrgShape does not.",
+      "pillar": "DET",
+      "meeting_title": "18/05/2026 - 18.05 DSU",
+      "meeting_url": "https://www.notion.so/18-05-2026-18-05-DSU-364195bb0be88199b114ca8086bf5a5e",
+      "date": "2026-05-18"
+    },
+    {
+      "text": "The team agreed to hold a parking-lot meeting with Dana, Drashti, and Valerie to confirm business intent before proceeding.",
+      "pillar": "DET",
+      "meeting_title": "18/05/2026 - 18.05 DSU",
+      "meeting_url": "https://www.notion.so/18-05-2026-18-05-DSU-364195bb0be88199b114ca8086bf5a5e",
+      "date": "2026-05-18"
+    },
+    {
+      "text": "ParkLight/ISV approval story and acceptance criteria: Participant 1 flagged a mismatch between the Quip document and story acceptance criteria; Participant 2 confirmed the Quip document is the source of truth, committed to rewrite the story acceptance criteria to match it, and instructed developers to implement according to the Quip document.",
+      "pillar": "DET",
+      "meeting_title": "18/05/2026 - 18.05 DSU",
+      "meeting_url": "https://www.notion.so/18-05-2026-18-05-DSU-364195bb0be88199b114ca8086bf5a5e",
+      "date": "2026-05-18"
+    },
+    {
+      "text": "Foi decidido tentar concluir o treinamento já nesta semana, preferivelmente treinando na quinta e sexta-feira para resolver as pendências rapidamente e só acompanhar na semana seguinte.",
+      "pillar": "Anima",
+      "meeting_title": "18/05/2026 - Alinhamento Manual do Usuario Gil",
+      "meeting_url": "https://www.notion.so/18-05-2026-Alinhamento-Manual-do-Usuario-Gil-364195bb0be881599bb9cd9177d032dd",
+      "date": "2026-05-18"
+    },
+    {
+      "text": "Por fim, ficou acordado que após todos darem ok o manual será compartilhado com a equipe de Tânia, e que será feita uma revisão adicional no grupo para confirmar se não falta nada antes da liberação.",
+      "pillar": "Anima",
+      "meeting_title": "18/05/2026 - Alinhamento Manual do Usuario Gil",
+      "meeting_url": "https://www.notion.so/18-05-2026-Alinhamento-Manual-do-Usuario-Gil-364195bb0be881599bb9cd9177d032dd",
+      "date": "2026-05-18"
+    },
+    {
+      "text": "Ficou acordado que o treinamento será prático, no formato \"train the trainers\", com participação presencial de todas as áreas e suporte presencial da equipe durante a semana de treinamento.",
+      "pillar": "Anima",
+      "meeting_title": "18/05/2026 - CPQ Week Plan pt2",
+      "meeting_url": "https://www.notion.so/18-05-2026-CPQ-Week-Plan-pt2-364195bb0be8814d8aeec99c32749dd2",
+      "date": "2026-05-18"
+    },
+    {
+      "text": "Será oferecido suporte presencial e operações assistidas na semana do treinamento para dar segurança aos usuários; Pedro ficou responsável por disponibilizar o slide para inclusão nas comunicações.",
+      "pillar": "Anima",
+      "meeting_title": "18/05/2026 - CPQ Week Plan pt2",
+      "meeting_url": "https://www.notion.so/18-05-2026-CPQ-Week-Plan-pt2-364195bb0be8814d8aeec99c32749dd2",
+      "date": "2026-05-18"
+    },
+    {
+      "text": "Foi confirmado que Maraís tem ~20 usuários a treinar e o time acadêmico soma ~10 usuários; Larissa e Whindersson foram designados para treinar esses grupos.",
+      "pillar": "Anima",
+      "meeting_title": "18/05/2026 - CPQ Week Plan",
+      "meeting_url": "https://www.notion.so/18-05-2026-CPQ-Week-Plan-364195bb0be881cc9608fcfb5be5c92a",
+      "date": "2026-05-18"
+    },
+    {
+      "text": "Because the client resists adopting the delivered solution, the team is temporarily implementing workarounds and has decided not to undertake new development for the next entity.",
+      "pillar": "Pulse",
+      "meeting_title": "15/05/2026 - Rafael Rosalis",
+      "meeting_url": "https://www.notion.so/15-05-2026-Rafael-Rosalis-362195bb0be881bd99a1ff6b317513fc",
+      "date": "2026-05-16"
+    },
+    {
+      "text": "Documentação e prazos: a equipe concordou em enviar os documentos essenciais imediatamente, sem aguardar a finalização completa do manual; o manual do responsável foi confirmado como concluído até o dia 29, embora não seja pré-requisito para algumas ações operacionais.",
+      "pillar": "Anima",
+      "meeting_title": "15/05/2026 - Alinhamento OSF CPQ go live",
+      "meeting_url": "https://www.notion.so/15-05-2026-Alinhamento-OSF-CPQ-go-live-361195bb0be881bfa9edd6a3e42ae15a",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "Quando os usuários forem criados, será necessária a vinculação manual dos Permission Sets e a associação às filas.",
+      "pillar": "Anima",
+      "meeting_title": "15/05/2026 - Alinhamento OSF CPQ go live",
+      "meeting_url": "https://www.notion.so/15-05-2026-Alinhamento-OSF-CPQ-go-live-361195bb0be881bfa9edd6a3e42ae15a",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "O time definiu que a carga identificada como 26.1, carregada em fevereiro, será excluída para evitar duplicidade e conflitos.",
+      "pillar": "Anima",
+      "meeting_title": "15/05/2026 - Treinamento CPQ pt 3",
+      "meeting_url": "https://www.notion.so/15-05-2026-Treinamento-CPQ-pt-3-361195bb0be88180b657f60951c38efe",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "Foi comunicado que o portfólio completo será submetido no dia seguinte após uma revisão ponta a ponta realizada nos três dias anteriores.",
+      "pillar": "Anima",
+      "meeting_title": "15/05/2026 - Treinamento CPQ pt 3",
+      "meeting_url": "https://www.notion.so/15-05-2026-Treinamento-CPQ-pt-3-361195bb0be88180b657f60951c38efe",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "Decisões e pontos abertos: Foi decidido manter exceção para Portuagem e verificar disponibilidade desse usuário; também ficou acordado criar uma história/issue na \"sala de guerra\" para formalizar a alteração, pois não há registro atual da fila.",
+      "pillar": "Anima",
+      "meeting_title": "15/05/2026 - Alinhamento Kleber da Silva sobre filas em PRD",
+      "meeting_url": "https://www.notion.so/15-05-2026-Alinhamento-Kleber-da-Silva-sobre-filas-em-PRD-361195bb0be881d28cb8dfffff9699cc",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "Operação e permissões: a equipe operacional recebeu o portfólio e será responsável por cadastrar concursos, criar ofertas e sinalizar tarefas como concluídas; existe status no sistema que indica \"inscrições liberadas\" e a liberação final deve combinar controle manual entre operação e financeiro.",
+      "pillar": "Anima",
+      "meeting_title": "15/05/2026 - Treinamento CPQ pt2",
+      "meeting_url": "https://www.notion.so/15-05-2026-Treinamento-CPQ-pt2-361195bb0be88142a547d2ff7c038258",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "Decisões e pontos pendentes: concordou-se em validar todo o fluxo com testes manuais antes da importação final do portfólio 26.2, usar sequências de SKUs pouco prováveis para testes e depois substituir por SKUs corretos do CEAF/CEAR para a carga real.",
+      "pillar": "Anima",
+      "meeting_title": "15/05/2026 - Treinamento CPQ pt2",
+      "meeting_url": "https://www.notion.so/15-05-2026-Treinamento-CPQ-pt2-361195bb0be88142a547d2ff7c038258",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "Participants confirmed finished work, identified unresolved questions, and aligned on which backlog rows will roll over.",
+      "pillar": "DET",
+      "meeting_title": "15/05/2026 - 15.05 1:1 With Matt",
+      "meeting_url": "https://www.notion.so/15-05-2026-15-05-1-1-With-Matt-361195bb0be881aca117e62558afdbb5",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "The team sought clarification on a \"shadow duplication\" request from Catherine and could not determine whether it referred to delivered work or phase-three actions; they agreed to wait for Kat's response.",
+      "pillar": "DET",
+      "meeting_title": "15/05/2026 - 15.05 1:1 With Matt",
+      "meeting_url": "https://www.notion.so/15-05-2026-15-05-1-1-With-Matt-361195bb0be881aca117e62558afdbb5",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "The close-and-accept button was confirmed complete and in BWT.",
+      "pillar": "DET",
+      "meeting_title": "15/05/2026 - 15.05 1:1 With Matt",
+      "meeting_url": "https://www.notion.so/15-05-2026-15-05-1-1-With-Matt-361195bb0be881aca117e62558afdbb5",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "Foi demonstrado que a funcionalidade acadêmica será publicada na segunda-feira e que o catálogo já contém campos como preço, informações comerciais e IDs.",
+      "pillar": "Anima",
+      "meeting_title": "15/05/2026 - Treinamenro CPQ sexta",
+      "meeting_url": "https://www.notion.so/15-05-2026-Treinamenro-CPQ-sexta-361195bb0be8814cb5ffd80f8702e715",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "Apresentou-se o catálogo Portfólio e a capacidade de exportar relatórios em Excel ou em formatos pré-formatados que incluem cabeçalho, data e filtros aplicados; recomendou-se usar o relatório do portfólio para conferir a primeira versão massiva e validar SKUs/edições.",
+      "pillar": "Anima",
+      "meeting_title": "15/05/2026 - Treinamenro CPQ sexta",
+      "meeting_url": "https://www.notion.so/15-05-2026-Treinamenro-CPQ-sexta-361195bb0be8814cb5ffd80f8702e715",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "Houve confusão causada por uso da versão 2 em simulação anterior, mas decidiu-se que não é necessário carimbar versão ao criar novas tarefas.",
+      "pillar": "Anima",
+      "meeting_title": "15/05/2026 - Treinamenro CPQ sexta",
+      "meeting_url": "https://www.notion.so/15-05-2026-Treinamenro-CPQ-sexta-361195bb0be8814cb5ffd80f8702e715",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "Foi confirmado que há uma subida recente em produção atribuída a Fabrício e que testes e validações continuam.",
+      "pillar": "Anima",
+      "meeting_title": "15/05/2026 - 15.05 Daily",
+      "meeting_url": "https://www.notion.so/15-05-2026-15-05-Daily-361195bb0be8812a9a24c8cb85907fcb",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "Suporte e governança: decidiu‑se criar uma War Room para consolidar time e usuários e fornecer suporte intensivo na fase de implantação; comunicados internos sobre a War Room serão encaminhados.",
+      "pillar": "Anima",
+      "meeting_title": "15/05/2026 - Catálogo CPQ | Checkpoint",
+      "meeting_url": "https://www.notion.so/15-05-2026-Cat-logo-CPQ-Checkpoint-361195bb0be88157aa12c9d423367d7c",
+      "date": "2026-05-15"
+    },
+    {
+      "text": "Há incerteza sobre permissionamento de alguns perfis (caso Riven) que não podem ser totalmente validados hoje; decidiu-se manter esses perfis em \"Permission Test\" e manter permissões duplicadas temporariamente, permitindo ajuste manual pelo cliente se necessário.",
+      "pillar": "Anima",
+      "meeting_title": "14/05/2026 - Alinhamento com Sergio sobre Treinamentos Anima",
+      "meeting_url": "https://www.notion.so/14-05-2026-Alinhamento-com-Sergio-sobre-Treinamentos-Anima-360195bb0be88197ba03c3015a7dd7e5",
+      "date": "2026-05-14"
+    },
+    {
+      "text": "Foi reconhecido que a semana de adoção será \"quente\", com expectativa de muitas reclamações independentemente da qualidade técnica, e decidiu-se preparar escalonamentos e uma sala de suporte 24 horas para mitigação.",
+      "pillar": "Anima",
+      "meeting_title": "14/05/2026 - Alinhamento com Sergio sobre Treinamentos Anima",
+      "meeting_url": "https://www.notion.so/14-05-2026-Alinhamento-com-Sergio-sobre-Treinamentos-Anima-360195bb0be88197ba03c3015a7dd7e5",
+      "date": "2026-05-14"
+    },
+    {
+      "text": "Nos testes de importação o time identificou que campos numéricos com sufixo \".00\" eram rejeitados pelo importador; esse bloqueio foi confirmado como comportamento esperado do Salesforce e não como bug da plataforma.",
+      "pillar": "Anima",
+      "meeting_title": "14/05/2026 - Treinamento CPQ Quinta",
+      "meeting_url": "https://www.notion.so/14-05-2026-Treinamento-CPQ-Quinta-360195bb0be881debca1ef1999775775",
+      "date": "2026-05-14"
+    },
+    {
+      "text": "Houve consenso sobre necessidade de mensagens de erro mais claras, criação de instruções/glossário, e abertura de chamados para ajustar precisão decimal quando necessário; ficou combinado um update posterior para corrigir registros com formato inadequado.",
+      "pillar": "Anima",
+      "meeting_title": "14/05/2026 - Treinamento CPQ Quinta",
+      "meeting_url": "https://www.notion.so/14-05-2026-Treinamento-CPQ-Quinta-360195bb0be881debca1ef1999775775",
+      "date": "2026-05-14"
+    },
+    {
+      "text": "The meeting reviewed recurring \"null\" values appearing in the error message field for Org62 ticket submissions, confirmed the source as Org62's custom error-log object, and discussed verification and tracking actions to ensure users see informative submission error messages in Basecamp.",
+      "pillar": "DET",
+      "meeting_title": "14/05/2026 - Basecamp / Org62 Error msg integration",
+      "meeting_url": "https://www.notion.so/14-05-2026-Basecamp-Org62-Error-msg-integration-360195bb0be881918e3dd768399576dd",
+      "date": "2026-05-14"
+    },
+    {
+      "text": "The team agreed to verify by scanning historical logs for remaining \"null\" responses and to surface the final submission error message in Basecamp for actionable triage.",
+      "pillar": "DET",
+      "meeting_title": "14/05/2026 - Basecamp / Org62 Error msg integration",
+      "meeting_url": "https://www.notion.so/14-05-2026-Basecamp-Org62-Error-msg-integration-360195bb0be881918e3dd768399576dd",
+      "date": "2026-05-14"
+    },
+    {
+      "text": "Foi mencionado que Marissa criou um catálogo (catalogo de peixes) e que um segundo grupo será envolvido após conclusão de uma etapa anterior; houve referência à coordenação entre subgrupos em combates no mesmo nível.",
+      "pillar": "Anima",
+      "meeting_title": "14/05/2026 - Alinhamento Testes Sprint 16 pts 2",
+      "meeting_url": "https://www.notion.so/14-05-2026-Alinhamento-Testes-Sprint-16-pts-2-360195bb0be8810d8dd0f2b63822bd8c",
+      "date": "2026-05-14"
+    },
+    {
+      "text": "Ficou decidido testar com versões distintas, incluindo a versão 12.6 em modo offline para um cruzamento específico, e encerrar a configuração após isso.",
+      "pillar": "Anima",
+      "meeting_title": "14/05/2026 - Alinhamento Testes Sprint 16",
+      "meeting_url": "https://www.notion.so/14-05-2026-Alinhamento-Testes-Sprint-16-360195bb0be881a1ab71f14da719cfaa",
+      "date": "2026-05-14"
+    },
+    {
+      "text": "The team discussed where routing and billing information should be sent and received and where those interactions occur in the system, and agreed the billing priority should be triggered in this case.",
+      "pillar": "DET",
+      "meeting_title": "14/05/2026 - discard",
+      "meeting_url": "https://www.notion.so/14-05-2026-discard-360195bb0be88182a1e8ec48971e3a83",
+      "date": "2026-05-14"
+    },
+    {
+      "text": "On omni‑channel capacity, the team confirmed some manually assigned cases should not consume omni‑channel capacity.",
+      "pillar": "DET",
+      "meeting_title": "14/05/2026 - Alinhamento Jessica / Kilton",
+      "meeting_url": "https://www.notion.so/14-05-2026-Alinhamento-Jessica-Kilton-360195bb0be88189bb0fe37b8cb7abc4",
+      "date": "2026-05-14"
+    },
+    {
+      "text": "The effort was estimated at roughly 8 story points (about two weeks) and remains contingent on Tomas’s confirmed priority.",
+      "pillar": "DET",
+      "meeting_title": "14/05/2026 - Alinhamento Jessica / Kilton",
+      "meeting_url": "https://www.notion.so/14-05-2026-Alinhamento-Jessica-Kilton-360195bb0be88189bb0fe37b8cb7abc4",
+      "date": "2026-05-14"
+    },
+    {
+      "text": "The team agreed to increase the release story to five points to accommodate two releases and documented release activities; a UAT deployment request is contingent on resolving the Apex character limit and providing a PR for the other team to merge.",
+      "pillar": "DET",
+      "meeting_title": "14/05/2026 - 14.05 DSU",
+      "meeting_url": "https://www.notion.so/14-05-2026-14-05-DSU-360195bb0be881e08b71dc5c5c3f4674",
+      "date": "2026-05-14"
+    },
+    {
+      "text": "Foi confirmado que ferramentas de diagnóstico (inspector e Spector) operam corretamente e que muitos erros relatados são características dos dados (duplicados, sem match, campos de fórmula) ou uso inadequado de campos.",
+      "pillar": "Anima",
+      "meeting_title": "13/05/2026 - Alinhamento Anima Interno",
+      "meeting_url": "https://www.notion.so/13-05-2026-Alinhamento-Anima-Interno-35f195bb0be88104afd7e154dbac0415",
+      "date": "2026-05-13"
+    },
+    {
+      "text": "Definiu-se que a categoria do catálogo será criada no Salesforce/Heaven e que o ID extraído da URL será usado nas cargas massivas; exemplo de nome proposto foi \"portfólio 2026/2\".",
+      "pillar": "Anima",
+      "meeting_title": "13/05/2026 - Treinamento CPW quarta",
+      "meeting_url": "https://www.notion.so/13-05-2026-Treinamento-CPW-quarta-35f195bb0be881d7a08acb4a08e9fdab",
+      "date": "2026-05-13"
+    },
+    {
+      "text": "Houve trabalho intenso na preparação da planilha: campos foram mapeados entre portfólio e acadêmico, decidiu-se separar abas para evitar skips, e ficou claro que campos azuis/amarelos são responsabilidade acadêmica enquanto a equipe de portfólio faz o cadastro inicial.",
+      "pillar": "Anima",
+      "meeting_title": "13/05/2026 - Treinamento CPW quarta",
+      "meeting_url": "https://www.notion.so/13-05-2026-Treinamento-CPW-quarta-35f195bb0be881d7a08acb4a08e9fdab",
+      "date": "2026-05-13"
+    },
+    {
+      "text": "Foi definido criar colunas de referência (IES/marca) e incluir coluna de instituição com código estável extraído da interface.",
+      "pillar": "Anima",
+      "meeting_title": "13/05/2026 - Treinamento CPW quarta",
+      "meeting_url": "https://www.notion.so/13-05-2026-Treinamento-CPW-quarta-35f195bb0be881d7a08acb4a08e9fdab",
+      "date": "2026-05-13"
+    },
+    {
+      "text": "The \"Prevent capacity consumption for manually transferred non-RevRec cases\" story remains waiting for technical detail and coordination with Jess and Drashti; the business need is that manually transferred S‑Ops cases retain PSRs and consume Omni capacity intended for Ironclad approvals, but the team agreed they lack enough information to propose a safe implementation and recommended business-level discussion before",
+      "pillar": "DET",
+      "meeting_title": "13/05/2026 - 13.05 Grooming",
+      "meeting_url": "https://www.notion.so/13-05-2026-13-05-Grooming-35f195bb0be881d1862ee46ce49a45f0",
+      "date": "2026-05-13"
+    },
+    {
+      "text": "The team recorded ownership for a triaged story where another team provided documented steps; implementation, repo addition, and QA assignment were confirmed.",
+      "pillar": "DET",
+      "meeting_title": "13/05/2026 - 13.05 Grooming",
+      "meeting_url": "https://www.notion.so/13-05-2026-13-05-Grooming-35f195bb0be881d1862ee46ce49a45f0",
+      "date": "2026-05-13"
+    },
+    {
+      "text": "Participants confirmed a working flow that groups alerts into PagerDuty and routes notifications to mobile and email, and discussed criteria for which logs should generate on-call alerts versus informational messages.",
+      "pillar": "DET",
+      "meeting_title": "13/05/2026 - 13.05 DSU",
+      "meeting_url": "https://www.notion.so/13-05-2026-13-05-DSU-35f195bb0be881338299e2e32357a51e",
+      "date": "2026-05-13"
+    },
+    {
+      "text": "On Splunk and PagerDuty the group confirmed the integration must be fully configured before converting logs to Nebula Logger.",
+      "pillar": "DET",
+      "meeting_title": "13/05/2026 - 13.05 DSU",
+      "meeting_url": "https://www.notion.so/13-05-2026-13-05-DSU-35f195bb0be881338299e2e32357a51e",
+      "date": "2026-05-13"
+    },
+    {
+      "text": "The team also agreed to determine which log types should trigger PagerDuty and which should remain informational or UI validation.",
+      "pillar": "DET",
+      "meeting_title": "13/05/2026 - 13.05 DSU",
+      "meeting_url": "https://www.notion.so/13-05-2026-13-05-DSU-35f195bb0be881338299e2e32357a51e",
+      "date": "2026-05-13"
+    },
+    {
+      "text": "A equipe decidiu mapear quais permission sets são necessários por perfil e registrar isso em planilha; até existir automação, será possível aplicar permissões por cargas em massa e revisar exceções perfil a perfil.",
+      "pillar": "Anima",
+      "meeting_title": "13/05/2026 - 13.05 Daily",
+      "meeting_url": "https://www.notion.so/13-05-2026-13-05-Daily-35f195bb0be88121861cd939a332a3d3",
+      "date": "2026-05-13"
+    },
+    {
+      "text": "Ficou registrado que alguns usuários podem ficar pendentes até a permissão estar disponível em ambiente parcial/prod e que Zampi será envolvido para esclarecer quem da lista precisa de acesso.",
+      "pillar": "Anima",
+      "meeting_title": "13/05/2026 - 13.05 Daily",
+      "meeting_url": "https://www.notion.so/13-05-2026-13-05-Daily-35f195bb0be88121861cd939a332a3d3",
+      "date": "2026-05-13"
+    },
+    {
+      "text": "Alinhamentos técnicos e testes: acordou-se mudar o histórico de portfólio de objeto relacionado para campo de texto longo para reduzir processamento.",
+      "pillar": "Anima",
+      "meeting_title": "13/05/2026 - 13.05 Daily",
+      "meeting_url": "https://www.notion.so/13-05-2026-13-05-Daily-35f195bb0be88121861cd939a332a3d3",
+      "date": "2026-05-13"
+    },
+    {
+      "text": "Foi acordado que a validação autorizada será apenas de visualização dos campos em produção, sem possibilidade de editar ou salvar dados, por preocupação com impactos em preços e outras informações.",
+      "pillar": "Anima",
+      "meeting_title": "13/05/2026 - Alinhamento Gil",
+      "meeting_url": "https://www.notion.so/13-05-2026-Alinhamento-Gil-35f195bb0be88145b292ddbdd3f7c74d",
+      "date": "2026-05-13"
+    },
+    {
+      "text": "Também foi acordado alto nível de envolvimento de ANIMA e OSF e a organização de uma \"sala de guerra\" para executar e validar o processo ponta a ponta.",
+      "pillar": "Anima",
+      "meeting_title": "13/05/2026 - 13.05 Checkpoint Anima",
+      "meeting_url": "https://www.notion.so/13-05-2026-13-05-Checkpoint-Anima-35f195bb0be8813d8afee76717aa37bb",
+      "date": "2026-05-13"
+    },
+    {
+      "text": "Foi decidido seguir o plano de treinamento preparado, com verificação ponta a ponta em sessão subsequente e envolver ZAMP/André para homologações.",
+      "pillar": "Anima",
+      "meeting_title": "11/05/2026 - Treinamento CPQ",
+      "meeting_url": "https://www.notion.so/11-05-2026-Treinamento-CPQ-35d195bb0be881cb8327ec26cace0ab8",
+      "date": "2026-05-11"
+    },
+    {
+      "text": "Foi definido que as filas de Criação de Tarefas devem contemplar grupos regulatório, acadêmico, financeiro, price e operações comerciais; a criação das filas será feita posteriormente, mas é crítico que cada usuário esteja corretamente associado a essas filas.",
+      "pillar": "Anima",
+      "meeting_title": "11/05/2026 - Alinhamento Anima Quick",
+      "meeting_url": "https://www.notion.so/11-05-2026-Alinhamento-Anima-Quick-35d195bb0be88148918aeafc48c81050",
+      "date": "2026-05-11"
+    },
+    {
+      "text": "Foi decidido separar o histórico de versão do componente para evitar disparos em cadeia e reduzir carga de processamento, após confirmação de Cleius de que o histórico de versão é usado apenas no componente.",
+      "pillar": "Anima",
+      "meeting_title": "11/05/2026 - 11.05 Daily OSF",
+      "meeting_url": "https://www.notion.so/11-05-2026-11-05-Daily-OSF-35d195bb0be8815b9f0aedcc9111accb",
+      "date": "2026-05-11"
+    },
+    {
+      "text": "Houve alinhamento operacional: um trabalho relacionado a atualizar o grupo de tarefas deve ser concluído até sexta-feira e evidências já estão sendo adicionadas à tarefa.",
+      "pillar": "Anima",
+      "meeting_title": "11/05/2026 - 11.05 Daily OSF",
+      "meeting_url": "https://www.notion.so/11-05-2026-11-05-Daily-OSF-35d195bb0be8815b9f0aedcc9111accb",
+      "date": "2026-05-11"
+    },
+    {
+      "text": "A partir do dia 18 ficou definido que ações feitas fora da ferramenta devem ser escaladas, sinalizando restrição a alterações paralelas à produção.",
+      "pillar": "Anima",
+      "meeting_title": "11/05/2026 - Gravação de Desktop 2026-05-11 09:04:05",
+      "meeting_url": "https://www.notion.so/11-05-2026-Grava-o-de-Desktop-2026-05-11-09-04-05-35d195bb0be881faa56ac22d83f685e7",
+      "date": "2026-05-11"
+    },
+    {
+      "text": "Participant 1 showed successful Okta authentication with a security key and confirmed access to Slack and Google Workspace (Gmail, Calendar, Drive).",
+      "pillar": "DET",
+      "meeting_title": "08/05/2026 - Techforce 5",
+      "meeting_url": "https://www.notion.so/08-05-2026-Techforce-5-35a195bb0be88104b843f12012955a8e",
+      "date": "2026-05-08"
+    },
+    {
+      "text": "Participant 1 confirmed the checkbox resolved the issue, verified previously inaccessible services were working, and requested confirmation of a live thread and ticket closure so they could close the case.",
+      "pillar": "DET",
+      "meeting_title": "08/05/2026 - Techforce 5",
+      "meeting_url": "https://www.notion.so/08-05-2026-Techforce-5-35a195bb0be88104b843f12012955a8e",
+      "date": "2026-05-08"
+    },
+    {
+      "text": "Foi acordado que Matheus ficará responsável pela correção, com previsão de resolução na semana seguinte, enquanto o desenvolvimento pode prosseguir com o bug aberto.",
+      "pillar": "Anima",
+      "meeting_title": "08/05/2026 - Verificacao com Adriana",
+      "meeting_url": "https://www.notion.so/08-05-2026-Verificacao-com-Adriana-35a195bb0be881848acae781bfaf2acc",
+      "date": "2026-05-08"
+    },
+    {
+      "text": "Foram referenciados documentos e diagramas (seções 3.2 e 4.2) como suporte à lógica que ainda será implementada e combinou-se a produção de documentação e diagramas de erro para rastreabilidade.",
+      "pillar": "Anima",
+      "meeting_title": "08/05/2026 - Verificacao com Adriana",
+      "meeting_url": "https://www.notion.so/08-05-2026-Verificacao-com-Adriana-35a195bb0be881848acae781bfaf2acc",
+      "date": "2026-05-08"
+    },
+    {
+      "text": "Release and backlog: Kite package v3 was confirmed delayed from May 5 to May 11.",
+      "pillar": "DET",
+      "meeting_title": "08/05/2026 - 5a Sprint Planning",
+      "meeting_url": "https://www.notion.so/08-05-2026-5a-Sprint-Planning-35a195bb0be88180b725c3e5b34e0e82",
+      "date": "2026-05-08"
+    },
+    {
+      "text": "The team agreed to exclude waiting stories from sprint counts and considered moving to Linear or Kanban for agent work.",
+      "pillar": "DET",
+      "meeting_title": "08/05/2026 - 5a Sprint Planning",
+      "meeting_url": "https://www.notion.so/08-05-2026-5a-Sprint-Planning-35a195bb0be88180b725c3e5b34e0e82",
+      "date": "2026-05-08"
+    },
+    {
+      "text": "Approval flow: A story implementing three approval scenarios was demoed and confirmed in UAT.",
+      "pillar": "DET",
+      "meeting_title": "08/05/2026 - 4b sprint review Demo",
+      "meeting_url": "https://www.notion.so/08-05-2026-4b-sprint-review-Demo-35a195bb0be881d78e67fe569d1750f5",
+      "date": "2026-05-08"
+    },
+    {
+      "text": "Observability and exception handling: The team confirmed the PSR issue originated from an FNE request and included a discovered bug; occasional failures can leave PSRs in place requiring manual correction.",
+      "pillar": "DET",
+      "meeting_title": "08/05/2026 - 4b sprint review Demo",
+      "meeting_url": "https://www.notion.so/08-05-2026-4b-sprint-review-Demo-35a195bb0be881d78e67fe569d1750f5",
+      "date": "2026-05-08"
+    },
+    {
+      "text": "Test automation and Cursor exploration: Sales-support automation tests were migrated from appsqa5 SB1 to appsqa6 SB1, with daily runs and Slack notifications confirmed.",
+      "pillar": "DET",
+      "meeting_title": "08/05/2026 - 4b sprint review Demo",
+      "meeting_url": "https://www.notion.so/08-05-2026-4b-sprint-review-Demo-35a195bb0be881d78e67fe569d1750f5",
+      "date": "2026-05-08"
+    },
+    {
+      "text": "Foram definidas ações de suporte a usuários para reduzir rejeição: aumentar tempo de atendimento na segunda‑feira, atendimento individual por fila, gravação de sessões com Jarine quando possível, e Clayson aplicando configurações conforme planilha para permitir treinamentos na semana seguinte; Matheus se dispôs a priorizar ajuda.",
+      "pillar": "Anima",
+      "meeting_title": "08/05/2026 - Alinhamento com Gil",
+      "meeting_url": "https://www.notion.so/08-05-2026-Alinhamento-com-Gil-35a195bb0be8818799e5f20ef6ac36cc",
+      "date": "2026-05-08"
+    },
+    {
+      "text": "A atenção especial deve ser dada a filas e conjuntos de permissões Revenue, considerados os mais complexos.",
+      "pillar": "Anima",
+      "meeting_title": "08/05/2026 - 08.05 Daily",
+      "meeting_url": "https://www.notion.so/08-05-2026-08-05-Daily-35a195bb0be881449800fb109c2e0309",
+      "date": "2026-05-08"
+    },
+    {
+      "text": "The team reviewed and approved a structured requirement-intake template to formalize requirements between the F&E sheet and DET sales backlog, agreed change requests will be logged for work outside listed requirements, and confirmed the template will be shared via Slack/Canvas with links to internal documents.",
+      "pillar": "DET",
+      "meeting_title": "07/05/2026 - 07.05 F&N Sync",
+      "meeting_url": "https://www.notion.so/07-05-2026-07-05-F-N-Sync-359195bb0be881aa9731ddde0ba12f1a",
+      "date": "2026-05-07"
+    },
+    {
+      "text": "Operational issues and investigations: several ready stories were confirmed for creation and release (including Canvas template implementation scheduled for May 20).",
+      "pillar": "DET",
+      "meeting_title": "07/05/2026 - 07.05 F&N Sync",
+      "meeting_url": "https://www.notion.so/07-05-2026-07-05-F-N-Sync-359195bb0be881aa9731ddde0ba12f1a",
+      "date": "2026-05-07"
+    },
+    {
+      "text": "Há necessidade técnica e de negócio para permitir reutilização do primeiro pagamento quando o candidato muda de condição; essa lógica está sendo desenhada para manter validade dos pagamentos apesar de alterações de oportunidade.",
+      "pillar": "Anima",
+      "meeting_title": "07/05/2026 - Catálogo CPQ - Discussão Técnica Release 2 | Bolsas e Cotações",
+      "meeting_url": "https://www.notion.so/07-05-2026-Cat-logo-CPQ-Discuss-o-T-cnica-Release-2-Bolsas-e-Cota-es-359195bb0be881d7aa77c7d31a5c29cc",
+      "date": "2026-05-07"
+    },
+    {
+      "text": "Houve consenso técnico sobre necessidade de pré-visualização das opções antes de submissão para reduzir retrabalho; atualmente o sistema exige salvar para recalcular preços, com possível item de backlog para pré-visualização estática.",
+      "pillar": "Anima",
+      "meeting_title": "07/05/2026 - Catálogo CPQ - Discussão Técnica Release 2 | Bolsas e Cotações",
+      "meeting_url": "https://www.notion.so/07-05-2026-Cat-logo-CPQ-Discuss-o-T-cnica-Release-2-Bolsas-e-Cota-es-359195bb0be881d7aa77c7d31a5c29cc",
+      "date": "2026-05-07"
+    },
+    {
+      "text": "Process and governance changes were confirmed: from sprint 5B onward every story must include a requirement canvas capturing business goal, impact, owner, requirements, visual context, and references; the canvas will drive acceptance criteria and demos.",
+      "pillar": "DET",
+      "meeting_title": "07/05/2026 - May, 7th Grooming Session",
+      "meeting_url": "https://www.notion.so/07-05-2026-May-7th-Grooming-Session-359195bb0be881608061d49ba7b492d8",
+      "date": "2026-05-07"
+    },
+    {
+      "text": "One release includes a record-type change exposing an ownership-transfer issue when PSR records are deleted; the team agreed this is not a UAT blocker and will be fixed in a later sprint.",
+      "pillar": "DET",
+      "meeting_title": "07/05/2026 - May, 7th DSU",
+      "meeting_url": "https://www.notion.so/07-05-2026-May-7th-DSU-359195bb0be88167a307c5640aaa06c9",
+      "date": "2026-05-07"
+    },
+    {
+      "text": "QA and automation: Anita reported QA6 automation running in Jenkins with Slack notifications but low pass rates due to test-data differences; she expects closure by tomorrow evening and confirmed a popup fix and sign-off for another story.",
+      "pillar": "DET",
+      "meeting_title": "07/05/2026 - May, 7th DSU",
+      "meeting_url": "https://www.notion.so/07-05-2026-May-7th-DSU-359195bb0be88167a307c5640aaa06c9",
+      "date": "2026-05-07"
+    },
+    {
+      "text": "The team debated replacing the Flow with an Apex batch job versus fixing the Flow but agreed they need the business requirement for auto-closed cases before selecting a solution.",
+      "pillar": "DET",
+      "meeting_title": "07/05/2026 - May, 7th DSU",
+      "meeting_url": "https://www.notion.so/07-05-2026-May-7th-DSU-359195bb0be88167a307c5640aaa06c9",
+      "date": "2026-05-07"
+    },
+    {
+      "text": "Sobre permissões e perfis, a equipe concordou em mapear papéis e Permission Sets, priorizar a aplicação correta de Permission Sets (ex.: Ariane Cristina de Andrade) para viabilizar testes iniciais e aceitar que alguns perfis precisarão ser criados ou ajustados (foi identificado que o perfil \"Naps Edital\" está ausente).",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - Desenho Teste sanidade pt2",
+      "meeting_url": "https://www.notion.so/06-05-2026-Desenho-Teste-sanidade-pt2-358195bb0be881a89032f8685fe76afd",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Como abordagem prática, recomendou usar Cloud com MCP e Cursor para gerar telas no Figma, apontando que essas ferramentas interpretam componentes e tokens melhor que o Codex, que tem limitações nesse aspecto.",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - Alinhamento com Matheus Goncalves",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-com-Matheus-Goncalves-358195bb0be881ba8655c9e38c1bd523",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Foi confirmado que a biblioteca é pública.",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - Alinhamento com Matheus Goncalves",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-com-Matheus-Goncalves-358195bb0be881ba8655c9e38c1bd523",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Foram trocadas informações operacionais: links e arquivos do Figma seriam compartilhados; o autor do protótipo deve autenticar o MCP com sua conta Figma e conceder acesso para leitura dos componentes; referências visuais (prints ou links) ajudam a manter o padrão Salesforce/forces.",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - Alinhamento com Matheus Goncalves",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-com-Matheus-Goncalves-358195bb0be881ba8655c9e38c1bd523",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Ficou definido que haverá uma introdução curta sobre o propósito da sessão, preparada por Participant 2, e que cada apresentador terá cerca de uma hora, com a introdução mais breve.",
+      "pillar": "VLI Innovation Day",
+      "meeting_title": "06/05/2026 - Alinhamento Innovation Day",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-Innovation-Day-358195bb0be88184b483c5d1d2efd2f1",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Decidiu-se clonar/resalvar os arquivos na pasta de colaboração, compartilhar para edição e submeter o material para revisão de layout por Martin com prazo sugerido até o dia seguinte, gerando dependência desse prazo para revisão final.",
+      "pillar": "VLI Innovation Day",
+      "meeting_title": "06/05/2026 - Alinhamento Innovation Day",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-Innovation-Day-358195bb0be88184b483c5d1d2efd2f1",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Detectou-se um bug na validação de campos de bolsa (PBE) que impede alterações válidas; a regra deve ser removida e o responsável técnico (Pedro ou Cleilson) acionado.",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - Desenho do Teste de Sanidade",
+      "meeting_url": "https://www.notion.so/06-05-2026-Desenho-do-Teste-de-Sanidade-358195bb0be881749d12dae037952e6e",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "No domínio de gestão de portfólio, Larissa foi identificada como gestora de plataforma e deverá receber Permission Set 7 para criar catálogos, categorias, produtos e tarefas; definiu-se regras gerais de CRUD para papéis (edição/execução de tarefas, leitura/atualização de produtos, restrições sobre pricebook/pricebook entry).",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - Desenho do Teste de Sanidade",
+      "meeting_url": "https://www.notion.so/06-05-2026-Desenho-do-Teste-de-Sanidade-358195bb0be881749d12dae037952e6e",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Contrato e orçamento: foi confirmado que o contrato vigente termina em 30 de junho sem renovação; o cliente exige saving e só reinvestirá se houver sucesso das entregas.",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - Alinhamento Com luis sobre entrega anima",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-Com-luis-sobre-entrega-anima-358195bb0be881118480f3376b17f94b",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "A operação futura deverá rodar com o que for entregue e o suporte rotineiro ficará com a esteira do cliente, com possível apoio pontual e reduzido do Matheus.",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - Alinhamento Com luis sobre entrega anima",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-Com-luis-sobre-entrega-anima-358195bb0be881118480f3376b17f94b",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Alocação de pessoas e horas: para maio manter alocação atual de Kilton em full time pelo papel em homologação; Adriana permanecerá até 15 de maio para concluir testes críticos; Clay pode ser desmobilizado mais cedo por sobreposição; proposta de desmobilização parcial em junho com Matheus e Fabrício em part‑time (sugestão quatro horas/dia para Fabrício), Cleber 10 horas, e Matheus disponível part‑time até 15 de junho ",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - Alinhamento Com luis sobre entrega anima",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-Com-luis-sobre-entrega-anima-358195bb0be881118480f3376b17f94b",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Backlog and work in progress: the team walked backlog items in order, confirmed several stories have requirements and are ready, and noted commissions case updates and a permissions-inheritance tightening are being worked in the current sprint.",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - Alinhamento com Drashti sobre US do F&E Sheet",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-com-Drashti-sobre-US-do-F-E-Sheet-358195bb0be881b2aaaedcd3e174cc75",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "An approval-access modification had incorrect FNE/GUS links that the team agreed to clean up and to verify acceptance criteria via async discussion or a four-way call if necessary.",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - Alinhamento com Drashti sobre US do F&E Sheet",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-com-Drashti-sobre-US-do-F-E-Sheet-358195bb0be881b2aaaedcd3e174cc75",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Modelo de SKU: foi confirmado que um SKU representa um produto distinto por intake; clones ou novos SKUs não afetam históricos de semestres anteriores, permitindo execuções independentes e catálogos separados quando necessário.",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - Alinhamento atualizacao do status do cadastro com Cleison",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-atualizacao-do-status-do-cadastro-com-Cleison-358195bb0be8816e8e0fd334c74e10ba",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Support confirmed the problem was an account access issue based on the logs and the reproduced error.",
+      "pillar": "DET",
+      "meeting_title": "06/05/2026 - Techforce 4",
+      "meeting_url": "https://www.notion.so/06-05-2026-Techforce-4-358195bb0be8811ea51bf9a239dcced9",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Decidiu-se desenhar as jornadas e formalizar um documento de execução a ser compartilhado; dependendo do definido, o grupo iniciaria execução imediatamente.",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - alinhamento com adriana",
+      "meeting_url": "https://www.notion.so/06-05-2026-alinhamento-com-adriana-358195bb0be8815980e4f26e48bfe686",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Foi confirmado o prazo de entrega para o dia 15 e solicitado que Jarin configure 80% de retribuição de tarefa.",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - daily",
+      "meeting_url": "https://www.notion.so/06-05-2026-daily-358195bb0be881639fd6f7b8deb2662e",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "No desenho funcional/UX decidiu-se usar uma tela com multi-picklist e modais para inserir tipo de atividade, data e descrição por time selecionado, evitando múltiplas telas e cancelamentos intermediários.",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - daily",
+      "meeting_url": "https://www.notion.so/06-05-2026-daily-358195bb0be881639fd6f7b8deb2662e",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "O tipo de atividade será definido por grupo, e o versionamento possivelmente precisará ser aplicado a todos os produtos de um grupo.",
+      "pillar": "Anima",
+      "meeting_title": "06/05/2026 - daily",
+      "meeting_url": "https://www.notion.so/06-05-2026-daily-358195bb0be881639fd6f7b8deb2662e",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Participant 1 explained their account extension timeline: originally hired March 2, the extension was processed late and the system start date changed to May 1, which caused access to shut down on April 30; Participant 2 confirmed the account looks correct and noted synchronization can take up to 24 hours.",
+      "pillar": "DET",
+      "meeting_title": "06/05/2026 - Techforce 3",
+      "meeting_url": "https://www.notion.so/06-05-2026-Techforce-3-358195bb0be881a08bd8e4094a834883",
+      "date": "2026-05-06"
+    },
+    {
+      "text": "Participant 2 reported ongoing restoration of Google Calendar and GUS access and noted they will work with tech support; Participant 1 advised using Slack to coordinate with Valerie until full access is restored and confirmed Slack should suffice for the coordination needed.",
+      "pillar": "DET",
+      "meeting_title": "05/05/2026 - 1:1 W/ Matt",
+      "meeting_url": "https://www.notion.so/05-05-2026-1-1-W-Matt-357195bb0be881219d65fa6c62cc0e16",
+      "date": "2026-05-05"
+    },
+    {
+      "text": "Requirements and documentation were addressed: Participant 1 requested that Participant 2 present a requirements template during Thursday’s session, and Participant 2 agreed to introduce and use the template for outstanding F&E items.",
+      "pillar": "DET",
+      "meeting_title": "05/05/2026 - 1:1 W/ Matt",
+      "meeting_url": "https://www.notion.so/05-05-2026-1-1-W-Matt-357195bb0be881219d65fa6c62cc0e16",
+      "date": "2026-05-05"
+    },
+    {
+      "text": "The support agent guided Kilton to try Gmail as a recovery or access method and advised restarting the device; Kilton agreed to restart and call back after rebooting.",
+      "pillar": "DET",
+      "meeting_title": "05/05/2026 - techforce support 2",
+      "meeting_url": "https://www.notion.so/05-05-2026-techforce-support-2-357195bb0be881b89a42cd78c8ef0f9f",
+      "date": "2026-05-05"
+    },
+    {
+      "text": "Inicialmente foi definido que a apresentação terá uma hora e que haverá uma hora dedicada à precificação; a inclusão de um segmento sobre IA ficou condicionada à confirmação com Marcelino e à avaliação do esforço requerido pelo apresentador.",
+      "pillar": "VLI Innovation Day",
+      "meeting_title": "05/05/2026 - alinhamento com bruno parte 2",
+      "meeting_url": "https://www.notion.so/05-05-2026-alinhamento-com-bruno-parte-2-357195bb0be88143aa02dd85552f2a0e",
+      "date": "2026-05-05"
+    },
+    {
+      "text": "Ficou acordado que o participante 1 alinhará com Marcelino e Astor para liberar e revisar a parte produzida pelo participante 2, e que será criado um novo repositório, organizado para discussão na próxima reunião.",
+      "pillar": "VLI Innovation Day",
+      "meeting_title": "05/05/2026 - alinhamento com bruno parte 2",
+      "meeting_url": "https://www.notion.so/05-05-2026-alinhamento-com-bruno-parte-2-357195bb0be88143aa02dd85552f2a0e",
+      "date": "2026-05-05"
+    },
+    {
+      "text": "Participant 2 apresentou quatro slides sobre revenue e propôs produzir versões com e sem prints para decidir qual usar na demonstração.",
+      "pillar": "VLI Innovation Day",
+      "meeting_title": "05/05/2026 - Alinhamento com Bruno Henrique VLI",
+      "meeting_url": "https://www.notion.so/05-05-2026-Alinhamento-com-Bruno-Henrique-VLI-357195bb0be88198b4c0d5d8fcaa5cd0",
+      "date": "2026-05-05"
+    },
+    {
+      "text": "Ficou acordado que o time fará nova análise de impacto, apresentará a tarefa para definição de responsável, e que o assunto será alinhado com Luís; também foram registradas ações relacionadas a acessos (solicitação a Pedro e teste de sanidade com Adriana, com apoio de Matheus e Clayson) e lembrada uma atividade de acessos com prazo próximo ao final do mês.",
+      "pillar": "Anima",
+      "meeting_title": "05/05/2026 - Daily",
+      "meeting_url": "https://www.notion.so/05-05-2026-Daily-357195bb0be8812eb139ee57ea954ca6",
+      "date": "2026-05-05"
+    },
+    {
+      "text": "Definiu‑se que apenas o grupo da Larissa criará tarefas e que será necessário rever acessos com Maraíba para homologação ponta a ponta.",
+      "pillar": "Anima",
+      "meeting_title": "04/05/2026 - Review Sprint 15",
+      "meeting_url": "https://www.notion.so/04-05-2026-Review-Sprint-15-357195bb0be88189927ce697e433e5bc",
+      "date": "2026-05-04"
+    },
+    {
+      "text": "Foi confirmado que a sprint 15 está em homologação e a sprint 16 está prevista, e que é necessário envolver usuários finais para validar a solução e reduzir retrabalho.",
+      "pillar": "Anima",
+      "meeting_title": "04/05/2026 - Revisão produto Anima",
+      "meeting_url": "https://www.notion.so/04-05-2026-Revis-o-produto-Anima-356195bb0be881789c1eed1625cb911e",
+      "date": "2026-05-04"
+    },
+    {
+      "text": "Foi acordado tentar realizar uma review às 17h, priorizar agendas de homologação na semana e o Participant 6 comprometeu-se a ajustar calendários para priorizar Larissa e Willis; solicitou-se que Pedro envie o documento de depara de acessos para viabilizar testes com usuários mapeados.",
+      "pillar": "Anima",
+      "meeting_title": "04/05/2026 - Daily",
+      "meeting_url": "https://www.notion.so/04-05-2026-Daily-356195bb0be8810886d0da97916cd638",
+      "date": "2026-05-04"
+    },
+    {
+      "text": "Ficou definido que o gap pode ser tratado via change request com envolvimento de Fabrício, Matheus, Kleber, Adri e demais responsáveis, e que será refinado o escopo e estimado o esforço antes do desenvolvimento.",
+      "pillar": "Anima",
+      "meeting_title": "04/05/2026 - Daily",
+      "meeting_url": "https://www.notion.so/04-05-2026-Daily-356195bb0be8810886d0da97916cd638",
+      "date": "2026-05-04"
+    },
+    {
+      "text": "It was agreed that leaving the scheduled-build field blank is acceptable until timing is known.",
+      "pillar": "DET",
+      "meeting_title": "30/04/2026 - huddle with matt",
+      "meeting_url": "https://www.notion.so/30-04-2026-huddle-with-matt-352195bb0be881f383dbe0fa1c1cdd31",
+      "date": "2026-04-30"
+    },
+    {
+      "text": "The group agreed to align with Drashti and Dana on the fix and to adjust the related story or story points if necessary; Kilton also committed to coordinate with Matt and send an asynchronous update so nothing critical was missed.",
+      "pillar": "DET",
+      "meeting_title": "30/04/2026 - huddle with mohan",
+      "meeting_url": "https://www.notion.so/30-04-2026-huddle-with-mohan-352195bb0be88126b2c9dd2de00a42c0",
+      "date": "2026-04-30"
+    },
+    {
+      "text": "Na definição técnica ficou acordado que o campo de anexo será incluído na mesma página onde o motivo é preenchido, aproveitando um componente reutilizável já identificado, e que o anexo será obrigatório para aumentar a fricção do processo.",
+      "pillar": "Anima",
+      "meeting_title": "30/04/2026 - Alinhamento com matheus valim",
+      "meeting_url": "https://www.notion.so/30-04-2026-Alinhamento-com-matheus-valim-352195bb0be8815687e0eb9780dd18cc",
+      "date": "2026-04-30"
+    },
+    {
+      "text": "O fluxo de aprovação foi definido: se o supervisor aprovar, a solicitação segue para financeiro; se o supervisor rejeitar, o processo encerra como rejeição final.",
+      "pillar": "Anima",
+      "meeting_title": "30/04/2026 - Alinhamento com matheus valim",
+      "meeting_url": "https://www.notion.so/30-04-2026-Alinhamento-com-matheus-valim-352195bb0be8815687e0eb9780dd18cc",
+      "date": "2026-04-30"
+    },
+    {
+      "text": "Participants agreed to demonstrate the updates to a developer and QA via a short walkthrough involving Dana, Anu, Yumi, and a BT-team member to prevent implementation errors, and to explore transferring work already completed in a non-UAD environment into UAD if feasible.",
+      "pillar": "DET",
+      "meeting_title": "30/04/2026 - [F&E Alignment] Scope Walkthrough: Fixed Fee / Contract Modification",
+      "meeting_url": "https://www.notion.so/30-04-2026-F-E-Alignment-Scope-Walkthrough-Fixed-Fee-Contract-Modification-352195bb0be881469e23c4d688c3a799",
+      "date": "2026-04-30"
+    },
+    {
+      "text": "The team confirmed a support ticket has been raised to obtain DevOps access so Participant 6 can begin scratch-arc work once approved; Participant 6 will in the meantime add missing fields and dependencies to the finance repo and has posted errors to the channel.",
+      "pillar": "DET",
+      "meeting_title": "30/04/2026 - DSU AMER",
+      "meeting_url": "https://www.notion.so/30-04-2026-DSU-AMER-352195bb0be881988802ea0d8f3e64f8",
+      "date": "2026-04-30"
+    },
+    {
+      "text": "GOV cloud approval flow and PSR deletion test cases were tested and approved with no blockers from Participant 8.",
+      "pillar": "DET",
+      "meeting_title": "30/04/2026 - DSU AMER",
+      "meeting_url": "https://www.notion.so/30-04-2026-DSU-AMER-352195bb0be881988802ea0d8f3e64f8",
+      "date": "2026-04-30"
+    },
+    {
+      "text": "The group also clarified UAT access tasks, agreed to verify SSO/login for business users, assign extra forms when needed, and identified volunteers to help onboard or coordinate UAT testers such as Joseph and Jessica if access issues occur.",
+      "pillar": "DET",
+      "meeting_title": "30/04/2026 - DSU AMER",
+      "meeting_url": "https://www.notion.so/30-04-2026-DSU-AMER-352195bb0be881988802ea0d8f3e64f8",
+      "date": "2026-04-30"
+    },
+    {
+      "text": "The team confirmed that button-related changes have already been coordinated with Sales Ops and are being aligned with the GIC team to determine the appropriate destination for buttons before any changes go live.",
+      "pillar": "DET",
+      "meeting_title": "29/04/2026 - Chatter Deprecation long term with Matt",
+      "meeting_url": "https://www.notion.so/29-04-2026-Chatter-Deprecation-long-term-with-Matt-351195bb0be88113bd0ced10a8ff346d",
+      "date": "2026-04-29"
+    },
+    {
+      "text": "Participant 2 agreed to initiate those discussions and to update Sinead and Kushal once the team decides on a plan.",
+      "pillar": "DET",
+      "meeting_title": "29/04/2026 - Chatter Deprecation long term with Matt",
+      "meeting_url": "https://www.notion.so/29-04-2026-Chatter-Deprecation-long-term-with-Matt-351195bb0be88113bd0ced10a8ff346d",
+      "date": "2026-04-29"
+    },
+    {
+      "text": "The team confirmed that the Basecamp team likely does not need backend changes but should be notified if any fields require lookup eligibility adjustments, and agreed to clearly document Laura’s team’s required work and level of effort.",
+      "pillar": "DET",
+      "meeting_title": "29/04/2026 - NQE: Case Management Impacts",
+      "meeting_url": "https://www.notion.so/29-04-2026-NQE-Case-Management-Impacts-351195bb0be881158f33d4ac65d283ff",
+      "date": "2026-04-29"
+    },
+    {
+      "text": "The group decided to wait for James’s updated data model before performing a full impact analysis, agreed to run an impact analysis in May, and confirmed a September release window with the build expected complete by mid/late July.",
+      "pillar": "DET",
+      "meeting_title": "29/04/2026 - NQE: Case Management Impacts",
+      "meeting_url": "https://www.notion.so/29-04-2026-NQE-Case-Management-Impacts-351195bb0be881158f33d4ac65d283ff",
+      "date": "2026-04-29"
+    },
+    {
+      "text": "Foi confirmado que o evento ocorrerá em 12 de maio no escritório da VLI, com transporte via Uber Business ou reembolso de estacionamento; as passagens e translado de Kilton já foram aprovados.",
+      "pillar": "VLI Innovation Day",
+      "meeting_title": "29/04/2026 - [VLI] [ Salesforce Day] Alinhamentos",
+      "meeting_url": "https://www.notion.so/29-04-2026-VLI-Salesforce-Day-Alinhamentos-351195bb0be88145ac1ffa812cec1627",
+      "date": "2026-04-29"
+    },
+    {
+      "text": "To reduce friction and speed story writing, the team agreed to introduce a standardized Canvas requirements template and to migrate existing requirements into that format with the respective owners involved.",
+      "pillar": "DET",
+      "meeting_title": "29/04/2026 - One on One with Matt",
+      "meeting_url": "https://www.notion.so/29-04-2026-One-on-One-with-Matt-351195bb0be8814f83e2f4e51d842541",
+      "date": "2026-04-29"
+    },
+    {
+      "text": "They also decided to deprioritize agent-force stories in the near term so the owner can focus on F&E tickets, and to postpone the linear Wave 1 migration for sales support to allow concentration on UAT and unblocking remaining requirements.",
+      "pillar": "DET",
+      "meeting_title": "29/04/2026 - One on One with Matt",
+      "meeting_url": "https://www.notion.so/29-04-2026-One-on-One-with-Matt-351195bb0be8814f83e2f4e51d842541",
+      "date": "2026-04-29"
+    },
+    {
+      "text": "The team agreed to tighten planning and definition-of-ready practices, require acceptance criteria on all stories, and use planning poker to reduce mid-sprint clarifications.",
+      "pillar": "DET",
+      "meeting_title": "29/04/2026 - Sprint Backlog Readiness",
+      "meeting_url": "https://www.notion.so/29-04-2026-Sprint-Backlog-Readiness-351195bb0be88146ab0fd1e560c9860d",
+      "date": "2026-04-29"
+    },
+    {
+      "text": "They decided sprint demos will occur on the last Friday of each sprint, extend the demo slot by 15 minutes, and ask presenters to prepare three-minute recordings to play during the meeting.",
+      "pillar": "DET",
+      "meeting_title": "29/04/2026 - Sprint Backlog Readiness",
+      "meeting_url": "https://www.notion.so/29-04-2026-Sprint-Backlog-Readiness-351195bb0be88146ab0fd1e560c9860d",
+      "date": "2026-04-29"
+    },
+    {
+      "text": "Participant 1 reported installing the software and handing it to a colleague, but noted confusion about that user's configuration that needs clarification; Participant 2 walked through a support ticket, confirmed a link Dave can use to check DevTap access, and verified that Dave has appropriate DevTap permissions.",
+      "pillar": "DET",
+      "meeting_title": "29/04/2026 - Sync with Val",
+      "meeting_url": "https://www.notion.so/29-04-2026-Sync-with-Val-351195bb0be881b1aa9bd81f615fa36c",
+      "date": "2026-04-29"
+    },
+    {
+      "text": "The group reviewed a Basecamp migration where developer Kat confirmed she already has required access and will add a project shortcut, and Participant 1 asked whether others want to be involved in the baby-scan–specific work.",
+      "pillar": "DET",
+      "meeting_title": "29/04/2026 - Sync with Val",
+      "meeting_url": "https://www.notion.so/29-04-2026-Sync-with-Val-351195bb0be881b1aa9bd81f615fa36c",
+      "date": "2026-04-29"
+    },
+    {
+      "text": "The team also reviewed a KMOD auto-approval restriction for ISV reseller cases, confirmed intended behavior for routing to manual review based on reseller contract types or price book, estimated the story at three, and moved it to triage.",
+      "pillar": "DET",
+      "meeting_title": "29/04/2026 - DET Grooming Session.mp4",
+      "meeting_url": "https://www.notion.so/29-04-2026-DET-Grooming-Session-mp4-351195bb0be881bc9685cb81e5af68e3",
+      "date": "2026-04-29"
+    },
+    {
+      "text": "The team validated rollovers including GovCloud case approval and logic optimization, confirmed product support and data story statuses, and pushed a scalability logging task forward after insufficient time.",
+      "pillar": "DET",
+      "meeting_title": "24/04/2026 - DET Sprint 4B Planning.mp4",
+      "meeting_url": "https://www.notion.so/24-04-2026-DET-Sprint-4B-Planning-mp4-351195bb0be8817aab99faab10b34379",
+      "date": "2026-04-24"
+    },
+    {
+      "text": "During backlog triage the group confirmed sizes, owners, and QA responsibilities for multiple stories and agreed to calculate sprint capacity before finalizing assignments because of a public holiday and planned time off.",
+      "pillar": "DET",
+      "meeting_title": "24/04/2026 - DET Sprint 4B Planning.mp4",
+      "meeting_url": "https://www.notion.so/24-04-2026-DET-Sprint-4B-Planning-mp4-351195bb0be8817aab99faab10b34379",
+      "date": "2026-04-24"
+    }
+  ],
   "questions": [
     {
       "text": "Is the assumption correct that malls can record higher revenue with fewer visitors because average ticket size has increased? (09:49)",

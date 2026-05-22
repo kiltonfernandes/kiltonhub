@@ -417,6 +417,19 @@
   color: #617381;
 }
 
+.inline-source-link {
+  display: inline-block;
+  margin-top: 5px;
+  color: #1459d9;
+  font-size: 12px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.inline-source-link:hover {
+  text-decoration: underline;
+}
+
 .pillar-list em {
   color: #465a68;
   font-style: normal;

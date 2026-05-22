@@ -143,6 +143,50 @@ def topic_score(term: str, score: float) -> float:
     return score * multiplier
 
 
+def split_sentences(text: str) -> list[str]:
+    compact = re.sub(r"\s+", " ", text).strip()
+    if not compact:
+        return []
+    parts = re.split(r"(?<=[.!?])\s+|(?<=\))\s+(?=[A-ZÀ-Ý])", compact)
+    return [part.strip(" -•\t") for part in parts if len(part.strip()) > 28]
+
+
+DECISION_PATTERNS = re.compile(
+    r"\b("
+    r"agreed|confirmed|decided|approved|defined|will implement|will use|source of truth|"
+    r"ficou definido|ficou decidido|foi decidido|foi acordado|foi confirmado|foi definido|"
+    r"decidiu|decidiram|acordou-se|houve consenso|deve ser|deverá|devera|será|sera|"
+    r"implementarão|implementarao|seguir com|avançar com|avancar com|usar|utilizar|manter|"
+    r"mover para|priorizar|source-of-truth"
+    r")\b",
+    re.IGNORECASE,
+)
+
+NON_DECISION_PATTERNS = re.compile(
+    r"\b(question|pergunta|duvida|dúvida|unclear|open issue|bloque|blocked|pending|pendente|aguard|"
+    r"não houve decisão|no decision|sem decisão)\b",
+    re.IGNORECASE,
+)
+
+
+def extract_decision_candidates(meeting: dict, limit: int = 3) -> list[str]:
+    explicit = [decision for decision in meeting.get("decisions", []) if decision]
+    candidates = []
+    for sentence in split_sentences(" ".join([meeting.get("summary", ""), " ".join(meeting.get("blockers", []))])):
+        if DECISION_PATTERNS.search(sentence) and not NON_DECISION_PATTERNS.search(sentence):
+            candidates.append(sentence)
+    deduped = []
+    seen = set()
+    for decision in explicit + candidates:
+        normalized = re.sub(r"\W+", " ", decision.lower()).strip()
+        if normalized and normalized not in seen:
+            deduped.append(decision[:420])
+            seen.add(normalized)
+        if len(deduped) >= limit:
+            break
+    return deduped
+
+
 def tfidf_terms(meetings: list[dict], limit: int = 8) -> dict[str, list[dict]]:
     docs = [meeting_text(meeting) for meeting in meetings]
     if TfidfVectorizer is None or len(docs) < 2:
@@ -328,7 +372,17 @@ def build_analytics(meetings: list[dict]) -> dict:
         for meeting in dated
         for blocker in meeting.get("blockers", [])
     ]
-    decisions = [{"text": decision, "pillar": meeting["pillar"], "meeting_title": meeting["title"], "date": meeting["_date"].date().isoformat()} for meeting in dated for decision in meeting.get("decisions", [])]
+    decisions = [
+        {
+            "text": decision,
+            "pillar": meeting["pillar"],
+            "meeting_title": meeting["title"],
+            "meeting_url": meeting["url"],
+            "date": meeting["_date"].date().isoformat(),
+        }
+        for meeting in dated
+        for decision in extract_decision_candidates(meeting)
+    ]
     questions = [{"text": question, "pillar": meeting["pillar"], "meeting_title": meeting["title"], "date": meeting["_date"].date().isoformat()} for meeting in dated for question in meeting.get("key_questions", [])]
 
     pillar_terms = tfidf_terms(meetings)

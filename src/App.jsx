@@ -269,6 +269,7 @@ function App() {
               <div>
                 <strong>{item.text}</strong>
                 <small>{item.pillar} | {item.meeting_title} | {formatDate(item.date)}</small>
+                <a className="inline-source-link" href={item.meeting_url} target="_blank" rel="noreferrer">Abrir reuniao de origem</a>
               </div>
             </>
           )} />
