@@ -35,6 +35,8 @@ function App() {
   const [selectedPillar, setSelectedPillar] = useState('Todos')
   const [selectedEpic, setSelectedEpic] = useState('Todos')
   const [query, setQuery] = useState('')
+  const [blockerQuery, setBlockerQuery] = useState('')
+  const [expandedBlockerId, setExpandedBlockerId] = useState(null)
   const [completedActions, setCompletedActions] = useState(readCompletedActions)
   const [showCompletedActions, setShowCompletedActions] = useState(false)
 
@@ -88,8 +90,13 @@ function App() {
 
   const visibleBlockers = useMemo(() => {
     if (!analytics) return []
-    return analytics.blockers.filter((item) => selectedPillar === 'Todos' || item.pillar === selectedPillar).slice(0, 6)
-  }, [analytics, selectedPillar])
+    const needle = blockerQuery.trim().toLowerCase()
+    return analytics.blockers
+      .map((item, index) => ({ ...item, id: `${item.date}-${item.pillar}-${index}-${item.text.slice(0, 32)}` }))
+      .filter((item) => selectedPillar === 'Todos' || item.pillar === selectedPillar)
+      .filter((item) => !needle || [item.text, item.pillar, item.meeting_title].join(' ').toLowerCase().includes(needle))
+      .slice(0, 10)
+  }, [analytics, blockerQuery, selectedPillar])
 
   const visibleDecisions = useMemo(() => {
     if (!analytics) return []
@@ -233,16 +240,25 @@ function App() {
         </article>
 
         <article className="panel blockers-panel">
-          <PanelTitle kicker="Risco de atraso" title="Bloqueios e dependencias" />
-          <ItemList items={visibleBlockers} empty="Nenhum bloqueio nesse filtro." render={(item) => (
-            <>
-              <span className="status-dot risk" />
-              <div>
-                <strong>{item.text}</strong>
-                <small>{item.pillar} | {item.meeting_title} | {formatDate(item.date)}</small>
-              </div>
-            </>
-          )} />
+          <div className="panel-heading risk-heading">
+            <div>
+              <p>Risco de atraso</p>
+              <h2>Bloqueios e dependencias</h2>
+            </div>
+          </div>
+          <label className="risk-search">
+            <span>Buscar bloqueio</span>
+            <input
+              value={blockerQuery}
+              onChange={(event) => setBlockerQuery(event.target.value)}
+              placeholder="approval, UAT, catalogo, fila..."
+            />
+          </label>
+          <RiskList
+            expandedId={expandedBlockerId}
+            items={visibleBlockers}
+            onToggle={(item) => setExpandedBlockerId(expandedBlockerId === item.id ? null : item.id)}
+          />
         </article>
 
         <article className="panel decisions-panel">
@@ -378,6 +394,43 @@ function ActionList({ items, empty, onToggle }) {
           </div>
         </article>
       ))}
+    </div>
+  )
+}
+
+function RiskList({ items, expandedId, onToggle }) {
+  if (!items.length) return <div className="empty-state">Nenhum bloqueio nesse filtro.</div>
+  return (
+    <div className="risk-list">
+      {items.map((item) => {
+        const expanded = expandedId === item.id
+        return (
+          <article className={expanded ? 'expanded' : ''} key={item.id}>
+            <button className="risk-summary" onClick={() => onToggle(item)} type="button">
+              <span className="status-dot risk" />
+              <span>
+                <strong>{item.text}</strong>
+                <small>{item.pillar} | {item.meeting_title} | {formatDate(item.date)}</small>
+              </span>
+              <em>{expanded ? 'Fechar' : 'Entender'}</em>
+            </button>
+            {expanded ? (
+              <div className="risk-detail">
+                <dl>
+                  <div><dt>Pillar</dt><dd>{item.pillar}</dd></div>
+                  <div><dt>Origem</dt><dd>{item.meeting_title}</dd></div>
+                  <div><dt>Data</dt><dd>{formatDate(item.date)}</dd></div>
+                </dl>
+                <p>{item.text}</p>
+                <div className="risk-actions">
+                  <a href={item.meeting_url ?? '#'} target="_blank" rel="noreferrer">Abrir reuniao no Notion</a>
+                  <button type="button" onClick={() => navigator.clipboard?.writeText(item.text)}>Copiar bloqueio</button>
+                </div>
+              </div>
+            ) : null}
+          </article>
+        )
+      })}
     </div>
   )
 }

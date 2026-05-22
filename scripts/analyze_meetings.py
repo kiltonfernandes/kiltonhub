@@ -317,7 +317,17 @@ def build_analytics(meetings: list[dict]) -> dict:
                     "date": meeting["_date"].date().isoformat(),
                 }
             )
-    blockers = [{"text": blocker, "pillar": meeting["pillar"], "meeting_title": meeting["title"], "date": meeting["_date"].date().isoformat()} for meeting in dated for blocker in meeting.get("blockers", [])]
+    blockers = [
+        {
+            "text": blocker,
+            "pillar": meeting["pillar"],
+            "meeting_title": meeting["title"],
+            "meeting_url": meeting["url"],
+            "date": meeting["_date"].date().isoformat(),
+        }
+        for meeting in dated
+        for blocker in meeting.get("blockers", [])
+    ]
     decisions = [{"text": decision, "pillar": meeting["pillar"], "meeting_title": meeting["title"], "date": meeting["_date"].date().isoformat()} for meeting in dated for decision in meeting.get("decisions", [])]
     questions = [{"text": question, "pillar": meeting["pillar"], "meeting_title": meeting["title"], "date": meeting["_date"].date().isoformat()} for meeting in dated for question in meeting.get("key_questions", [])]
 

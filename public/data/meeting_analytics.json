@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T00:27:13.020838+00:00",
+  "generated_at": "2026-05-22T00:30:28.477030+00:00",
   "source": {
     "kind": "notion-read-ai-seed",
     "database_id": "11bd0217325e4dd9a7fac0a27b69fd48",
@@ -14024,504 +14024,588 @@
       "text": "A hipótese técnica principal é que picklists ou filas de portfólio duplicadas estão com valores ausentes ou incorretos, impedindo o mapeamento das filas dependentes e provocando erros ao abrir ou concluir registros. Outro achado é que as ações de \"concluir\" e \"bloquear\" não estariam atribuindo o owner nem atualizando corretamente o status quando se trata de grupos dependentes, permitindo conclusão sem responsável.",
       "pillar": "Anima",
       "meeting_title": "21/05/2026 - Teste granular campos tarefas, gt e  status e  grupos dependente s pt 2",
+      "meeting_url": "https://www.notion.so/21-05-2026-Teste-granular-campos-tarefas-gt-e-status-e-grupos-dependente-s-pt-2-367195bb0be8811688d6c506f1fc0bb5",
       "date": "2026-05-21"
     },
     {
       "text": "Foram propostas duas frentes de atuação: inspecionar e corrigir picklists/filas duplicadas e ajustar a lógica dos botões \"concluir\" e \"bloquear\" para validar e atribuir o responsável antes de alterar o status. O problema foi considerado urgente pela equipe; não foram definidos prazos na reunião, mas ficou acordado abrir correções (bugs/tasks) para resolver as atribuições e validações pendentes.",
       "pillar": "Anima",
       "meeting_title": "21/05/2026 - Teste granular campos tarefas, gt e  status e  grupos dependente s pt 2",
+      "meeting_url": "https://www.notion.so/21-05-2026-Teste-granular-campos-tarefas-gt-e-status-e-grupos-dependente-s-pt-2-367195bb0be8811688d6c506f1fc0bb5",
       "date": "2026-05-21"
     },
     {
       "text": "Dev and pipeline: LWC JavaScript ESLint violations were fixed and a branch created but not yet pushed pending pipeline updates and review comments; developers emphasized preserving functionality when applying getters/setters and ESLint suppressions. A Vault access blockage persists due to an unapproved EIP request; another team member volunteered to handle the approval. One-deploy and PR flows were reinforced as the correct path to keep QA stable after some fixes were applied directly in QA5. Several PRs are awaiting review or creation once UAT behavior is clarified.",
       "pillar": "DET",
       "meeting_title": "21/05/2026 - 21.05 DSU",
+      "meeting_url": "https://www.notion.so/21-05-2026-21-05-DSU-367195bb0be881c19218dfaf542ba228",
       "date": "2026-05-21"
     },
     {
       "text": "Quanto ao escopo técnico, a equipe avaliou que atualizar milhares de produtos de uma vez pode causar problemas quando mais de 500 itens são afetados e considerou tratar a mudança como um change request formal, envolvendo responsáveis como Kleber e Fabrício para justificar ou bloquear a operação. Permanecem dúvidas sobre aprovação formal do change request.",
       "pillar": "Anima",
       "meeting_title": "21/05/2026 - 21.05 Daily",
+      "meeting_url": "https://www.notion.so/21-05-2026-21-05-Daily-367195bb0be881f5ae4bd7030eecc49c",
       "date": "2026-05-21"
     },
     {
       "text": "Houve relato de insegurança na equipe cliente por causa da padronização que centraliza tarefas antes individuais e torna a operação executável por \"qualquer pessoa\", descrita como mudança traumática para alguns. Treinamentos presenciais (KT) ocorreram em fevereiro e em uma terceira semana posterior com Zampi, Matheus e o time; apesar disso, a equipe cliente bloqueou o GoLive, passou a exigir documentação do KT e gerou frustração por aproximadamente cinco semanas de trabalho consideradas desperdiçadas.",
       "pillar": "Anima",
       "meeting_title": "21/05/2026 - Alinhamento saude mental com gilvandro",
+      "meeting_url": "https://www.notion.so/21-05-2026-Alinhamento-saude-mental-com-gilvandro-367195bb0be88161af1cebbda9570518",
       "date": "2026-05-21"
     },
     {
       "text": "The meeting reviewed readiness for the GovCloud deployment, release planning using the FNE sheet, and outstanding analysis needed for dependent work. Colin reported confidence in releasing changes tomorrow but noted final sign-off is pending a call with Drashni; a single flawed flow was identified and classified as post-deploy work. An active legal discussion on Slack was noted by the team.",
       "pillar": "DET",
       "meeting_title": "20/05/2026 - 1:1 Matthew Rodriguez",
+      "meeting_url": "https://www.notion.so/20-05-2026-1-1-Matthew-Rodriguez-366195bb0be8815f9ffbf896f43bcc1d",
       "date": "2026-05-20"
     },
     {
       "text": "The team worked to reproduce and diagnose inconsistent approval routing for GovCloud Plus case submissions, focusing on a knowledge-article-driven case flow that sometimes moved cases to Approved instead of Pending Approval.",
       "pillar": "DET",
       "meeting_title": "20/05/2026 - GovCloud Failed Scenario Sync Wtih Drashti, Valerie and Anu",
+      "meeting_url": "https://www.notion.so/20-05-2026-GovCloud-Failed-Scenario-Sync-Wtih-Drashti-Valerie-and-Anu-366195bb0be881bd8ab0e9830e471dd3",
       "date": "2026-05-20"
     },
     {
       "text": "Participants (including Drashti, Valerie, Anu, and Helen) used a USPS test account and observed that selection values for the \"government contractor\" field produced different outcomes across attempts: one selection intermittently triggered Pending Approval while another produced Approved. They confirmed USPS lacked an ARC/org ID in at least one check and discussed that org ID logic on the Account may influence queue routing to the Government Cloud Approval Process (Helen Lee / GPS UPS queue). Multiple users attempted live repros and agreed to capture debug logs and recorded sessions to correlate behavior across users and orgs.",
       "pillar": "DET",
       "meeting_title": "20/05/2026 - GovCloud Failed Scenario Sync Wtih Drashti, Valerie and Anu",
+      "meeting_url": "https://www.notion.so/20-05-2026-GovCloud-Failed-Scenario-Sync-Wtih-Drashti-Valerie-and-Anu-366195bb0be881bd8ab0e9830e471dd3",
       "date": "2026-05-20"
     },
     {
       "text": "Work assignments and priorities: Adesh will clean violations in the finance-commissions repo, address sonar and claimed issues, then resume pipeline work; Kirita continues ESLint fixes. The team agreed to prioritize violation fixes for the next two days and time-box remaining technical work into subsequent sprints. Several QA stories were reviewed: one approval process story mostly passes but requires Dhana/Dena logic updates; the facilitator will coordinate needed information to close by Friday. Multiple changes are in UAT and ready for production pending business sign-off and recorded demo reviews.",
       "pillar": "DET",
       "meeting_title": "20/05/2026 - 20.05 DSU",
+      "meeting_url": "https://www.notion.so/20-05-2026-20-05-DSU-366195bb0be881a8b9b7d14abc131188",
       "date": "2026-05-20"
     },
     {
       "text": "Foi identificado que o botão \"devolver\" retorna a tarefa para quem fez a última atribuição, gerando bloqueio quando a última atribuição é do próprio usuário que tenta devolver; tarefas puxadas de fila registram automaticamente o puxador como última atribuição, criando atrito. A equipe tentou localizar campos e coletar logs para entender ocorrências de troca de nomes e envios a grupos incorretos, mas concluiu que o problema é mais de lógica de atribuição que de interface isolada.",
       "pillar": "Anima",
       "meeting_title": "20/05/2026 - Alinhamento Entrega Botao devolver com o time",
+      "meeting_url": "https://www.notion.so/20-05-2026-Alinhamento-Entrega-Botao-devolver-com-o-time-366195bb0be881f9b66ffcd5e102a30d",
       "date": "2026-05-20"
     },
     {
       "text": "Knowledge transfer: Valerie is leaving, creating an Omni‑channel knowledge gap. Matt and Mohan want Omni‑channel expertise; Kilton plans biweekly 30‑minute KT sessions with Anu plus self‑study to build team capability. These KT activities address the impending resource change and aim to mitigate operational risk.",
       "pillar": "DET",
       "meeting_title": "19/05/2026 - 1:1 with Mohan",
+      "meeting_url": "https://www.notion.so/19-05-2026-1-1-with-Mohan-365195bb0be881dca3b2dd2e79f498d0",
       "date": "2026-05-19"
     },
     {
       "text": "The meeting reviewed multiple Omni-Channel and case-routing items including RevRack capacity counting, Slack/Org62 sharing impacts, language- and priority-based routing, routing-rule implementation details, and persona-based testing standardization. The team estimated effort for analysis and clarified which items are blocked by missing business requirements.",
       "pillar": "DET",
       "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "meeting_url": "https://www.notion.so/19-05-2026-19-05-Grooming-Session-365195bb0be881bc82c9db0434243459",
       "date": "2026-05-19"
     },
     {
       "text": "RevRack Omni-Channel capacity: A contract-modification case is being manually assigned to RevRec users but should not consume Omni capacity. Technical constraints prevent a broad owner-change trigger; a limited set of record types must be confirmed to avoid running across hundreds of thousands of cases. The item remains blocked until Tomas provides the target record-type list (examples: SalesOps, legal, Kmod). Participant 1 committed to obtain Tomas’s input and gather statistics on manual transfers.",
       "pillar": "DET",
       "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "meeting_url": "https://www.notion.so/19-05-2026-19-05-Grooming-Session-365195bb0be881bc82c9db0434243459",
       "date": "2026-05-19"
     },
     {
       "text": "Channel Notification / Slack permission impact: Slack links expose Org62 child-case content contrary to intended Salesforce sharing. The root fix likely requires changing Org62 sharing rules rather than only disabling Slack components. Participant 1 produced persona journeys and sent them to Jess; Jess’s approval is required and the story is blocked pending a \"green light.\"",
       "pillar": "DET",
       "meeting_title": "19/05/2026 - 19.05 Grooming Session",
+      "meeting_url": "https://www.notion.so/19-05-2026-19-05-Grooming-Session-365195bb0be881bc82c9db0434243459",
       "date": "2026-05-19"
     },
     {
       "text": "Approval-process and flow changes were implemented per the Quip document and marked for testing, but story text needs alignment. Validation showed intended field updates to set case status to Pending Approval did not apply on case creation; assignment rules fired leaving cases in New. Regression testing across managed-package queues and sharing case numbers for investigation were requested. A previously working scenario still passes in separate testing, but recent changes introduced differences and entry criteria will change to avoid bypassing a k-mode auto approval; follow-up with Nandini Lakshmi is pending.",
       "pillar": "DET",
       "meeting_title": "19/05/2026 - 19.05 DSU",
+      "meeting_url": "https://www.notion.so/19-05-2026-19-05-DSU-365195bb0be881adb900e0e03dcbba14",
       "date": "2026-05-19"
     },
     {
       "text": "The meeting combined a prolonged reflective discussion about identity and self-perception with a concise operations update covering logistics, materials, and pending items. The reflective portion emphasized themes of visibility, meaning, fear, and changing self-identification and concluded with the group preparing to begin the planned activity.",
       "pillar": "Anima",
       "meeting_title": "18/05/2026 - 18.05 Catálogo CPQ - Refinamento Técnico PT 1",
+      "meeting_url": "https://www.notion.so/18-05-2026-18-05-Cat-logo-CPQ-Refinamento-T-cnico-PT-1-364195bb0be881cd9d52c0691a57daf3",
       "date": "2026-05-18"
     },
     {
       "text": "O time revisou o progresso das permissões e a preparação para promover mudanças ao ambiente parcial, alinhando responsabilidades e impedimentos técnicos. Participantes informaram sobre artefatos produzidos e ações pendentes para validar a promoção e a homologação pós-subida.",
       "pillar": "Anima",
       "meeting_title": "18/05/2026 - 18.05 Daily",
+      "meeting_url": "https://www.notion.so/18-05-2026-18-05-Daily-364195bb0be8813dad9bc59d667a1b83",
       "date": "2026-05-18"
     },
     {
       "text": "Foram revisados prazos: há expectativa de finalizar desenvolvimento na semana do dia 25 e validar até terça/quarta para apresentação às áreas na quinta/sexta. A entrada em produção está comprometida para dia 29; um deploy em 25 foi mencionado como dependente da validação final por Kilton, o que constitui a principal dependência pendente.",
       "pillar": "Anima",
       "meeting_title": "18/05/2026 - CPQ Week Plan pt2",
+      "meeting_url": "https://www.notion.so/18-05-2026-CPQ-Week-Plan-pt2-364195bb0be8814d8aeec99c32749dd2",
       "date": "2026-05-18"
     },
     {
       "text": "Participant 1 attempted a live demonstration of a Grok TPU-backed chatbot to show web-based query performance; the demo was not completed during the segment. The meeting recorded an open technical concern on the tool that must be eliminated and a pending demo continuation.",
       "pillar": "Pulse",
       "meeting_title": "15/05/2026 - Rafael Rosalis pt 2",
+      "meeting_url": "https://www.notion.so/15-05-2026-Rafael-Rosalis-pt-2-362195bb0be881d680f4f4c783628702",
       "date": "2026-05-16"
     },
     {
       "text": "Documentação e prazos: a equipe concordou em enviar os documentos essenciais imediatamente, sem aguardar a finalização completa do manual; o manual do responsável foi confirmado como concluído até o dia 29, embora não seja pré-requisito para algumas ações operacionais. Cleius confirmou que enviará por e-mail a planilha com perfis, tabelas e explicações e a anexará à documentação; Kleber e Cláudio também se comprometeram a compartilhar suas planilhas e materiais.",
       "pillar": "Anima",
       "meeting_title": "15/05/2026 - Alinhamento OSF CPQ go live",
+      "meeting_url": "https://www.notion.so/15-05-2026-Alinhamento-OSF-CPQ-go-live-361195bb0be881bfa9edd6a3e42ae15a",
       "date": "2026-05-15"
     },
     {
       "text": "Decisões e pontos pendentes: concordou-se em validar todo o fluxo com testes manuais antes da importação final do portfólio 26.2, usar sequências de SKUs pouco prováveis para testes e depois substituir por SKUs corretos do CEAF/CEAR para a carga real. Permanecem pendentes o alinhamento com o responsável pelo Cloud App/CodeApp para integrações posteriores e a definição formal da régua entre operação e financeiro para considerar inscrições como completas.",
       "pillar": "Anima",
       "meeting_title": "15/05/2026 - Treinamento CPQ pt2",
+      "meeting_url": "https://www.notion.so/15-05-2026-Treinamento-CPQ-pt2-361195bb0be88142a547d2ff7c038258",
       "date": "2026-05-15"
     },
     {
       "text": "A equipe identificou problemas de visibilidade de tarefas pendentes: tarefas atribuídas a Hudson aparecem como \"novo\" até Hudson concluir, e a conclusão pode ser feita via notificações (sininho), porém a notificação ao responsável só terá efeito após a melhoria programada para o dia 29. Simularam comportamentos de status para garantir que marcar subtarefas individualmente funcione quando nem todas estiverem finalizadas. O link da planilha foi compartilhado no chat para acesso.",
       "pillar": "Anima",
       "meeting_title": "15/05/2026 - Treinamenro CPQ sexta",
+      "meeting_url": "https://www.notion.so/15-05-2026-Treinamenro-CPQ-sexta-361195bb0be8814cb5ffd80f8702e715",
       "date": "2026-05-15"
     },
     {
       "text": "A reunião revisou a lógica de movimentação automática do status de grupos de tarefas por meio de demonstração prática e análise das regras que definem precedência das condições. Participantes reproduziram um caso com 10 tarefas (1 devolvida, 9 bloqueadas) para validar qual status o grupo deveria assumir.",
       "pillar": "Anima",
       "meeting_title": "15/05/2026 - Alinhamento movimentacao automatica do status do grupo de tarefas",
+      "meeting_url": "https://www.notion.so/15-05-2026-Alinhamento-movimentacao-automatica-do-status-do-grupo-de-tarefas-361195bb0be88178a760ff88c544577c",
       "date": "2026-05-15"
     },
     {
       "text": "Foi verificado ao vivo que a ordem das regras impacta o cálculo do status; algumas regras estavam com precedência inferior ao esperado. Participant 2 identificou que mover a condição \"bloqueada\" para a última posição resolveria o comportamento observado. Também se testou e confirmou que, se ao menos uma tarefa está em andamento, o grupo assume status correspondente e as demais permanecem em aberto.",
       "pillar": "Anima",
       "meeting_title": "15/05/2026 - Alinhamento movimentacao automatica do status do grupo de tarefas",
+      "meeting_url": "https://www.notion.so/15-05-2026-Alinhamento-movimentacao-automatica-do-status-do-grupo-de-tarefas-361195bb0be88178a760ff88c544577c",
       "date": "2026-05-15"
     },
     {
       "text": "Houve discussão sobre nuance de estados de pendência: proposta de distinguir pendência parcial vs total ou separar \"retorno pendente\" de um retorno que inclua tarefas bloqueadas, para evitar ambiguidades na lógica atual. Participant 1 e Participant 2 concordaram em registrar comentário na história técnica descrevendo a discussão.",
       "pillar": "Anima",
       "meeting_title": "15/05/2026 - Alinhamento movimentacao automatica do status do grupo de tarefas",
+      "meeting_url": "https://www.notion.so/15-05-2026-Alinhamento-movimentacao-automatica-do-status-do-grupo-de-tarefas-361195bb0be88178a760ff88c544577c",
       "date": "2026-05-15"
     },
     {
       "text": "Planejamento de liberação e suporte à adoção: Debateu-se antecipar a liberação de features para que o cliente teste tudo junto entre os dias 18 e 22, evitando retrabalho de liberações separadas em 29; essa antecipação depende da garantia de estabilidade e de recursos de suporte intensivo na primeira semana. Foi reconhecido que a semana de adoção será \"quente\", com expectativa de muitas reclamações independentemente da qualidade técnica, e decidiu-se preparar escalonamentos e uma sala de suporte 24 horas para mitigação.",
       "pillar": "Anima",
       "meeting_title": "14/05/2026 - Alinhamento com Sergio sobre Treinamentos Anima",
+      "meeting_url": "https://www.notion.so/14-05-2026-Alinhamento-com-Sergio-sobre-Treinamentos-Anima-360195bb0be88197ba03c3015a7dd7e5",
       "date": "2026-05-14"
     },
     {
       "text": "Nos testes de importação o time identificou que campos numéricos com sufixo \".00\" eram rejeitados pelo importador; esse bloqueio foi confirmado como comportamento esperado do Salesforce e não como bug da plataforma. Foi verificado que o pricebook padrão foi criado e que list price e desconto foram carregados como 5% em registros de teste. O grupo testou formatos decimais (vírgula/ponto), constatou arredondamento automático em campos sem precisão decimal e demonstrou como localizar IDs de produto e API names no plugin. Houve consenso sobre necessidade de mensagens de erro mais claras, criação de instruções/glossário, e abertura de chamados para ajustar precisão decimal quando necessário; ficou combinado um update posterior para corrigir registros com formato inadequado.",
       "pillar": "Anima",
       "meeting_title": "14/05/2026 - Treinamento CPQ Quinta",
+      "meeting_url": "https://www.notion.so/14-05-2026-Treinamento-CPQ-Quinta-360195bb0be881debca1ef1999775775",
       "date": "2026-05-14"
     },
     {
       "text": "Sobre fluxo de tarefas, confirmou‑se que Larissa receberá o processo final no dia 29 e que partes do fluxo podem ser visualizadas antes; tarefas podem ser abertas por múltiplas filas e partes concluídas podem avançar independentemente dos setores restantes. Ficou acertado um fluxo aderente para testes a ser disponibilizado na segunda‑feira e uma execução ampliada em 29 para testar G2/G3, com entregas parciais permitidas.",
       "pillar": "Anima",
       "meeting_title": "14/05/2026 - Treinamento CPQ Quinta",
+      "meeting_url": "https://www.notion.so/14-05-2026-Treinamento-CPQ-Quinta-360195bb0be881debca1ef1999775775",
       "date": "2026-05-14"
     },
     {
       "text": "Nos testes funcionais da sprint 16 a equipe verificou botões, seleção de filas dependentes, criação de produtos e alteração de versão, confirmando que versões 15, 16 e 17 aparecem conforme esperado em diferentes telas e que o histórico de portfólio registra as versões associadas. O sistema foi observado enviando notificações e e‑mails na criação de itens.",
       "pillar": "Anima",
       "meeting_title": "14/05/2026 - Alinhamento Testes Sprint 16 pts 2",
+      "meeting_url": "https://www.notion.so/14-05-2026-Alinhamento-Testes-Sprint-16-pts-2-360195bb0be8810d8dd0f2b63822bd8c",
       "date": "2026-05-14"
     },
     {
       "text": "No fluxo de tarefas dentro do produto, testou‑se marcação de tarefas concluídas, bloqueio de tarefas e visualização de bloqueios no grupo de tarefas (não diretamente no produto), além da verificação de progresso após refresh. Surgiu uma dúvida quanto à regra de precedência para avanço de fluxo; a equipe confirmou que a regra é aplicada, mas concordou que precisa ser repassada e confirmada com Paulo de Montes.",
       "pillar": "Anima",
       "meeting_title": "14/05/2026 - Alinhamento Testes Sprint 16 pts 2",
+      "meeting_url": "https://www.notion.so/14-05-2026-Alinhamento-Testes-Sprint-16-pts-2-360195bb0be8810d8dd0f2b63822bd8c",
       "date": "2026-05-14"
     },
     {
       "text": "On legal visibility and permissions, Venkat and Anu are investigating a solution that covers both legal and GAC. The work is substantial and requires a definitive list of restricted record types and a permissions impact assessment from DET to establish current state and required parity in Slack. Kilton offered to draft detailed case‑journey documents showing access scenarios; Jessica requested multiple personas (legal, GIC, others) and names of test users to validate views and restrictions. A decision between using dedicated public groups versus per‑user permissions was deferred pending clearer asks and a use‑case write‑up.",
       "pillar": "DET",
       "meeting_title": "14/05/2026 - Alinhamento Jessica / Kilton",
+      "meeting_url": "https://www.notion.so/14-05-2026-Alinhamento-Jessica-Kilton-360195bb0be88189bb0fe37b8cb7abc4",
       "date": "2026-05-14"
     },
     {
       "text": "Product and process items covered included options for the Contact–Pricebook issue (attempting a manual Pricebook ID approach pending business approval), converting entry criteria to a formula to use case fields (with potential need to reorder or migrate approval steps), and documenting a known Basecamp limitation around multi-select fields with the implemented deep-link workaround. A legal visibility/F&E thread assigned Venkat priority, collected questions for Jessica, and discussed sharing rules as a potential approach; clarification on sharing target audience remains unresolved. UAT follow-ups and specific PR/org comparisons were assigned to participants for asynchronous progress.",
       "pillar": "DET",
       "meeting_title": "14/05/2026 - 14.05 DSU",
+      "meeting_url": "https://www.notion.so/14-05-2026-14-05-DSU-360195bb0be881e08b71dc5c5c3f4674",
       "date": "2026-05-14"
     },
     {
       "text": "Foram esclarecidas dúvidas sobre o momento de testar ofertas: o time concordou que testes só fazem sentido após conclusão dos passos anteriores e que tarefas finais surgem após a transição de ciclo. Permanecem pendentes atribuições específicas de responsáveis e a finalização dos filtros e da subida em lote para agilizar o processo.",
       "pillar": "Anima",
       "meeting_title": "13/05/2026 - Treinamento CPQ Quarta pt 2",
+      "meeting_url": "https://www.notion.so/13-05-2026-Treinamento-CPQ-Quarta-pt-2-35f195bb0be881028b73c3edf7c8fdbc",
       "date": "2026-05-13"
     },
     {
       "text": "Waiting items: The team left \"Enhanced Error Messaging for Basecamp Organ\" blocked pending a demo and repro guidance from Ayn and Jessica. The \"Prevent capacity consumption for manually transferred non-RevRec cases\" story remains waiting for technical detail and coordination with Jess and Drashti; the business need is that manually transferred S‑Ops cases retain PSRs and consume Omni capacity intended for Ironclad approvals, but the team agreed they lack enough information to propose a safe implementation and recommended business-level discussion before workarounds. Venkat reported the Chatter duplication work depends on a legal record type analysis and will be aligned across record types once legal analysis completes. Kite Packet Installation release timing is pending and will determine whether work begins in sprint 5B (starts May 25) or is deferred.",
       "pillar": "DET",
       "meeting_title": "13/05/2026 - 13.05 Grooming",
+      "meeting_url": "https://www.notion.so/13-05-2026-13-05-Grooming-35f195bb0be881d1862ee46ce49a45f0",
       "date": "2026-05-13"
     },
     {
       "text": "Quality engineering updates noted a build in progress and an approval-related story blocked by an object-reference limit in the approval process. The developer will document all object references for Drashti to confirm which are required; the team will either remove unnecessary references or request a limit increase via the appropriate channel. Additional QA items included someone testing case-reason override fixes, requests for redeploy windows, coordination of UAT testing, and follow-up on legal-chain data access.",
       "pillar": "DET",
       "meeting_title": "13/05/2026 - 13.05 DSU",
+      "meeting_url": "https://www.notion.so/13-05-2026-13-05-DSU-35f195bb0be881338299e2e32357a51e",
       "date": "2026-05-13"
     },
     {
       "text": "Permissões e licenças: foi identificado que certas licenças/Permission Sets precisam ser atribuídas diretamente a usuários (não atendidas apenas por perfil) devido a restrições de licenciamento e fluxos ligados à feature Revenue. Existe risco de esgotamento de licenças contadas por usuário ativo. A equipe decidiu mapear quais permission sets são necessários por perfil e registrar isso em planilha; até existir automação, será possível aplicar permissões por cargas em massa e revisar exceções perfil a perfil. Ficou registrado que alguns usuários podem ficar pendentes até a permissão estar disponível em ambiente parcial/prod e que Zampi será envolvido para esclarecer quem da lista precisa de acesso.",
       "pillar": "Anima",
       "meeting_title": "13/05/2026 - 13.05 Daily",
+      "meeting_url": "https://www.notion.so/13-05-2026-13-05-Daily-35f195bb0be88121861cd939a332a3d3",
       "date": "2026-05-13"
     },
     {
       "text": "Sobre acessos e suporte, foi solicitado liberar acessos em produção para dois testadores (Adriana e Kilton) para permitir verificações sem impactar o roll-out. Propôs-se envolver o Sérgio para acompanhar validações técnicas e acelerar bloqueios; Luiz avaliará a necessidade de acionamento do Sérgio ou outro suporte adicional. Também foi acordado alto nível de envolvimento de ANIMA e OSF e a organização de uma \"sala de guerra\" para executar e validar o processo ponta a ponta.",
       "pillar": "Anima",
       "meeting_title": "13/05/2026 - 13.05 Checkpoint Anima",
+      "meeting_url": "https://www.notion.so/13-05-2026-13-05-Checkpoint-Anima-35f195bb0be8813d8afee76717aa37bb",
       "date": "2026-05-13"
     },
     {
       "text": "Em relação ao cutover, a equipe tratou do congelamento da carga de dados e da coordenação com o time de negócio para garantir execução dos testes finais e minimizar riscos na virada de produção. Permanece pendente a definição final sobre divisão de responsabilidades entre perfil e Permission Set e a conclusão das sessões de validação planejadas.",
       "pillar": "Anima",
       "meeting_title": "13/05/2026 - 13.05 Checkpoint Anima",
+      "meeting_url": "https://www.notion.so/13-05-2026-13-05-Checkpoint-Anima-35f195bb0be8813d8afee76717aa37bb",
       "date": "2026-05-13"
     },
     {
       "text": "Além dos conteúdos centrais, houve troca de orientações práticas entre participantes sobre tarefas de classe (produção de uma página, leitura de uma \"história de saúde\", trabalhos em quadrinhos, entrega relacionada à \"biblioteca\" com referência ao dia 12) e instruções domésticas/organizacionais dos presentes; essas interações foram registradas sem impactar as conclusões científicas ou pedagógicas da aula. Unresolved issues: necessidade de ampliar formação de professores em neurociência/phonics e confirmação pendente de publicação final da lista de presença.",
       "pillar": "Amanda",
       "meeting_title": "11/05/2026 - curso amanda 2",
+      "meeting_url": "https://www.notion.so/11-05-2026-curso-amanda-2-35e195bb0be881f58257dbecc91d602f",
       "date": "2026-05-11"
     },
     {
       "text": "Kilton attempted the requested PowerShell command but received an \"access denied\" error; the agent requested screenshots to diagnose the permissions failure. While signing into Company Portal, Kilton initially entered an incorrect/partial email and had password confusion, then corrected the address and successfully authenticated; the portal began syncing after sign-in. The support representative instructed Kilton to restart the machine to validate that BitLocker prompts no longer appear once the account changes and sync completed, and reiterated that BitLocker generates a different recovery key after each restart so previous keys cannot be reused. Open items: the PowerShell \"access denied\" cause remains unresolved pending screenshots and Kilton's restart confirmation.",
       "pillar": "DET",
       "meeting_title": "11/05/2026 - Techforce 6",
+      "meeting_url": "https://www.notion.so/11-05-2026-Techforce-6-35d195bb0be881be81c3fd9668c5aaba",
       "date": "2026-05-11"
     },
     {
       "text": "A reunião tratou da estratégia de migração de acessos por perfil para Permission Sets, do planejamento de treinamentos operacionais e de um caso técnico de suporte relacionado a BitLocker. Foram discutidos prazos, aprovações pendentes e necessidades de validação em ambiente parcial.",
       "pillar": "Anima",
       "meeting_title": "11/05/2026 - Gravação de Desktop 2026-05-11 09:04:05",
+      "meeting_url": "https://www.notion.so/11-05-2026-Grava-o-de-Desktop-2026-05-11-09-04-05-35d195bb0be881faa56ac22d83f685e7",
       "date": "2026-05-11"
     },
     {
       "text": "Sobre permissões, o time alinhou que a migração para Permission Sets é desejável, mas a \"virada de chave\" não é viável imediatamente; a entrega final está prevista para o dia 29. É necessário mapear quais Permission Sets cada perfil deve receber antes da migração e validar a estrutura de permissões durante a entrega e o end-to-end com Kilton e Enrique. Há aprovações pendentes de Andrew, Damaraís (Maraís) e Spike e foi solicitado acesso parcial ao ambiente para trabalhar funcionalidades do CPQ. Também foi agendada uma sessão técnica de refinamento do CPQ das 15h às 17h com Zamp e outros participantes.",
       "pillar": "Anima",
       "meeting_title": "11/05/2026 - Gravação de Desktop 2026-05-11 09:04:05",
+      "meeting_url": "https://www.notion.so/11-05-2026-Grava-o-de-Desktop-2026-05-11-09-04-05-35d195bb0be881faa56ac22d83f685e7",
       "date": "2026-05-11"
     },
     {
       "text": "The meeting demonstrated and resolved an access issue where cloud services were accessible but internal applications were blocked until Zscaler authentication was enabled. Participant 1 showed successful Okta authentication with a security key and confirmed access to Slack and Google Workspace (Gmail, Calendar, Drive). Participant 1 attempted to access internal apps Gus and Rx62 and received an access error tied to Zscaler requirements.",
       "pillar": "DET",
       "meeting_title": "08/05/2026 - Techforce 5",
+      "meeting_url": "https://www.notion.so/08-05-2026-Techforce-5-35a195bb0be88104b843f12012955a8e",
       "date": "2026-05-08"
     },
     {
       "text": "Na sessão de cotações foi feita demonstração prática de registro de desvios, incluindo exibição de modal quando o valor ultrapassa um limite aparente de 8% e clonagem de cotações para testes. O perfil do usuário foi identificado como supervisor/financeiro e o fluxo de aprovações trafegou do líder para pricing até aprovação financeira; testes de troca de login (Kleber, Fabrício, Matheus) confirmaram que, ao aprovar, o histórico registra o status \"aprovado\". Durante os testes foram detectados casos em que cotações em rascunho ou com aprovação pendente não permitiam alterações esperadas, gerando a decisão de registrar um bug sobre o comportamento da interface ao concluir cotação e ao registrar desvios. Foi acordado que Matheus ficará responsável pela correção, com previsão de resolução na semana seguinte, enquanto o desenvolvimento pode prosseguir com o bug aberto.",
       "pillar": "Anima",
       "meeting_title": "08/05/2026 - Verificacao com Adriana",
+      "meeting_url": "https://www.notion.so/08-05-2026-Verificacao-com-Adriana-35a195bb0be881848acae781bfaf2acc",
       "date": "2026-05-08"
     },
     {
       "text": "No catálogo de tarefas identificou-se que várias entradas foram criadas e algumas não apareciam com status \"pendente\"; foram contabilizadas cerca de 50 criações em massa cuja origem precisa ser investigada por Clayson. Cleilson confirmou preparação de itens para QA e explicou que certas ações são encadeadas entre membros (por exemplo Fabrício e Cleilson), permitindo início paralelo, mas não conclusão paralela em etapas dependentes. Foram validados botões e bloqueios de tarefas, com instrução para checar descrições de tarefa que contêm motivos e status.",
       "pillar": "Anima",
       "meeting_title": "08/05/2026 - Verificacao com Adriana",
+      "meeting_url": "https://www.notion.so/08-05-2026-Verificacao-com-Adriana-35a195bb0be881848acae781bfaf2acc",
       "date": "2026-05-08"
     },
     {
       "text": "Sobre reatribuição e devolução de tarefas, a equipe testou o fluxo e confirmou funcionamento dos botões; foi demonstrado que a devolução só funciona se existir um proprietário definido. Houve discussão sobre permissões de acesso ao portfólio e catálogo e proposta de testes em ambiente parcial para simular criação e devolução por usuários distintos. A integração com o cadastro de produto foi destacada como a parte mais crítica e pendente, sendo a maior preocupação para concluir o trabalho.",
       "pillar": "Anima",
       "meeting_title": "08/05/2026 - Verificacao com Adriana",
+      "meeting_url": "https://www.notion.so/08-05-2026-Verificacao-com-Adriana-35a195bb0be881848acae781bfaf2acc",
       "date": "2026-05-08"
     },
     {
       "text": "Release and backlog: Kite package v3 was confirmed delayed from May 5 to May 11. Multiple backlog follow-ups were closed after PR/QA preparation; several stories (GAC, Kite items, FNE/FNA, and compensation-related stories) will roll to the next sprint because they don't fit current capacity or await business input. Session ID exposure / Agent Force work is blocked by Team P guidance and has been deferred.",
       "pillar": "DET",
       "meeting_title": "08/05/2026 - 5a Sprint Planning",
+      "meeting_url": "https://www.notion.so/08-05-2026-5a-Sprint-Planning-35a195bb0be88180b725c3e5b34e0e82",
       "date": "2026-05-08"
     },
     {
       "text": "Sales-agent flow and timelines: A revised sales-agent flow was demoed that searches the knowledge base before offering case creation, auto-extracts related records (quote→opportunity→account), and standardizes routing on a small set of skills (intent/topic, region, CBU). Development may finish in July with a pilot targeted for the first week of August pending business readiness.",
       "pillar": "DET",
       "meeting_title": "08/05/2026 - 4b sprint review Demo",
+      "meeting_url": "https://www.notion.so/08-05-2026-4b-sprint-review-Demo-35a195bb0be881d78e67fe569d1750f5",
       "date": "2026-05-08"
     },
     {
       "text": "Foi identificado um erro relacionado a Product Classification que faz com que alguns produtos sejam salvos e outros não; a investigação requer análise de dados e logs para entender por que o comportamento difere entre produtos e contextos. Também foi levantada a possibilidade de bloqueio quando valores ou produtos estão desativados, o que precisa ser verificado.",
       "pillar": "Anima",
       "meeting_title": "08/05/2026 - 08.05 Daily",
+      "meeting_url": "https://www.notion.so/08-05-2026-08-05-Daily-35a195bb0be881449800fb109c2e0309",
       "date": "2026-05-08"
     },
     {
       "text": "A equipe concordou em registrar incidentes com data, registro e usuário para permitir diagnóstico preciso, e em produzir documentação e treinamentos — um dos participantes se ofereceu para elaborar a documentação, treinar a equipe e oferecer suporte mediante marcação. Há dependências operacionais sobre a consolidação da lista de usuários acadêmicos (aguarda retorno do Pedro) e necessidade de abertura de chamados no sistema Horácio com aprovações prévias.",
       "pillar": "Anima",
       "meeting_title": "08/05/2026 - 08.05 Daily",
+      "meeting_url": "https://www.notion.so/08-05-2026-08-05-Daily-35a195bb0be881449800fb109c2e0309",
       "date": "2026-05-08"
     },
     {
       "text": "Sprint and backlog priorities: GovCloud is marked ready with UAT planned for the May 20–21 sign-off window pending QA. Modify-approval-access is near completion in UAT. Kite v3 release timing is unclear (sources cite May 5 or May 11), affecting whether uptake occurs in 5A or 5B. K-Mod stories lack assignments and capacity; at least one K-Mod item will move to the next sprint (5P). ProServe / K-Mod backlog contains conflicting docs; the team will centralize requirements and hold a focused call with business stakeholders before including the story in 5A.",
       "pillar": "DET",
       "meeting_title": "07/05/2026 - 07.05 F&N Sync",
+      "meeting_url": "https://www.notion.so/07-05-2026-07-05-F-N-Sync-359195bb0be881aa9731ddde0ba12f1a",
       "date": "2026-05-07"
     },
     {
       "text": "Operational issues and investigations: several ready stories were confirmed for creation and release (including Canvas template implementation scheduled for May 20). A lingering Sales Ops record-type update is blocked by a screen flow or validation rule and needs follow-up. Org62 is sending null/insufficient error details to Basecamp; legal raised the issue and the team requires real error examples and a discovery meeting to size a 5A story. A recent legal config form failure requires root-cause documentation to decide safe extension.",
       "pillar": "DET",
       "meeting_title": "07/05/2026 - 07.05 F&N Sync",
+      "meeting_url": "https://www.notion.so/07-05-2026-07-05-F-N-Sync-359195bb0be881aa9731ddde0ba12f1a",
       "date": "2026-05-07"
     },
     {
       "text": "Several stories are blocked or deferred pending external input or legal work. Enhanced error messaging needs real-world examples and technical validation from the Basecamp team (Thomas and Paul); if unavailable the story will roll to 5B. A GAC/legal-permission item is blocking a related story; Venkat will confirm legal status and the item remains in 5A only if legal closes this sprint. The Kite package upgrade to v3 requires installation validation; Venkat will attempt installation and report back.",
       "pillar": "DET",
       "meeting_title": "07/05/2026 - May, 7th Grooming Session",
+      "meeting_url": "https://www.notion.so/07-05-2026-May-7th-Grooming-Session-359195bb0be881608061d49ba7b492d8",
       "date": "2026-05-07"
     },
     {
       "text": "A capacity/RevRec case-handling request—delete pending service routing records when SOPS cases transfer to RevRec—was reviewed and confirmed as the business request, but the team noted this conflicts with Omni’s intended behavior and requires clear technical boundaries and business confirmation; the story moved to 5B for further discussion with business owners (Jessica Berry, Tomas).",
       "pillar": "DET",
       "meeting_title": "07/05/2026 - May, 7th Grooming Session",
+      "meeting_url": "https://www.notion.so/07-05-2026-May-7th-Grooming-Session-359195bb0be881608061d49ba7b492d8",
       "date": "2026-05-07"
     },
     {
       "text": "Operational work and estimates were triaged. Several QA and release-support items were assigned triage status or points (finance-repo pipeline left at five points; a QA cleanup by Anu estimated at two). Splunk/PagerDuty integration requirements were outlined (NebulaLogger logs in dev, Splunk-to-PagerDuty alerts, API access, sandbox PagerDuty access); Valerie provisionally offered QE support. A small bug fix is being tested with aim to push to UAT early in the week and target production release pending sign-offs.",
       "pillar": "DET",
       "meeting_title": "07/05/2026 - May, 7th Grooming Session",
+      "meeting_url": "https://www.notion.so/07-05-2026-May-7th-Grooming-Session-359195bb0be881608061d49ba7b492d8",
       "date": "2026-05-07"
     },
     {
       "text": "Visibility and planning items were agreed: continued planning will compute team capacity for sprint planning (led by Mohan with inputs), backlog screenshots/lists will be exchanged for ticket visibility, and four stories remain targeted for the 2021 release with approvals in place and deploy/post-deploy steps pending review.",
       "pillar": "DET",
       "meeting_title": "07/05/2026 - May, 7th Grooming Session",
+      "meeting_url": "https://www.notion.so/07-05-2026-May-7th-Grooming-Session-359195bb0be881608061d49ba7b492d8",
       "date": "2026-05-07"
     },
     {
       "text": "Repository and release status: Valerie reduced errors to nine across repos, identified missing methods in sales and sales-support, and will fix AX Finance and create a follow-up for finance commission. Several PRs were merged or updated; Valerie will review remaining PRs. GovCloud demo was shared with Drashti for testing and deployments are staged so builds can be testable by Monday pending confirmation. One release includes a record-type change exposing an ownership-transfer issue when PSR records are deleted; the team agreed this is not a UAT blocker and will be fixed in a later sprint.",
       "pillar": "DET",
       "meeting_title": "07/05/2026 - May, 7th DSU",
+      "meeting_url": "https://www.notion.so/07-05-2026-May-7th-DSU-359195bb0be88167a307c5640aaa06c9",
       "date": "2026-05-07"
     },
     {
       "text": "QA and automation: Anita reported QA6 automation running in Jenkins with Slack notifications but low pass rates due to test-data differences; she expects closure by tomorrow evening and confirmed a popup fix and sign-off for another story. Amit created a QA6 issue tied to CPU time limits from large record volumes, validated a scheduled flow with a working filter, and awaits Slavik’s intake contact to progress the related story. Dev-six data loads are mostly fine; one story pending release for testing could close after tomorrow’s testing.",
       "pillar": "DET",
       "meeting_title": "07/05/2026 - May, 7th DSU",
+      "meeting_url": "https://www.notion.so/07-05-2026-May-7th-DSU-359195bb0be88167a307c5640aaa06c9",
       "date": "2026-05-07"
     },
     {
       "text": "Operational and post-deploy items: A story requires a post-deployment step because a skill ID is not available in UAT; Venkat recommended creating a new flow version and re-adding LATAM, and a participant will add precise click-through post-deploy steps to the run list. One story is blocked pending TMP action and may return to backlog if the TMP adjustment is not made. Participant 6 re-extracted one month of logs to classify defects and will post three to five critical bugs to Chatter for backlog creation; Participant 1 will start creating those stories after validation.",
       "pillar": "DET",
       "meeting_title": "07/05/2026 - May, 7th DSU",
+      "meeting_url": "https://www.notion.so/07-05-2026-May-7th-DSU-359195bb0be88167a307c5640aaa06c9",
       "date": "2026-05-07"
     },
     {
       "text": "Backlog and work in progress: the team walked backlog items in order, confirmed several stories have requirements and are ready, and noted commissions case updates and a permissions-inheritance tightening are being worked in the current sprint. Items three and four are linked with four blocked by completion of three; the relationship of item two to those remains unresolved. Several triaged, unassigned items are likely to roll into sprint 5B starting Monday.",
       "pillar": "Anima",
       "meeting_title": "06/05/2026 - Alinhamento com Drashti sobre US do F&E Sheet",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-com-Drashti-sobre-US-do-F-E-Sheet-358195bb0be881b2aaaedcd3e174cc75",
       "date": "2026-05-06"
     },
     {
       "text": "Testing and deployments: UAT is in progress for one story with testing expected to finish by end of week and a potential production deployment early next week (Monday/Tuesday). Story five has a demo and appears UAT-ready; QA/business testing ownership (Jessica or another participant) is pending confirmation for later this week. An approval-access modification had incorrect FNE/GUS links that the team agreed to clean up and to verify acceptance criteria via async discussion or a four-way call if necessary.",
       "pillar": "Anima",
       "meeting_title": "06/05/2026 - Alinhamento com Drashti sobre US do F&E Sheet",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-com-Drashti-sobre-US-do-F-E-Sheet-358195bb0be881b2aaaedcd3e174cc75",
       "date": "2026-05-06"
     },
     {
       "text": "Ownership and follow-ups: Jessica owns a Kmod/Govern Cloud-linked item that requires follow-up with Kilton. An omni-channel assignment issue was flagged as an investigation task for engineers due to uneven case routing. The team agreed to share GUS links, post requirements in G Suite, and conduct async discussions in GUS/Slack to confirm ownership and timing for QA, deployment, and blocked items.",
       "pillar": "Anima",
       "meeting_title": "06/05/2026 - Alinhamento com Drashti sobre US do F&E Sheet",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-com-Drashti-sobre-US-do-F-E-Sheet-358195bb0be881b2aaaedcd3e174cc75",
       "date": "2026-05-06"
     },
     {
       "text": "A reunião descreveu o fluxo operacional ao criar grupos de tarefas (um principal e dois dependentes) para conjuntos de produtos e validou o comportamento observado como desejado. Foram demonstradas a interface e as regras de estado associadas à criação e execução das tarefas.",
       "pillar": "Anima",
       "meeting_title": "06/05/2026 - Alinhamento atualizacao do status do cadastro com Cleison",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-atualizacao-do-status-do-cadastro-com-Cleison-358195bb0be8816e8e0fd334c74e10ba",
       "date": "2026-05-06"
     },
     {
       "text": "Processo de criação: ao criar o grupo com sete produtos, o sistema gera três tarefas por produto (uma por cada grupo) e todos os produtos passam imediatamente para o estado \"G1 aberto\", independentemente do estado anterior. Cada tarefa é atribuída ao grupo correspondente (principal ou dependente).",
       "pillar": "Anima",
       "meeting_title": "06/05/2026 - Alinhamento atualizacao do status do cadastro com Cleison",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-atualizacao-do-status-do-cadastro-com-Cleison-358195bb0be8816e8e0fd334c74e10ba",
       "date": "2026-05-06"
     },
     {
       "text": "Execução paralela e estados: as equipes trabalham em paralelo; quando qualquer equipe inicia sua tarefa, o estado daquele produto muda de \"aberto\" para \"em andamento\", mesmo que outras tarefas do mesmo produto permaneçam pendentes. O produto só é marcado como concluído quando todas as tarefas vinculadas forem finalizadas.",
       "pillar": "Anima",
       "meeting_title": "06/05/2026 - Alinhamento atualizacao do status do cadastro com Cleison",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-atualizacao-do-status-do-cadastro-com-Cleison-358195bb0be8816e8e0fd334c74e10ba",
       "date": "2026-05-06"
     },
     {
       "text": "Impacto operacional e riscos: a criação inicial reduz o volume de atualizações no cadastro, pois o conjunto de tarefas é gerado de uma vez e cada produto segue sua vida independente. Foi identificado um risco operacional: após entrega, o uso pode revelar problemas de processamento que exigirão retorno da equipe ao projeto para correções e acompanhamento.",
       "pillar": "Anima",
       "meeting_title": "06/05/2026 - Alinhamento atualizacao do status do cadastro com Cleison",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-atualizacao-do-status-do-cadastro-com-Cleison-358195bb0be8816e8e0fd334c74e10ba",
       "date": "2026-05-06"
     },
     {
       "text": "Modelo de SKU: foi confirmado que um SKU representa um produto distinto por intake; clones ou novos SKUs não afetam históricos de semestres anteriores, permitindo execuções independentes e catálogos separados quando necessário.",
       "pillar": "Anima",
       "meeting_title": "06/05/2026 - Alinhamento atualizacao do status do cadastro com Cleison",
+      "meeting_url": "https://www.notion.so/06-05-2026-Alinhamento-atualizacao-do-status-do-cadastro-com-Cleison-358195bb0be8816e8e0fd334c74e10ba",
       "date": "2026-05-06"
     },
     {
       "text": "A reunião tratou da finalização da entrega 2, com decisões sobre configuração de percentuais, desenho de fluxo para conclusão de grupos dependentes e alinhamento de testes end-to-end e impactos de integração. Foi confirmado o prazo de entrega para o dia 15 e solicitado que Jarin configure 80% de retribuição de tarefa.",
       "pillar": "Anima",
       "meeting_title": "06/05/2026 - daily",
+      "meeting_url": "https://www.notion.so/06-05-2026-daily-358195bb0be881639fd6f7b8deb2662e",
       "date": "2026-05-06"
     },
     {
       "text": "Na discussão técnica Fabrício propôs mitigar carga salvando o histórico de carimbo apenas no último registro criado para dependentes, aceitando que timestamps fiquem iguais para usuários, em vez de gravar individualmente e gerar alto custo de processamento. O time concordou que a mitigação precisa ser resolvida via integração para evitar sobrecarga nos consumidores de eventos.",
       "pillar": "Anima",
       "meeting_title": "06/05/2026 - daily",
+      "meeting_url": "https://www.notion.so/06-05-2026-daily-358195bb0be881639fd6f7b8deb2662e",
       "date": "2026-05-06"
     },
     {
       "text": "Sobre testes, Matheus reportou correção de lógica em dois cards e pretende validar com o time. Foi agendado sanity test com Clayson e Dri às 14h para iniciar avaliação end-to-end de perfis e fluxos; reconheceu-se que sanity e regressões não serão concluídos rapidamente e há risco de não finalizar testes antes da carga de dados. A equipe combinou usar a reunião de sexta-feira para tentativa end-to-end e acompanhamento, cancelar a reunião atual e comunicar interessados; Jarinho/Pedro foram instruídos a prever acompanhamento na sexta. Houve consenso em não envolver a área de negócio em todas as decisões, mas em consultar André/Dan sobre impacto de processamento e manter alternativa de diálogo com o negócio caso necessário. Registros de risco e necessidade de testes regressivos foram destacados como pendentes.",
       "pillar": "Anima",
       "meeting_title": "06/05/2026 - daily",
+      "meeting_url": "https://www.notion.so/06-05-2026-daily-358195bb0be881639fd6f7b8deb2662e",
       "date": "2026-05-06"
     },
     {
       "text": "A reunião teve como objetivo alinhar o fluxo de criação de grupos de tarefas com foco em filas dependentes e a regra de automação que atualiza o status do cadastro-produto. O time definiu que a criação em paralelo de grupos (G1) torna o carimbo de versão irrelevante para o sistema, mantendo-o apenas como histórico, e que a release 15 não incluirá atualização automática do cadastro — essa automação entrará na release 16. Foi aprovada a proposta de interface com um campo multi-picklist para filas dependentes, recarregamento do modal, herança de produto/atividade (e possivelmente datas), bloqueio de campos e edição restrita nas filas filhas (apenas descrição e versão).",
       "pillar": "Anima",
       "meeting_title": "05/05/2026 - Refinamento Movimento do status do cadastro",
+      "meeting_url": "https://www.notion.so/05-05-2026-Refinamento-Movimento-do-status-do-cadastro-357195bb0be8810e9f0af7212bd70d07",
       "date": "2026-05-05"
     },
     {
       "text": "Discutiu-se a necessidade de um parâmetro/flag para indicar quando um Grupo de Tarefas (GT) deve impactar o status do cadastro-produto, optando por uma abordagem conservadora: somente GTs marcados como dependentes ou sinalizados acionarão a automação. Concordou-se que \"concluído\" só faz sentido quando todas as tarefas do grupo estão finalizadas e que a transição para \"liberado para inscrição\" permanece manual via CSV hoje, gerando risco operacional se múltiplos GTs sobrescreverem status. Foi levantada a questão de catálogos abertos por intake em semestres diferentes, o que pode reverter estados; mitigação proposta inclui exposição de histórico e alertas de confirmação. Foram atribuídas responsabilidades técnicas (Cleilson, Matheus, Fabrício), citadas integrações com Codex e sandboxes, marcada oficina para POs no dia 12 e combinado que Tom reescreverá a história para Fabrício e Cleilson revisarem.",
       "pillar": "Anima",
       "meeting_title": "05/05/2026 - Refinamento Movimento do status do cadastro",
+      "meeting_url": "https://www.notion.so/05-05-2026-Refinamento-Movimento-do-status-do-cadastro-357195bb0be8810e9f0af7212bd70d07",
       "date": "2026-05-05"
     },
     {
       "text": "O participante 3 relatou que seu computador está bloqueado pelo BitLocker e que precisa do suporte do TechForce, descrevendo o processo de três camadas de verificação e que a data de início registrada impede a assistência por aparecer no futuro; ele acionou o TechForce e planeja novas tentativas, considerando também contato com a empresa que forneceu o equipamento no Brasil. O participante 2 reiterou disponibilidade para colaborar durante o encontro.",
       "pillar": "VLI Innovation Day",
       "meeting_title": "05/05/2026 - alinhamento com bruno parte 2",
+      "meeting_url": "https://www.notion.so/05-05-2026-alinhamento-com-bruno-parte-2-357195bb0be88143aa02dd85552f2a0e",
       "date": "2026-05-05"
     },
     {
       "text": "Em seguida foram validados fluxos de tarefa e status (novo, em andamento, bloqueado, pendente) e discutida a influência desses status no agrupamento e futuramente no produto/cadastro; foi demonstrado o comportamento atual e a mudança esperada na próxima entrega, incluindo ausência temporária de botões como devolver e reatribuir. Definiu‑se que apenas o grupo da Larissa criará tarefas e que será necessário rever acessos com Maraíba para homologação ponta a ponta. Foram tratadas opções de importação/clonagem de portfólios, necessidade de cargas assistidas pelo time ZAMP para preservar chaves e vínculos, proposta de simulação com portfólio 26.1 antes do comitê do dia 18 e ajustes pendentes em picklist e acessos. Permaneceram algumas tarefas operacionais e responsáveis para validar pontos específicos.",
       "pillar": "Anima",
       "meeting_title": "04/05/2026 - Review Sprint 15",
+      "meeting_url": "https://www.notion.so/04-05-2026-Review-Sprint-15-357195bb0be88189927ce697e433e5bc",
       "date": "2026-05-04"
     },
     {
       "text": "Participants agreed to demonstrate the updates to a developer and QA via a short walkthrough involving Dana, Anu, Yumi, and a BT-team member to prevent implementation errors, and to explore transferring work already completed in a non-UAD environment into UAD if feasible. Drashti committed to investigate the cheat-sheet entry and provide the business document link, and Kilton committed to schedule the walkthrough meeting either the following morning or Monday depending on Dana’s availability. Open items remain the cheat-sheet reconciliation and the environment transfer feasibility.",
       "pillar": "DET",
       "meeting_title": "30/04/2026 - [F&E Alignment] Scope Walkthrough: Fixed Fee / Contract Modification",
+      "meeting_url": "https://www.notion.so/30-04-2026-F-E-Alignment-Scope-Walkthrough-Fixed-Fee-Contract-Modification-352195bb0be881469e23c4d688c3a799",
       "date": "2026-04-30"
     },
     {
       "text": "Em um exemplo prático com o produto \"Farmácia Jacobina\" definiu-se modelo de venda padrão, preço de lista e a criação de uma tarefa que dispara para a fila de pricing; Marcela foi apontada para preencher os dados enquanto Túlio (financeiro) ficará responsável por gerar o SKU retroativamente. O time demonstrou preenchimentos dependentes do produto-pai (incentivos, bolsa, matrículas, prazos), a configuração de validade por SKAL, o fluxo de conclusão de tarefas em grupo com transição entre G1 e G2, e o registro de histórico/versionamento. Foi solicitada uma demo em QA do histórico carimbado e alinhada a validação com a outra equipe (Stargate) e a liberação de acessos em produção.",
       "pillar": "Anima",
       "meeting_title": "29/04/2026 - Ponta a Ponta Release 1 com o Negocio",
+      "meeting_url": "https://www.notion.so/29-04-2026-Ponta-a-Ponta-Release-1-com-o-Negocio-351195bb0be881568150c3eb6639d49d",
       "date": "2026-04-29"
     },
     {
       "text": "The meeting reviewed sprint readiness and onboarding ramp for Kilton using the Linear tool, focusing on ensuring the team — including new contractors — has enough prepared work to stay productive. The discussion began with the current sprint status and availability; participants noted contractors are productive but need at least two sprints of prepared backlog to avoid idle time. Kilton described documenting reasons stories are blocked and working to unblock items ahead of planning. Mohan recommended stronger grooming practices, capturing capacity before planning, and using a Kanban board for specific workstreams such as agent deployments.",
       "pillar": "DET",
       "meeting_title": "29/04/2026 - Sprint Backlog Readiness",
+      "meeting_url": "https://www.notion.so/29-04-2026-Sprint-Backlog-Readiness-351195bb0be88146ab0fd1e560c9860d",
       "date": "2026-04-29"
     },
     {
       "text": "The meeting was a grooming session to review new backlog items, confirm blockers on waiting stories, and size selected work. The team opened by restricting the agenda to new stories and noting that waiting items would retain documented reasons pending follow-up. The RevRack/Omni-channel capacity story was presented and discussed in detail: the change aims to prevent manually assigned non-RevRack cases from consuming Omni capacity, the technical trigger points were reviewed, and planning poker produced a median estimate of five. A contract modification automation story was identified as overlapping with another team's work and was moved to waiting pending confirmation from Drashti and Rusty and verification of a May 22 deployment dependency. An agent-response story to exclude historical case data from AI replies was accepted by a developer who requested sample records and live examples to clarify triggers and data sources. The team also reviewed a KMOD auto-approval restriction for ISV reseller cases, confirmed intended behavior for routing to manual review based on reseller contract types or price book, estimated the story at three, and moved it to triage. Kilton committed to attaching existing documentation to the ticket and to tracking and unblocking waiting items raised in the discussion.",
       "pillar": "DET",
       "meeting_title": "29/04/2026 - DET Grooming Session.mp4",
+      "meeting_url": "https://www.notion.so/29-04-2026-DET-Grooming-Session-mp4-351195bb0be881bc9685cb81e5af68e3",
       "date": "2026-04-29"
     },
     {
       "text": "Houve alinhamento sobre priorização do backlog e compromisso de fatiar e escrever histórias após o almoço para organizar as iterações 15 e 16, visando PRD em 15 de maio. O time combinou validações em QA com Adriana e outros perfis para confirmar 100% antes da homologação de negócio e tentou aproveitar o refinamento de segunda-feira para alocar homologação. Foram também definidas tarefas de validação de componentes e uma reatribuição/bloqueio de tarefas por um desenvolvedor até 12:30. Encerrou-se com confiança mútua, menção ao Paradoxo de Stockdale para explicar esperança versus otimismo na equipe, e registro de uma lista de atividades pendentes e coordenação informal pós-almoço.",
       "pillar": "DET",
       "meeting_title": "29/04/2026 - Daily",
+      "meeting_url": "https://www.notion.so/29-04-2026-Daily-351195bb0be88132a001f3234505f6b8",
       "date": "2026-04-29"
     },
     {
       "text": "A reunião teve como objetivo organizar o recorte da sprint 15 para 16, detalhar o fluxo de criação de catálogos e definir responsabilidades e permissões para gestão do portfólio. Inicialmente foram alinhadas ações de sprint: fechar a 15, preparar o recorte para a 16 e escrever histórias para manter o time produtivo, com pedido explícito para cobrança sobre resposta pendente ao Dre; também foi solicitado incluir Matheus na lista de acessos ao catálogo e avaliada a opção de usar o ambiente de UAT para testes finais.",
       "pillar": "Anima",
       "meeting_title": "29/04/2026 - Alinhamento Interno Acessos e Perfis ",
+      "meeting_url": "https://www.notion.so/29-04-2026-Alinhamento-Interno-Acessos-e-Perfis-351195bb0be8818e87cde2ac7a90e679",
       "date": "2026-04-29"
     },
     {
       "text": "A gravação registra uma breve reunião operacional focada em organização de agendas e alocação de participantes para validações e apurações de atividades ao longo do dia e dias seguintes. Kilton Fernandes informou que a equipe de São Paulo fará avaliações e apurações para o dia, tarde, noite e dias subsequentes, e mencionou dificuldades na tabulação do processo com o autor envolvido. Houve checagens de áudio e dificuldades técnicas, com Kilton e outros confirmando problemas de som e reconexão antes de estabilizar a chamada. Kilton comunicou que já havia orientado os meninos para que ao menos um participe da agenda prevista para mais tarde e reforçou que haverá uma primeira validação do acadêmico com foco também no consumo para fechar o ciclo. Por fim, Kilton informou que precisava sair para outra reunião técnica e se despediu após confirmar que não havia pontos pendentes a tratar com ele.",
       "pillar": "Anima",
       "meeting_title": "29/04/2026 - Checkpoint",
+      "meeting_url": "https://www.notion.so/29-04-2026-Checkpoint-351195bb0be881c987a4e0fb1acfdb93",
       "date": "2026-04-29"
     },
     {
       "text": "The group covered onboarding and support: a Wave 1 canvas, a DET Linear Onboarding Support Channel, a playbook and FAQs, and named customer success and engineering contacts. Integration constraints and decisions were clarified: every Linear team must have a corresponding GUS entry to avoid pipeline failures, GUS will become historical after the migration deadline at the end of Q2, a security-bug-and-dependency sync is blocked with a workaround in progress, there is no current plan to auto-route P360 intake, and licenses currently cover only DET personnel and business partners lack direct license coverage. Open questions about routing, Slack/Okta rollout, and tagging requirements remain.",
       "pillar": "DET",
       "meeting_title": "28/04/2026 - Linear Basics_ AMER_EMEA Friendly  pt 1",
+      "meeting_url": "https://www.notion.so/28-04-2026-Linear-Basics_-AMER_EMEA-Friendly-pt-1-351195bb0be8812b9647ea627ce2740f",
       "date": "2026-04-28"
     },
     {
       "text": "The meeting reviewed Sprint 4A closed and rolling stories to prioritize work and assign items for Sprint 4B. The team validated rollovers including GovCloud case approval and logic optimization, confirmed product support and data story statuses, and pushed a scalability logging task forward after insufficient time. In-progress follow-ups were identified for channel bot updates, sales report data-cloud migration blocked by data-cloud bugs, sandbox refresh work split between QA and dev, and onboarding documentation already noted in Quip.",
       "pillar": "DET",
       "meeting_title": "24/04/2026 - DET Sprint 4B Planning.mp4",
+      "meeting_url": "https://www.notion.so/24-04-2026-DET-Sprint-4B-Planning-mp4-351195bb0be8817aab99faab10b34379",
       "date": "2026-04-24"
     },
     {
       "text": "During backlog triage the group confirmed sizes, owners, and QA responsibilities for multiple stories and agreed to calculate sprint capacity before finalizing assignments because of a public holiday and planned time off. Several stories were identified as externally blocked by picklist cleanup, a production freeze, or awaiting business examples; the team decided to move fully blocked items to backlog or waiting and to document reasons in Chatter. Technical topics discussed included removing an incorrect Omni queue validation rule, debugging agent/Udesk utterance collisions, and a spike on Slack permission/visibility tied to Org62. The team evaluated an email-to-case test approach using a shared Gmail box and noted provisioning dependencies. Venkat agreed to take a metadata migration ask and consult Harish for complexity and pointing, Anu was suggested for QA, an Agent Force item was rolled over, a five-point QE automation story was created for Anitha, acceptance criteria and technical debt stories were assigned, and a DET Sales Engineering Standards check remained pending with Val.",
       "pillar": "DET",
       "meeting_title": "24/04/2026 - DET Sprint 4B Planning.mp4",
+      "meeting_url": "https://www.notion.so/24-04-2026-DET-Sprint-4B-Planning-mp4-351195bb0be8817aab99faab10b34379",
       "date": "2026-04-24"
     }
   ],
