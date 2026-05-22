@@ -32,3 +32,5 @@ build_plano_com_jepp.py
 diario/
 rendered_plano_jepp/
 reuniao-familiar-vem-e-segue-me-*.md
+
+.vercel
