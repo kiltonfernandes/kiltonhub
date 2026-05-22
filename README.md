@@ -1,17 +1,53 @@
 # Meeting Cockpit
 
-Web app para acompanhar reunioes capturadas no Read AI e organizadas no Notion. O fluxo usa Python para transformar transcricoes, resumos, action items, perguntas, decisoes e bloqueios em um JSON analitico servido pelo Vite/React.
+Web app para transformar reunioes capturadas no Read AI e organizadas no Notion em um hub operacional de triage, tarefas, decisoes, riscos, dependencias e memoria.
 
-O Notion funciona como backend operacional. Um workflow do GitHub Actions pode rodar de hora em hora, buscar a carga completa da database, recalcular o artefato analitico e commitar o JSON atualizado para disparar novo deploy.
+O Notion funciona como banco de dados. A camada de IA recomendada e uma automacao nativa do ChatGPT usando MCP/Notion: ela le as reunioes das ultimas 24h, processa o bruto e preenche databases derivadas. O Meeting Cockpit vira a interface de gestao.
 
-## Meeting Analytics
+## Notion-native Hub
 
-Pipeline atual:
+Databases derivadas esperadas:
+
+- `Meeting Cockpit - Triage`
+- `Meeting Cockpit - Tasks`
+- `Meeting Cockpit - Decisions`
+- `Meeting Cockpit - Risks`
+- `Meeting Cockpit - Questions`
+- `Meeting Cockpit - Companies / Pillars`
+
+Variaveis de ambiente para a Vercel:
+
+```text
+NOTION_TOKEN
+NOTION_TRIAGE_DATABASE_ID
+NOTION_TASKS_DATABASE_ID
+NOTION_DECISIONS_DATABASE_ID
+NOTION_RISKS_DATABASE_ID
+NOTION_QUESTIONS_DATABASE_ID
+```
+
+Quando essas variaveis existem, o endpoint `/api/notion-hub` le as databases derivadas e o check de tarefas atualiza o `Status` no Notion. Quando elas nao existem, o app usa o dataset analitico local como fallback.
+
+## ChatGPT Automation
+
+Use [`docs/chatgpt-notion-automation.md`](./docs/chatgpt-notion-automation.md) como prompt/spec da automacao nativa do ChatGPT.
+
+Fluxo desejado:
+
+1. Automacao busca reunioes criadas ou editadas nas ultimas 24h.
+2. IA extrai Tasks, Decisions, Risks e Questions.
+3. Cada item entra primeiro em `Triage`, com `Stable Key`, origem, trecho e confianca.
+4. Itens aprovados podem virar registros operacionais nas databases finais.
+5. Meeting Cockpit le o Notion e permite gerir execucao.
+
+## Meeting Analytics Fallback
+
+O fallback local ainda existe para desenvolvimento e demo:
 
 1. `data/meeting_notes_seed.json` guarda uma amostra inicial extraida da database `Read AI Meeting Notes`.
 2. `scripts/analyze_meetings.py` normaliza datas, tokeniza texto, remove stopwords, calcula recorrencias, TF-IDF por `Pillar`, action items, blockers, decisoes, perguntas e timeline.
 3. `public/data/meeting_analytics.json` e gerado como artefato estatico para a web app consumir.
-4. `src/App.jsx` renderiza dashboard por `Pillar` e `Epic`, word cloud das transcricoes, pendencias, bloqueios, decisoes, timeline e lista auditavel de reunioes.
+4. `src/App.jsx` renderiza Triage, Task Hub, Riscos, Memoria, Questions, word cloud e lista auditavel de reunioes.
 
 Comandos:
 
@@ -24,21 +60,12 @@ npm run build
 
 O `prebuild` roda o pipeline Python automaticamente antes do build, entao o deploy na Vercel sempre empacota o JSON mais recente que estiver no repo.
 
-## Notion Sync
-
-Configure estes itens em `Settings > Secrets and variables > Actions` no GitHub:
-
-- Secret `NOTION_TOKEN`
-- Secret `NOTION_DATABASE_ID`
-- Variable opcional `NOTION_SYNC_LIMIT`, apenas para testes locais ou cargas parciais. O workflow oficial nao usa limite.
-
-O workflow `.github/workflows/sync_meeting_analytics.yml` roda no minuto 7 de cada hora e tambem pode ser disparado manualmente por `workflow_dispatch`.
-
 ## Next Steps
 
-- Trocar `meeting_notes_seed.json` por uma exportacao completa da database do Notion.
-- Adicionar uma rotina de sync via Notion API ou export JSON agendado.
-- Persistir status de action items em uma database derivada, em vez de depender apenas da extracao textual.
+- Criar as databases derivadas no Notion.
+- Configurar as variaveis de ambiente no Vercel.
+- Configurar a automacao nativa do ChatGPT com MCP/Notion.
+- Evoluir o fluxo de Triage para aprovar/rejeitar/mover itens diretamente pelo app.
 
 ---
 
