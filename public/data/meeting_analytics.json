@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T23:22:29.306944+00:00",
+  "generated_at": "2026-05-22T00:22:15.816220+00:00",
   "source": {
     "kind": "notion-read-ai-seed",
     "database_id": "11bd0217325e4dd9a7fac0a27b69fd48",
@@ -33,36 +33,36 @@
       ],
       "top_terms": [
         {
-          "term": "não",
-          "score": 27.6235
+          "term": "produto",
+          "score": 5.5152
         },
         {
-          "term": "gente",
-          "score": 19.4689
+          "term": "tarefas",
+          "score": 3.6138
         },
         {
-          "term": "aqui",
-          "score": 16.2319
+          "term": "catálogo",
+          "score": 3.5324
         },
         {
-          "term": "vai",
-          "score": 13.9214
+          "term": "grupo",
+          "score": 3.1851
         },
         {
-          "term": "tem",
-          "score": 12.5426
+          "term": "parcial",
+          "score": 3.1203
         },
         {
-          "term": "pra",
-          "score": 10.7599
+          "term": "fila",
+          "score": 2.982
         },
         {
-          "term": "você",
-          "score": 10.6495
+          "term": "tarefa",
+          "score": 2.7865
         },
         {
-          "term": "então",
-          "score": 8.0461
+          "term": "produção",
+          "score": 2.7273
         }
       ],
       "recent_meetings": [
@@ -117,36 +117,36 @@
       ],
       "top_terms": [
         {
-          "term": "you",
-          "score": 22.5678
+          "term": "access",
+          "score": 7.1317
         },
         {
-          "term": "have",
-          "score": 10.9185
+          "term": "case",
+          "score": 6.0184
         },
         {
-          "term": "can",
-          "score": 9.7552
+          "term": "error",
+          "score": 3.5827
         },
         {
-          "term": "but",
-          "score": 7.2781
+          "term": "release",
+          "score": 3.3936
         },
         {
-          "term": "yeah",
-          "score": 6.8268
+          "term": "flow",
+          "score": 3.2373
         },
         {
-          "term": "like",
-          "score": 6.7684
+          "term": "uat",
+          "score": 3.1948
         },
         {
-          "term": "one",
-          "score": 6.4755
+          "term": "sprint",
+          "score": 3.1469
         },
         {
-          "term": "just",
-          "score": 4.9244
+          "term": "approval",
+          "score": 3.0277
         }
       ],
       "recent_meetings": [
@@ -201,36 +201,36 @@
       ],
       "top_terms": [
         {
-          "term": "you",
-          "score": 3.0573
+          "term": "cloud",
+          "score": 0.5897
         },
         {
-          "term": "yeah",
-          "score": 1.532
+          "term": "salesforce",
+          "score": 0.4526
         },
         {
-          "term": "have",
-          "score": 1.1346
+          "term": "classes",
+          "score": 0.4346
         },
         {
-          "term": "kilton",
-          "score": 1.124
+          "term": "manual",
+          "score": 0.4014
         },
         {
-          "term": "but",
-          "score": 1.082
+          "term": "access",
+          "score": 0.3962
         },
         {
-          "term": "don",
-          "score": 0.992
+          "term": "linear",
+          "score": 0.3838
         },
         {
-          "term": "very",
-          "score": 0.9738
+          "term": "demo",
+          "score": 0.3713
         },
         {
-          "term": "what",
-          "score": 0.9214
+          "term": "mostrar",
+          "score": 0.3643
         }
       ],
       "recent_meetings": [
@@ -289,36 +289,36 @@
       ],
       "top_terms": [
         {
-          "term": "não",
-          "score": 2.2259
+          "term": "cloud",
+          "score": 1.1838
         },
         {
-          "term": "você",
-          "score": 1.3352
+          "term": "participante",
+          "score": 0.4747
         },
         {
-          "term": "aqui",
-          "score": 1.1996
+          "term": "price",
+          "score": 0.3898
         },
         {
-          "term": "gente",
-          "score": 0.9536
+          "term": "coloquei",
+          "score": 0.2871
         },
         {
-          "term": "vou",
-          "score": 0.9364
+          "term": "cliente",
+          "score": 0.2675
         },
         {
-          "term": "pra",
-          "score": 0.8607
+          "term": "obrigado",
+          "score": 0.2629
         },
         {
-          "term": "vai",
-          "score": 0.8436
+          "term": "criação",
+          "score": 0.2564
         },
         {
-          "term": "então",
-          "score": 0.774
+          "term": "salesforce",
+          "score": 0.229
         }
       ],
       "recent_meetings": [
@@ -373,36 +373,16 @@
       ],
       "top_terms": [
         {
-          "term": "gente",
-          "score": 1.3244
+          "term": "começar",
+          "score": 0.1324
         },
         {
-          "term": "não",
-          "score": 0.8119
+          "term": "sexta-feira",
+          "score": 0.1281
         },
         {
-          "term": "então",
-          "score": 0.4672
-        },
-        {
-          "term": "tem",
-          "score": 0.3508
-        },
-        {
-          "term": "vocês",
-          "score": 0.3403
-        },
-        {
-          "term": "pra",
-          "score": 0.2994
-        },
-        {
-          "term": "aqui",
-          "score": 0.2873
-        },
-        {
-          "term": "muito",
-          "score": 0.2863
+          "term": "importante",
+          "score": 0.1165
         }
       ],
       "recent_meetings": [
@@ -441,36 +421,20 @@
       ],
       "top_terms": [
         {
-          "term": "you",
-          "score": 0.7078
+          "term": "price",
+          "score": 0.2928
         },
         {
-          "term": "but",
-          "score": 0.265
+          "term": "case",
+          "score": 0.2534
         },
         {
-          "term": "very",
-          "score": 0.2378
+          "term": "project",
+          "score": 0.2442
         },
         {
-          "term": "have",
-          "score": 0.2269
-        },
-        {
-          "term": "not",
-          "score": 0.1834
-        },
-        {
-          "term": "two",
-          "score": 0.142
-        },
-        {
-          "term": "one",
-          "score": 0.1414
-        },
-        {
-          "term": "can",
-          "score": 0.1347
+          "term": "correct",
+          "score": 0.1465
         }
       ],
       "recent_meetings": [
@@ -487,421 +451,421 @@
   ],
   "word_cloud": [
     {
-      "term": "não",
-      "count": 6394,
+      "term": "case",
+      "count": 47,
       "weight": 1.0,
       "size": 44,
       "tone": 0
     },
     {
-      "term": "gente",
-      "count": 4860,
-      "weight": 0.734,
-      "size": 36,
+      "term": "access",
+      "count": 35,
+      "weight": 0.832,
+      "size": 39,
       "tone": 1
     },
     {
-      "term": "speaker",
-      "count": 4672,
-      "weight": 0.701,
-      "size": 35,
+      "term": "produto",
+      "count": 49,
+      "weight": 0.802,
+      "size": 38,
       "tone": 2
     },
     {
-      "term": "you",
-      "count": 4385,
-      "weight": 0.651,
-      "size": 34,
+      "term": "tarefas",
+      "count": 52,
+      "weight": 0.734,
+      "size": 36,
       "tone": 3
     },
     {
-      "term": "aqui",
-      "count": 3973,
-      "weight": 0.58,
-      "size": 31,
+      "term": "testes",
+      "count": 49,
+      "weight": 0.712,
+      "size": 35,
       "tone": 4
     },
     {
-      "term": "unknown",
-      "count": 3904,
-      "weight": 0.568,
-      "size": 31,
+      "term": "grupo",
+      "count": 50,
+      "weight": 0.679,
+      "size": 34,
       "tone": 0
     },
     {
-      "term": "vai",
-      "count": 3245,
+      "term": "status",
+      "count": 67,
+      "weight": 0.573,
+      "size": 31,
+      "tone": 1
+    },
+    {
+      "term": "tarefa",
+      "count": 42,
+      "weight": 0.535,
+      "size": 30,
+      "tone": 2
+    },
+    {
+      "term": "slack",
+      "count": 39,
+      "weight": 0.522,
+      "size": 30,
+      "tone": 3
+    },
+    {
+      "term": "usuário",
+      "count": 46,
+      "weight": 0.513,
+      "size": 29,
+      "tone": 4
+    },
+    {
+      "term": "sprint",
+      "count": 46,
+      "weight": 0.49,
+      "size": 29,
+      "tone": 0
+    },
+    {
+      "term": "teste",
+      "count": 48,
       "weight": 0.453,
       "size": 28,
       "tone": 1
     },
     {
-      "term": "tem",
-      "count": 2941,
-      "weight": 0.401,
+      "term": "produção",
+      "count": 39,
+      "weight": 0.397,
       "size": 26,
       "tone": 2
     },
     {
-      "term": "você",
-      "count": 2842,
-      "weight": 0.384,
-      "size": 26,
+      "term": "catálogo",
+      "count": 37,
+      "weight": 0.377,
+      "size": 25,
       "tone": 3
     },
     {
-      "term": "have",
-      "count": 2419,
-      "weight": 0.31,
+      "term": "acesso",
+      "count": 42,
+      "weight": 0.369,
+      "size": 25,
+      "tone": 4
+    },
+    {
+      "term": "document",
+      "count": 33,
+      "weight": 0.365,
+      "size": 25,
+      "tone": 0
+    },
+    {
+      "term": "perfis",
+      "count": 29,
+      "weight": 0.345,
+      "size": 24,
+      "tone": 1
+    },
+    {
+      "term": "manual",
+      "count": 40,
+      "weight": 0.331,
+      "size": 24,
+      "tone": 2
+    },
+    {
+      "term": "cloud",
+      "count": 33,
+      "weight": 0.326,
+      "size": 24,
+      "tone": 3
+    },
+    {
+      "term": "backlog",
+      "count": 37,
+      "weight": 0.304,
       "size": 23,
       "tone": 4
     },
     {
-      "term": "pra",
-      "count": 2318,
-      "weight": 0.293,
+      "term": "flow",
+      "count": 30,
+      "weight": 0.297,
       "size": 23,
       "tone": 0
     },
     {
-      "term": "can",
-      "count": 2164,
-      "weight": 0.266,
-      "size": 22,
+      "term": "review",
+      "count": 39,
+      "weight": 0.29,
+      "size": 23,
       "tone": 1
     },
     {
-      "term": "então",
-      "count": 2089,
-      "weight": 0.253,
+      "term": "negócio",
+      "count": 48,
+      "weight": 0.278,
       "size": 22,
       "tone": 2
     },
     {
-      "term": "ele",
-      "count": 1902,
-      "weight": 0.22,
+      "term": "produtos",
+      "count": 33,
+      "weight": 0.235,
       "size": 21,
       "tone": 3
     },
     {
-      "term": "fazer",
-      "count": 1725,
-      "weight": 0.19,
-      "size": 20,
+      "term": "release",
+      "count": 32,
+      "weight": 0.231,
+      "size": 21,
       "tone": 4
     },
     {
-      "term": "but",
-      "count": 1698,
-      "weight": 0.185,
+      "term": "support",
+      "count": 42,
+      "weight": 0.201,
       "size": 20,
       "tone": 0
     },
     {
-      "term": "like",
-      "count": 1698,
-      "weight": 0.185,
+      "term": "agent",
+      "count": 29,
+      "weight": 0.191,
       "size": 20,
       "tone": 1
     },
     {
-      "term": "yeah",
-      "count": 1601,
-      "weight": 0.168,
+      "term": "fila",
+      "count": 26,
+      "weight": 0.181,
       "size": 19,
       "tone": 2
     },
     {
-      "term": "vou",
-      "count": 1551,
-      "weight": 0.159,
+      "term": "parcial",
+      "count": 44,
+      "weight": 0.171,
       "size": 19,
       "tone": 3
     },
     {
-      "term": "porque",
-      "count": 1527,
-      "weight": 0.155,
+      "term": "business",
+      "count": 42,
+      "weight": 0.165,
       "size": 19,
       "tone": 4
     },
     {
-      "term": "one",
-      "count": 1487,
-      "weight": 0.148,
+      "term": "fazendo",
+      "count": 60,
+      "weight": 0.156,
+      "size": 19,
+      "tone": 0
+    },
+    {
+      "term": "actually",
+      "count": 46,
+      "weight": 0.144,
+      "size": 18,
+      "tone": 1
+    },
+    {
+      "term": "user",
+      "count": 31,
+      "weight": 0.134,
+      "size": 18,
+      "tone": 2
+    },
+    {
+      "term": "consegue",
+      "count": 60,
+      "weight": 0.132,
+      "size": 18,
+      "tone": 3
+    },
+    {
+      "term": "price",
+      "count": 34,
+      "weight": 0.132,
+      "size": 18,
+      "tone": 4
+    },
+    {
+      "term": "uat",
+      "count": 24,
+      "weight": 0.126,
       "size": 18,
       "tone": 0
     },
     {
-      "term": "what",
-      "count": 1280,
-      "weight": 0.112,
+      "term": "already",
+      "count": 42,
+      "weight": 0.109,
       "size": 17,
       "tone": 1
     },
     {
-      "term": "pode",
-      "count": 1208,
-      "weight": 0.1,
+      "term": "deploy",
+      "count": 30,
+      "weight": 0.102,
       "size": 17,
       "tone": 2
     },
     {
-      "term": "just",
-      "count": 1205,
-      "weight": 0.099,
-      "size": 17,
-      "tone": 3
-    },
-    {
-      "term": "here",
-      "count": 1173,
-      "weight": 0.094,
-      "size": 17,
-      "tone": 4
-    },
-    {
-      "term": "not",
-      "count": 1141,
-      "weight": 0.088,
-      "size": 17,
-      "tone": 0
-    },
-    {
-      "term": "ter",
-      "count": 1117,
-      "weight": 0.084,
-      "size": 17,
-      "tone": 1
-    },
-    {
-      "term": "right",
-      "count": 1087,
-      "weight": 0.079,
-      "size": 16,
-      "tone": 2
-    },
-    {
-      "term": "think",
-      "count": 1076,
-      "weight": 0.077,
+      "term": "perfil",
+      "count": 26,
+      "weight": 0.082,
       "size": 16,
       "tone": 3
     },
     {
-      "term": "they",
-      "count": 1052,
-      "weight": 0.073,
+      "term": "botão",
+      "count": 29,
+      "weight": 0.081,
       "size": 16,
       "tone": 4
     },
     {
-      "term": "okay",
-      "count": 1024,
-      "weight": 0.068,
+      "term": "treinamento",
+      "count": 27,
+      "weight": 0.08,
       "size": 16,
       "tone": 0
     },
     {
-      "term": "there",
-      "count": 994,
-      "weight": 0.063,
+      "term": "error",
+      "count": 20,
+      "weight": 0.075,
       "size": 16,
       "tone": 1
     },
     {
-      "term": "acho",
-      "count": 983,
-      "weight": 0.061,
+      "term": "questions",
+      "count": 43,
+      "weight": 0.072,
       "size": 16,
       "tone": 2
     },
     {
-      "term": "está",
-      "count": 943,
-      "weight": 0.054,
+      "term": "question",
+      "count": 42,
+      "weight": 0.065,
       "size": 16,
       "tone": 3
     },
     {
-      "term": "all",
-      "count": 938,
-      "weight": 0.053,
+      "term": "grupos",
+      "count": 29,
+      "weight": 0.059,
       "size": 16,
       "tone": 4
     },
     {
-      "term": "ela",
-      "count": 930,
-      "weight": 0.052,
+      "term": "pricing",
+      "count": 26,
+      "weight": 0.056,
       "size": 16,
       "tone": 0
     },
     {
-      "term": "assim",
-      "count": 930,
-      "weight": 0.052,
-      "size": 16,
-      "tone": 1
-    },
-    {
-      "term": "know",
-      "count": 903,
-      "weight": 0.047,
-      "size": 15,
-      "tone": 2
-    },
-    {
-      "term": "agora",
-      "count": 864,
-      "weight": 0.04,
-      "size": 15,
-      "tone": 3
-    },
-    {
-      "term": "don",
-      "count": 861,
-      "weight": 0.04,
-      "size": 15,
-      "tone": 4
-    },
-    {
-      "term": "story",
-      "count": 848,
-      "weight": 0.037,
-      "size": 15,
-      "tone": 0
-    },
-    {
-      "term": "time",
-      "count": 843,
-      "weight": 0.037,
+      "term": "obrigado",
+      "count": 54,
+      "weight": 0.046,
       "size": 15,
       "tone": 1
     },
     {
-      "term": "work",
-      "count": 840,
-      "weight": 0.036,
+      "term": "salesforce",
+      "count": 30,
+      "weight": 0.043,
       "size": 15,
       "tone": 2
     },
     {
-      "term": "going",
-      "count": 802,
-      "weight": 0.03,
+      "term": "conseguir",
+      "count": 52,
+      "weight": 0.042,
       "size": 15,
       "tone": 3
     },
     {
-      "term": "também",
-      "count": 796,
-      "weight": 0.028,
+      "term": "demo",
+      "count": 28,
+      "weight": 0.039,
       "size": 15,
       "tone": 4
     },
     {
-      "term": "then",
-      "count": 786,
-      "weight": 0.027,
+      "term": "through",
+      "count": 40,
+      "weight": 0.031,
       "size": 15,
       "tone": 0
     },
     {
-      "term": "vamos",
-      "count": 786,
-      "weight": 0.027,
+      "term": "permission",
+      "count": 26,
+      "weight": 0.022,
       "size": 15,
       "tone": 1
     },
     {
-      "term": "quando",
-      "count": 780,
-      "weight": 0.026,
+      "term": "história",
+      "count": 26,
+      "weight": 0.018,
       "size": 15,
       "tone": 2
     },
     {
-      "term": "beleza",
-      "count": 779,
-      "weight": 0.026,
-      "size": 15,
-      "tone": 3
-    },
-    {
-      "term": "ali",
-      "count": 730,
-      "weight": 0.017,
-      "size": 15,
-      "tone": 4
-    },
-    {
-      "term": "muito",
-      "count": 716,
-      "weight": 0.015,
-      "size": 14,
-      "tone": 0
-    },
-    {
-      "term": "produto",
-      "count": 714,
-      "weight": 0.014,
-      "size": 14,
-      "tone": 1
-    },
-    {
-      "term": "kilton",
-      "count": 714,
-      "weight": 0.014,
-      "size": 14,
-      "tone": 2
-    },
-    {
-      "term": "about",
-      "count": 695,
-      "weight": 0.011,
+      "term": "revenue",
+      "count": 22,
+      "weight": 0.013,
       "size": 14,
       "tone": 3
     },
     {
-      "term": "because",
-      "count": 688,
-      "weight": 0.01,
+      "term": "erro",
+      "count": 29,
+      "weight": 0.009,
       "size": 14,
       "tone": 4
     },
     {
-      "term": "vocês",
-      "count": 678,
-      "weight": 0.008,
+      "term": "processo",
+      "count": 51,
+      "weight": 0.007,
       "size": 14,
       "tone": 0
     },
     {
-      "term": "some",
-      "count": 663,
+      "term": "documento",
+      "count": 28,
       "weight": 0.005,
       "size": 14,
       "tone": 1
     },
     {
-      "term": "see",
-      "count": 659,
-      "weight": 0.005,
+      "term": "trabalho",
+      "count": 50,
+      "weight": 0.004,
       "size": 14,
       "tone": 2
     },
     {
-      "term": "até",
-      "count": 638,
-      "weight": 0.001,
+      "term": "participante",
+      "count": 41,
+      "weight": 0.004,
       "size": 14,
       "tone": 3
     },
     {
-      "term": "coisa",
-      "count": 632,
+      "term": "planning",
+      "count": 27,
       "weight": 0.0,
       "size": 14,
       "tone": 4
@@ -910,316 +874,316 @@
   "word_cloud_by_pillar": {
     "Amanda": [
       {
-        "term": "gente",
-        "count": 407,
+        "term": "alfabetização",
+        "count": 2,
         "weight": 1.0,
         "size": 44,
         "tone": 0
       },
       {
-        "term": "não",
-        "count": 377,
-        "weight": 0.92,
-        "size": 42,
+        "term": "aprender",
+        "count": 2,
+        "weight": 0.43,
+        "size": 27,
         "tone": 1
       },
       {
-        "term": "então",
-        "count": 161,
-        "weight": 0.344,
-        "size": 24,
+        "term": "crianças",
+        "count": 2,
+        "weight": 0.36,
+        "size": 25,
         "tone": 2
       },
       {
-        "term": "tem",
-        "count": 141,
-        "weight": 0.291,
-        "size": 23,
+        "term": "professor",
+        "count": 2,
+        "weight": 0.326,
+        "size": 24,
         "tone": 3
       },
       {
-        "term": "pra",
-        "count": 122,
-        "weight": 0.24,
-        "size": 21,
+        "term": "alfabetização baseada",
+        "count": 2,
+        "weight": 0.291,
+        "size": 23,
         "tone": 4
       },
       {
-        "term": "vocês",
-        "count": 108,
-        "weight": 0.203,
-        "size": 20,
+        "term": "leitura",
+        "count": 2,
+        "weight": 0.289,
+        "size": 23,
         "tone": 0
       },
       {
-        "term": "porque",
-        "count": 101,
-        "weight": 0.184,
-        "size": 20,
+        "term": "começar",
+        "count": 2,
+        "weight": 0.22,
+        "size": 21,
         "tone": 1
       },
       {
-        "term": "aqui",
-        "count": 96,
-        "weight": 0.171,
+        "term": "segundo",
+        "count": 2,
+        "weight": 0.212,
+        "size": 20,
+        "tone": 2
+      },
+      {
+        "term": "criança",
+        "count": 2,
+        "weight": 0.211,
+        "size": 20,
+        "tone": 3
+      },
+      {
+        "term": "acontece",
+        "count": 2,
+        "weight": 0.209,
+        "size": 20,
+        "tone": 4
+      },
+      {
+        "term": "prática",
+        "count": 2,
+        "weight": 0.183,
+        "size": 19,
+        "tone": 0
+      },
+      {
+        "term": "entendendo",
+        "count": 2,
+        "weight": 0.175,
+        "size": 19,
+        "tone": 1
+      },
+      {
+        "term": "professores",
+        "count": 2,
+        "weight": 0.17,
         "size": 19,
         "tone": 2
       },
       {
-        "term": "muito",
-        "count": 86,
-        "weight": 0.144,
+        "term": "presença",
+        "count": 2,
+        "weight": 0.15,
+        "size": 19,
+        "tone": 3
+      },
+      {
+        "term": "pessoas",
+        "count": 2,
+        "weight": 0.141,
+        "size": 18,
+        "tone": 4
+      },
+      {
+        "term": "travando",
+        "count": 2,
+        "weight": 0.138,
+        "size": 18,
+        "tone": 0
+      },
+      {
+        "term": "continuar",
+        "count": 2,
+        "weight": 0.133,
+        "size": 18,
+        "tone": 1
+      },
+      {
+        "term": "fluência",
+        "count": 2,
+        "weight": 0.129,
+        "size": 18,
+        "tone": 2
+      },
+      {
+        "term": "acontecendo",
+        "count": 2,
+        "weight": 0.125,
         "size": 18,
         "tone": 3
       },
       {
-        "term": "você",
-        "count": 84,
-        "weight": 0.139,
+        "term": "questão",
+        "count": 2,
+        "weight": 0.123,
         "size": 18,
         "tone": 4
       },
       {
-        "term": "vai",
-        "count": 74,
-        "weight": 0.112,
+        "term": "errando",
+        "count": 2,
+        "weight": 0.108,
         "size": 17,
         "tone": 0
       },
       {
-        "term": "aula",
-        "count": 72,
-        "weight": 0.107,
+        "term": "importante",
+        "count": 2,
+        "weight": 0.1,
         "size": 17,
         "tone": 1
       },
       {
-        "term": "alfabetização",
-        "count": 66,
-        "weight": 0.091,
+        "term": "diferentes",
+        "count": 2,
+        "weight": 0.088,
         "size": 17,
         "tone": 2
       },
       {
-        "term": "ela",
-        "count": 62,
-        "weight": 0.08,
-        "size": 16,
+        "term": "inteiro",
+        "count": 2,
+        "weight": 0.088,
+        "size": 17,
         "tone": 3
       },
       {
-        "term": "ler",
-        "count": 61,
-        "weight": 0.077,
+        "term": "leitora",
+        "count": 2,
+        "weight": 0.076,
         "size": 16,
         "tone": 4
       },
       {
-        "term": "olha",
-        "count": 61,
-        "weight": 0.077,
+        "term": "verdade",
+        "count": 2,
+        "weight": 0.068,
         "size": 16,
         "tone": 0
       },
       {
-        "term": "consciência",
-        "count": 59,
-        "weight": 0.072,
+        "term": "principalmente",
+        "count": 2,
+        "weight": 0.066,
         "size": 16,
         "tone": 1
       },
       {
-        "term": "vamos",
-        "count": 59,
-        "weight": 0.072,
+        "term": "palavras",
+        "count": 2,
+        "weight": 0.063,
         "size": 16,
         "tone": 2
       },
       {
-        "term": "unknown",
-        "count": 59,
-        "weight": 0.072,
+        "term": "aprende",
+        "count": 2,
+        "weight": 0.058,
         "size": 16,
         "tone": 3
       },
       {
-        "term": "speaker",
-        "count": 59,
-        "weight": 0.072,
+        "term": "cérebro",
+        "count": 2,
+        "weight": 0.058,
         "size": 16,
         "tone": 4
       },
       {
-        "term": "quê",
-        "count": 55,
-        "weight": 0.061,
+        "term": "continuei",
+        "count": 1,
+        "weight": 0.05,
         "size": 16,
         "tone": 0
       },
       {
-        "term": "ele",
-        "count": 55,
-        "weight": 0.061,
+        "term": "liberado",
+        "count": 1,
+        "weight": 0.05,
         "size": 16,
         "tone": 1
       },
       {
-        "term": "leitura",
-        "count": 53,
-        "weight": 0.056,
+        "term": "recebendo",
+        "count": 1,
+        "weight": 0.05,
         "size": 16,
         "tone": 2
       },
       {
-        "term": "entender",
-        "count": 53,
-        "weight": 0.056,
+        "term": "evidências",
+        "count": 2,
+        "weight": 0.05,
         "size": 16,
         "tone": 3
       },
       {
-        "term": "coisa",
-        "count": 51,
-        "weight": 0.051,
+        "term": "internet",
+        "count": 2,
+        "weight": 0.05,
         "size": 16,
         "tone": 4
       },
       {
-        "term": "vou",
-        "count": 50,
-        "weight": 0.048,
-        "size": 15,
-        "tone": 0
-      },
-      {
-        "term": "falando",
-        "count": 50,
-        "weight": 0.048,
-        "size": 15,
-        "tone": 1
-      },
-      {
-        "term": "ter",
-        "count": 49,
-        "weight": 0.045,
-        "size": 15,
-        "tone": 2
-      },
-      {
-        "term": "nós",
-        "count": 48,
-        "weight": 0.043,
-        "size": 15,
-        "tone": 3
-      },
-      {
-        "term": "fonológica",
-        "count": 46,
+        "term": "sobre alfabetização",
+        "count": 2,
         "weight": 0.037,
         "size": 15,
-        "tone": 4
-      },
-      {
-        "term": "fala",
-        "count": 45,
-        "weight": 0.035,
-        "size": 15,
         "tone": 0
       },
       {
-        "term": "fazer",
-        "count": 44,
-        "weight": 0.032,
+        "term": "estamos",
+        "count": 2,
+        "weight": 0.034,
         "size": 15,
         "tone": 1
       },
       {
-        "term": "falar",
-        "count": 42,
-        "weight": 0.027,
+        "term": "neurociência",
+        "count": 2,
+        "weight": 0.034,
         "size": 15,
         "tone": 2
       },
       {
-        "term": "bom",
-        "count": 42,
-        "weight": 0.027,
+        "term": "continuidade",
+        "count": 2,
+        "weight": 0.029,
         "size": 15,
         "tone": 3
       },
       {
-        "term": "amanhã",
-        "count": 42,
-        "weight": 0.027,
+        "term": "seguinte",
+        "count": 2,
+        "weight": 0.029,
         "size": 15,
         "tone": 4
       },
       {
-        "term": "luciana",
-        "count": 42,
-        "weight": 0.027,
+        "term": "dificuldade",
+        "count": 2,
+        "weight": 0.018,
         "size": 15,
         "tone": 0
       },
       {
-        "term": "criança",
-        "count": 40,
-        "weight": 0.021,
+        "term": "evidência",
+        "count": 2,
+        "weight": 0.018,
         "size": 15,
         "tone": 1
       },
       {
-        "term": "estão",
-        "count": 38,
-        "weight": 0.016,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "quando",
-        "count": 38,
-        "weight": 0.016,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "sim",
-        "count": 37,
-        "weight": 0.013,
-        "size": 14,
-        "tone": 4
-      },
-      {
-        "term": "aprender",
-        "count": 36,
-        "weight": 0.011,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "sabe",
-        "count": 35,
-        "weight": 0.008,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "tenho",
-        "count": 35,
+        "term": "qualidade",
+        "count": 2,
         "weight": 0.008,
         "size": 14,
         "tone": 2
       },
       {
-        "term": "crianças",
-        "count": 34,
-        "weight": 0.005,
+        "term": "simples",
+        "count": 2,
+        "weight": 0.008,
         "size": 14,
         "tone": 3
       },
       {
-        "term": "curso",
-        "count": 32,
+        "term": "conseguem",
+        "count": 2,
         "weight": 0.0,
         "size": 14,
         "tone": 4
@@ -1227,316 +1191,316 @@
     ],
     "Anima": [
       {
-        "term": "não",
-        "count": 5622,
+        "term": "grupo",
+        "count": 43,
         "weight": 1.0,
         "size": 44,
         "tone": 0
       },
       {
-        "term": "gente",
-        "count": 4225,
-        "weight": 0.731,
+        "term": "tarefa",
+        "count": 42,
+        "weight": 0.944,
+        "size": 42,
+        "tone": 1
+      },
+      {
+        "term": "usuário",
+        "count": 42,
+        "weight": 0.901,
+        "size": 41,
+        "tone": 2
+      },
+      {
+        "term": "teste",
+        "count": 43,
+        "weight": 0.799,
+        "size": 38,
+        "tone": 3
+      },
+      {
+        "term": "catálogo",
+        "count": 36,
+        "weight": 0.755,
+        "size": 37,
+        "tone": 4
+      },
+      {
+        "term": "status",
+        "count": 39,
+        "weight": 0.741,
+        "size": 36,
+        "tone": 0
+      },
+      {
+        "term": "produção",
+        "count": 36,
+        "weight": 0.736,
         "size": 36,
         "tone": 1
       },
       {
-        "term": "aqui",
-        "count": 3619,
-        "weight": 0.615,
-        "size": 32,
+        "term": "perfis",
+        "count": 28,
+        "weight": 0.723,
+        "size": 36,
         "tone": 2
       },
       {
-        "term": "vai",
-        "count": 3011,
-        "weight": 0.498,
-        "size": 29,
+        "term": "acesso",
+        "count": 37,
+        "weight": 0.615,
+        "size": 32,
         "tone": 3
       },
       {
-        "term": "tem",
-        "count": 2643,
-        "weight": 0.427,
-        "size": 27,
+        "term": "manual",
+        "count": 29,
+        "weight": 0.59,
+        "size": 32,
         "tone": 4
       },
       {
-        "term": "unknown",
-        "count": 2559,
-        "weight": 0.411,
+        "term": "fila",
+        "count": 26,
+        "weight": 0.573,
+        "size": 31,
+        "tone": 0
+      },
+      {
+        "term": "produtos",
+        "count": 32,
+        "weight": 0.546,
+        "size": 30,
+        "tone": 1
+      },
+      {
+        "term": "negócio",
+        "count": 42,
+        "weight": 0.498,
+        "size": 29,
+        "tone": 2
+      },
+      {
+        "term": "botão",
+        "count": 29,
+        "weight": 0.419,
+        "size": 27,
+        "tone": 3
+      },
+      {
+        "term": "treinamento",
+        "count": 27,
+        "weight": 0.415,
+        "size": 26,
+        "tone": 4
+      },
+      {
+        "term": "parcial",
+        "count": 41,
+        "weight": 0.401,
         "size": 26,
         "tone": 0
       },
       {
-        "term": "speaker",
-        "count": 2559,
-        "weight": 0.411,
+        "term": "perfil",
+        "count": 25,
+        "weight": 0.384,
         "size": 26,
         "tone": 1
       },
       {
-        "term": "você",
-        "count": 2449,
-        "weight": 0.39,
-        "size": 26,
+        "term": "grupos",
+        "count": 28,
+        "weight": 0.354,
+        "size": 25,
         "tone": 2
       },
       {
-        "term": "pra",
-        "count": 2052,
-        "weight": 0.313,
+        "term": "grupo tarefas",
+        "count": 21,
+        "weight": 0.3,
         "size": 23,
         "tone": 3
       },
       {
-        "term": "então",
-        "count": 1775,
-        "weight": 0.26,
+        "term": "filas",
+        "count": 15,
+        "weight": 0.277,
         "size": 22,
         "tone": 4
       },
       {
-        "term": "ele",
-        "count": 1723,
-        "weight": 0.25,
-        "size": 21,
+        "term": "pricing",
+        "count": 22,
+        "weight": 0.27,
+        "size": 22,
         "tone": 0
       },
       {
-        "term": "fazer",
-        "count": 1577,
-        "weight": 0.222,
-        "size": 21,
+        "term": "erro",
+        "count": 27,
+        "weight": 0.26,
+        "size": 22,
         "tone": 1
       },
       {
-        "term": "porque",
-        "count": 1349,
-        "weight": 0.178,
-        "size": 19,
+        "term": "história",
+        "count": 23,
+        "weight": 0.193,
+        "size": 20,
         "tone": 2
       },
       {
-        "term": "vou",
-        "count": 1314,
-        "weight": 0.171,
+        "term": "planilha",
+        "count": 29,
+        "weight": 0.175,
         "size": 19,
         "tone": 3
       },
       {
-        "term": "pode",
-        "count": 1102,
-        "weight": 0.13,
+        "term": "cadastro",
+        "count": 26,
+        "weight": 0.164,
+        "size": 19,
+        "tone": 4
+      },
+      {
+        "term": "validação",
+        "count": 32,
+        "weight": 0.139,
+        "size": 18,
+        "tone": 0
+      },
+      {
+        "term": "integração",
+        "count": 24,
+        "weight": 0.137,
+        "size": 18,
+        "tone": 1
+      },
+      {
+        "term": "documento",
+        "count": 24,
+        "weight": 0.136,
+        "size": 18,
+        "tone": 2
+      },
+      {
+        "term": "validar",
+        "count": 40,
+        "weight": 0.135,
+        "size": 18,
+        "tone": 3
+      },
+      {
+        "term": "permissão",
+        "count": 20,
+        "weight": 0.134,
         "size": 18,
         "tone": 4
       },
       {
-        "term": "ter",
-        "count": 1010,
-        "weight": 0.113,
-        "size": 17,
+        "term": "usuários",
+        "count": 35,
+        "weight": 0.121,
+        "size": 18,
         "tone": 0
       },
       {
-        "term": "acho",
-        "count": 900,
-        "weight": 0.092,
-        "size": 17,
+        "term": "criação",
+        "count": 35,
+        "weight": 0.119,
+        "size": 18,
         "tone": 1
       },
       {
-        "term": "está",
-        "count": 871,
-        "weight": 0.086,
+        "term": "participante",
+        "count": 35,
+        "weight": 0.103,
         "size": 17,
         "tone": 2
       },
       {
-        "term": "ela",
-        "count": 834,
-        "weight": 0.079,
-        "size": 16,
+        "term": "processo",
+        "count": 44,
+        "weight": 0.095,
+        "size": 17,
         "tone": 3
       },
       {
-        "term": "assim",
-        "count": 834,
-        "weight": 0.079,
-        "size": 16,
+        "term": "trabalho",
+        "count": 44,
+        "weight": 0.095,
+        "size": 17,
         "tone": 4
       },
       {
-        "term": "agora",
-        "count": 804,
-        "weight": 0.073,
+        "term": "criação tarefas",
+        "count": 17,
+        "weight": 0.081,
         "size": 16,
         "tone": 0
       },
       {
-        "term": "beleza",
-        "count": 745,
-        "weight": 0.062,
+        "term": "segunda",
+        "count": 40,
+        "weight": 0.07,
         "size": 16,
         "tone": 1
       },
       {
-        "term": "também",
-        "count": 719,
-        "weight": 0.057,
+        "term": "documentação",
+        "count": 21,
+        "weight": 0.064,
         "size": 16,
         "tone": 2
       },
       {
-        "term": "quando",
-        "count": 699,
-        "weight": 0.053,
+        "term": "pessoas",
+        "count": 40,
+        "weight": 0.064,
         "size": 16,
         "tone": 3
       },
       {
-        "term": "vamos",
-        "count": 696,
+        "term": "portfólio",
+        "count": 25,
         "weight": 0.052,
         "size": 16,
         "tone": 4
       },
       {
-        "term": "produto",
-        "count": 685,
-        "weight": 0.05,
+        "term": "entrega",
+        "count": 32,
+        "weight": 0.051,
         "size": 16,
         "tone": 0
       },
       {
-        "term": "ali",
-        "count": 676,
-        "weight": 0.048,
+        "term": "sprint",
+        "count": 17,
+        "weight": 0.033,
         "size": 15,
         "tone": 1
       },
       {
-        "term": "até",
-        "count": 587,
-        "weight": 0.031,
-        "size": 15,
+        "term": "andamento",
+        "count": 25,
+        "weight": 0.014,
+        "size": 14,
         "tone": 2
       },
       {
-        "term": "ver",
-        "count": 552,
-        "weight": 0.025,
-        "size": 15,
-        "tone": 3
-      },
-      {
-        "term": "coisa",
-        "count": 536,
-        "weight": 0.022,
-        "size": 15,
-        "tone": 4
-      },
-      {
-        "term": "muito",
-        "count": 535,
-        "weight": 0.021,
-        "size": 15,
-        "tone": 0
-      },
-      {
-        "term": "dia",
-        "count": 530,
-        "weight": 0.02,
-        "size": 15,
-        "tone": 1
-      },
-      {
-        "term": "cara",
-        "count": 524,
-        "weight": 0.019,
-        "size": 15,
-        "tone": 2
-      },
-      {
-        "term": "vocês",
-        "count": 515,
-        "weight": 0.018,
-        "size": 15,
-        "tone": 3
-      },
-      {
-        "term": "mesmo",
-        "count": 504,
-        "weight": 0.015,
-        "size": 14,
-        "tone": 4
-      },
-      {
-        "term": "bom",
-        "count": 486,
-        "weight": 0.012,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "sei",
-        "count": 484,
-        "weight": 0.012,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "time",
-        "count": 463,
+        "term": "permission",
+        "count": 9,
         "weight": 0.008,
         "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "hoje",
-        "count": 460,
-        "weight": 0.007,
-        "size": 14,
         "tone": 3
       },
       {
-        "term": "entendeu",
-        "count": 458,
-        "weight": 0.007,
-        "size": 14,
-        "tone": 4
-      },
-      {
-        "term": "falar",
-        "count": 457,
-        "weight": 0.006,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "catálogo",
-        "count": 454,
-        "weight": 0.006,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "colocar",
-        "count": 440,
-        "weight": 0.003,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "exemplo",
-        "count": 425,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "precisa",
-        "count": 424,
+        "term": "momento",
+        "count": 41,
         "weight": 0.0,
         "size": 14,
         "tone": 4
@@ -1544,316 +1508,316 @@
     ],
     "DET": [
       {
-        "term": "you",
-        "count": 3709,
+        "term": "access",
+        "count": 30,
         "weight": 1.0,
         "size": 44,
         "tone": 0
       },
       {
-        "term": "have",
-        "count": 2136,
-        "weight": 0.526,
-        "size": 30,
+        "term": "slack",
+        "count": 36,
+        "weight": 0.718,
+        "size": 36,
         "tone": 1
       },
       {
-        "term": "can",
-        "count": 1980,
-        "weight": 0.48,
-        "size": 28,
+        "term": "sprint",
+        "count": 28,
+        "weight": 0.651,
+        "size": 34,
         "tone": 2
       },
       {
-        "term": "speaker",
-        "count": 1698,
-        "weight": 0.395,
+        "term": "document",
+        "count": 31,
+        "weight": 0.609,
+        "size": 32,
+        "tone": 3
+      },
+      {
+        "term": "flow",
+        "count": 26,
+        "weight": 0.508,
+        "size": 29,
+        "tone": 4
+      },
+      {
+        "term": "release",
+        "count": 22,
+        "weight": 0.487,
+        "size": 29,
+        "tone": 0
+      },
+      {
+        "term": "backlog",
+        "count": 24,
+        "weight": 0.482,
+        "size": 28,
+        "tone": 1
+      },
+      {
+        "term": "agent",
+        "count": 28,
+        "weight": 0.435,
+        "size": 27,
+        "tone": 2
+      },
+      {
+        "term": "uat",
+        "count": 22,
+        "weight": 0.389,
         "size": 26,
         "tone": 3
       },
       {
-        "term": "like",
-        "count": 1503,
-        "weight": 0.336,
-        "size": 24,
+        "term": "error",
+        "count": 20,
+        "weight": 0.377,
+        "size": 25,
         "tone": 4
       },
       {
-        "term": "but",
-        "count": 1456,
-        "weight": 0.322,
-        "size": 24,
+        "term": "review",
+        "count": 29,
+        "weight": 0.316,
+        "size": 23,
         "tone": 0
       },
       {
-        "term": "one",
-        "count": 1348,
-        "weight": 0.289,
+        "term": "user",
+        "count": 25,
+        "weight": 0.316,
         "size": 23,
         "tone": 1
       },
       {
-        "term": "yeah",
-        "count": 1308,
-        "weight": 0.277,
-        "size": 22,
+        "term": "business",
+        "count": 34,
+        "weight": 0.308,
+        "size": 23,
         "tone": 2
       },
       {
-        "term": "just",
-        "count": 1135,
-        "weight": 0.225,
+        "term": "ticket",
+        "count": 22,
+        "weight": 0.25,
         "size": 21,
         "tone": 3
       },
       {
-        "term": "what",
-        "count": 1090,
-        "weight": 0.212,
+        "term": "tomorrow",
+        "count": 29,
+        "weight": 0.204,
         "size": 20,
         "tone": 4
       },
       {
-        "term": "here",
-        "count": 1023,
-        "weight": 0.191,
+        "term": "priority",
+        "count": 19,
+        "weight": 0.2,
         "size": 20,
         "tone": 0
       },
       {
-        "term": "not",
-        "count": 988,
-        "weight": 0.181,
+        "term": "approval",
+        "count": 24,
+        "weight": 0.199,
+        "size": 20,
+        "tone": 1
+      },
+      {
+        "term": "questions",
+        "count": 35,
+        "weight": 0.198,
+        "size": 20,
+        "tone": 2
+      },
+      {
+        "term": "basecamp",
+        "count": 17,
+        "weight": 0.193,
+        "size": 20,
+        "tone": 3
+      },
+      {
+        "term": "omni",
+        "count": 19,
+        "weight": 0.186,
+        "size": 20,
+        "tone": 4
+      },
+      {
+        "term": "planning",
+        "count": 24,
+        "weight": 0.183,
+        "size": 19,
+        "tone": 0
+      },
+      {
+        "term": "through",
+        "count": 36,
+        "weight": 0.178,
         "size": 19,
         "tone": 1
       },
       {
-        "term": "right",
-        "count": 957,
-        "weight": 0.172,
-        "size": 19,
-        "tone": 2
-      },
-      {
-        "term": "unknown",
-        "count": 933,
+        "term": "channel",
+        "count": 30,
         "weight": 0.164,
         "size": 19,
-        "tone": 3
+        "tone": 2
       },
       {
-        "term": "think",
-        "count": 925,
-        "weight": 0.162,
+        "term": "grooming",
+        "count": 18,
+        "weight": 0.161,
         "size": 19,
+        "tone": 3
+      },
+      {
+        "term": "process",
+        "count": 35,
+        "weight": 0.141,
+        "size": 18,
         "tone": 4
       },
       {
-        "term": "they",
-        "count": 905,
-        "weight": 0.156,
-        "size": 19,
+        "term": "contract",
+        "count": 15,
+        "weight": 0.133,
+        "size": 18,
         "tone": 0
       },
       {
-        "term": "okay",
-        "count": 883,
-        "weight": 0.149,
+        "term": "status",
+        "count": 25,
+        "weight": 0.132,
         "size": 18,
         "tone": 1
       },
       {
-        "term": "there",
-        "count": 866,
-        "weight": 0.144,
+        "term": "message",
+        "count": 33,
+        "weight": 0.126,
         "size": 18,
         "tone": 2
       },
       {
-        "term": "all",
-        "count": 844,
-        "weight": 0.138,
+        "term": "requirements",
+        "count": 27,
+        "weight": 0.124,
         "size": 18,
         "tone": 3
       },
       {
-        "term": "story",
-        "count": 816,
-        "weight": 0.129,
+        "term": "billing",
+        "count": 8,
+        "weight": 0.119,
         "size": 18,
         "tone": 4
       },
       {
-        "term": "know",
-        "count": 747,
-        "weight": 0.108,
+        "term": "routing",
+        "count": 18,
+        "weight": 0.103,
         "size": 17,
         "tone": 0
       },
       {
-        "term": "then",
-        "count": 742,
-        "weight": 0.107,
+        "term": "demo",
+        "count": 20,
+        "weight": 0.1,
         "size": 17,
         "tone": 1
       },
       {
-        "term": "work",
-        "count": 734,
-        "weight": 0.104,
+        "term": "discussion",
+        "count": 31,
+        "weight": 0.088,
         "size": 17,
         "tone": 2
       },
       {
-        "term": "going",
-        "count": 673,
-        "weight": 0.086,
-        "size": 17,
-        "tone": 3
-      },
-      {
-        "term": "don",
-        "count": 665,
-        "weight": 0.084,
-        "size": 17,
-        "tone": 4
-      },
-      {
-        "term": "some",
-        "count": 629,
-        "weight": 0.073,
-        "size": 16,
-        "tone": 0
-      },
-      {
-        "term": "about",
-        "count": 601,
-        "weight": 0.064,
-        "size": 16,
-        "tone": 1
-      },
-      {
-        "term": "because",
-        "count": 577,
-        "weight": 0.057,
-        "size": 16,
-        "tone": 2
-      },
-      {
-        "term": "case",
-        "count": 572,
-        "weight": 0.056,
+        "term": "confirm",
+        "count": 36,
+        "weight": 0.074,
         "size": 16,
         "tone": 3
       },
       {
-        "term": "see",
-        "count": 568,
-        "weight": 0.054,
+        "term": "understand",
+        "count": 36,
+        "weight": 0.074,
         "size": 16,
         "tone": 4
       },
       {
-        "term": "let",
-        "count": 564,
-        "weight": 0.053,
+        "term": "cloud",
+        "count": 21,
+        "weight": 0.068,
         "size": 16,
         "tone": 0
       },
       {
-        "term": "your",
-        "count": 464,
-        "weight": 0.023,
-        "size": 15,
+        "term": "chatter",
+        "count": 13,
+        "weight": 0.061,
+        "size": 16,
         "tone": 1
       },
       {
-        "term": "would",
-        "count": 460,
-        "weight": 0.022,
-        "size": 15,
+        "term": "probably",
+        "count": 33,
+        "weight": 0.05,
+        "size": 16,
         "tone": 2
       },
       {
-        "term": "now",
-        "count": 446,
-        "weight": 0.018,
+        "term": "waiting",
+        "count": 22,
+        "weight": 0.04,
         "size": 15,
         "tone": 3
       },
       {
-        "term": "get",
-        "count": 423,
-        "weight": 0.011,
-        "size": 14,
+        "term": "fixed",
+        "count": 20,
+        "weight": 0.038,
+        "size": 15,
         "tone": 4
       },
       {
-        "term": "these",
-        "count": 421,
-        "weight": 0.01,
-        "size": 14,
+        "term": "changes",
+        "count": 29,
+        "weight": 0.038,
+        "size": 15,
         "tone": 0
       },
       {
-        "term": "want",
-        "count": 420,
-        "weight": 0.01,
-        "size": 14,
+        "term": "org62",
+        "count": 15,
+        "weight": 0.037,
+        "size": 15,
         "tone": 1
       },
       {
-        "term": "how",
-        "count": 419,
-        "weight": 0.01,
-        "size": 14,
+        "term": "account",
+        "count": 19,
+        "weight": 0.031,
+        "size": 15,
         "tone": 2
       },
       {
-        "term": "something",
-        "count": 397,
-        "weight": 0.003,
-        "size": 14,
+        "term": "testing",
+        "count": 25,
+        "weight": 0.019,
+        "size": 15,
         "tone": 3
       },
       {
-        "term": "has",
-        "count": 396,
-        "weight": 0.003,
-        "size": 14,
-        "tone": 4
-      },
-      {
-        "term": "our",
-        "count": 394,
-        "weight": 0.002,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "when",
-        "count": 393,
-        "weight": 0.002,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "sure",
-        "count": 389,
-        "weight": 0.001,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "more",
-        "count": 388,
-        "weight": 0.0,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "thank",
-        "count": 387,
+        "term": "basically",
+        "count": 36,
         "weight": 0.0,
         "size": 14,
         "tone": 4
@@ -1861,316 +1825,316 @@
     ],
     "Pulse": [
       {
-        "term": "you",
-        "count": 383,
+        "term": "cloud",
+        "count": 3,
         "weight": 1.0,
         "size": 44,
         "tone": 0
       },
       {
-        "term": "yeah",
-        "count": 258,
-        "weight": 0.636,
-        "size": 33,
+        "term": "lecture",
+        "count": 5,
+        "weight": 0.974,
+        "size": 43,
         "tone": 1
       },
       {
-        "term": "speaker",
-        "count": 194,
-        "weight": 0.449,
-        "size": 27,
+        "term": "destinatário",
+        "count": 1,
+        "weight": 0.946,
+        "size": 42,
         "tone": 2
       },
       {
-        "term": "unknown",
-        "count": 193,
-        "weight": 0.446,
-        "size": 27,
+        "term": "salesforce cloud",
+        "count": 1,
+        "weight": 0.792,
+        "size": 38,
         "tone": 3
       },
       {
-        "term": "have",
-        "count": 177,
-        "weight": 0.399,
-        "size": 26,
+        "term": "escreveu",
+        "count": 1,
+        "weight": 0.729,
+        "size": 36,
         "tone": 4
       },
       {
-        "term": "but",
-        "count": 164,
-        "weight": 0.362,
-        "size": 25,
+        "term": "escrevi",
+        "count": 1,
+        "weight": 0.729,
+        "size": 36,
         "tone": 0
       },
       {
-        "term": "like",
-        "count": 161,
-        "weight": 0.353,
-        "size": 25,
+        "term": "computer",
+        "count": 3,
+        "weight": 0.65,
+        "size": 34,
         "tone": 1
       },
       {
-        "term": "very",
-        "count": 160,
-        "weight": 0.35,
-        "size": 24,
+        "term": "manual",
+        "count": 1,
+        "weight": 0.642,
+        "size": 33,
         "tone": 2
       },
       {
-        "term": "what",
-        "count": 141,
-        "weight": 0.294,
-        "size": 23,
+        "term": "salesforce",
+        "count": 1,
+        "weight": 0.642,
+        "size": 33,
         "tone": 3
       },
       {
-        "term": "don",
-        "count": 139,
-        "weight": 0.289,
-        "size": 23,
+        "term": "access",
+        "count": 3,
+        "weight": 0.566,
+        "size": 31,
         "tone": 4
       },
       {
-        "term": "they",
-        "count": 122,
+        "term": "company",
+        "count": 5,
+        "weight": 0.561,
+        "size": 31,
+        "tone": 0
+      },
+      {
+        "term": "mostrar",
+        "count": 1,
+        "weight": 0.422,
+        "size": 27,
+        "tone": 1
+      },
+      {
+        "term": "lovable",
+        "count": 2,
+        "weight": 0.388,
+        "size": 26,
+        "tone": 2
+      },
+      {
+        "term": "example",
+        "count": 5,
+        "weight": 0.375,
+        "size": 25,
+        "tone": 3
+      },
+      {
+        "term": "technology",
+        "count": 3,
+        "weight": 0.355,
+        "size": 25,
+        "tone": 4
+      },
+      {
+        "term": "position",
+        "count": 2,
+        "weight": 0.318,
+        "size": 24,
+        "tone": 0
+      },
+      {
+        "term": "another",
+        "count": 4,
+        "weight": 0.297,
+        "size": 23,
+        "tone": 1
+      },
+      {
+        "term": "planning",
+        "count": 2,
+        "weight": 0.284,
+        "size": 23,
+        "tone": 2
+      },
+      {
+        "term": "platform",
+        "count": 2,
+        "weight": 0.264,
+        "size": 22,
+        "tone": 3
+      },
+      {
+        "term": "demo",
+        "count": 1,
+        "weight": 0.25,
+        "size": 21,
+        "tone": 4
+      },
+      {
+        "term": "described",
+        "count": 5,
         "weight": 0.239,
         "size": 21,
         "tone": 0
       },
       {
-        "term": "here",
-        "count": 114,
-        "weight": 0.216,
-        "size": 20,
+        "term": "project",
+        "count": 3,
+        "weight": 0.224,
+        "size": 21,
         "tone": 1
       },
       {
-        "term": "she",
-        "count": 114,
-        "weight": 0.216,
-        "size": 20,
+        "term": "deploy",
+        "count": 2,
+        "weight": 0.224,
+        "size": 21,
         "tone": 2
       },
       {
-        "term": "know",
-        "count": 105,
-        "weight": 0.19,
+        "term": "manual project",
+        "count": 1,
+        "weight": 0.212,
         "size": 20,
         "tone": 3
       },
       {
-        "term": "can",
-        "count": 105,
-        "weight": 0.19,
-        "size": 20,
+        "term": "language",
+        "count": 2,
+        "weight": 0.165,
+        "size": 19,
         "tone": 4
       },
       {
-        "term": "not",
-        "count": 94,
-        "weight": 0.157,
+        "term": "message",
+        "count": 3,
+        "weight": 0.15,
         "size": 19,
         "tone": 0
       },
       {
-        "term": "right",
-        "count": 93,
-        "weight": 0.155,
-        "size": 19,
+        "term": "created",
+        "count": 3,
+        "weight": 0.149,
+        "size": 18,
         "tone": 1
       },
       {
-        "term": "because",
-        "count": 89,
-        "weight": 0.143,
+        "term": "deserve",
+        "count": 1,
+        "weight": 0.132,
         "size": 18,
         "tone": 2
       },
       {
-        "term": "there",
-        "count": 89,
-        "weight": 0.143,
+        "term": "promotion",
+        "count": 1,
+        "weight": 0.132,
         "size": 18,
         "tone": 3
       },
       {
-        "term": "man",
-        "count": 85,
-        "weight": 0.131,
-        "size": 18,
-        "tone": 4
-      },
-      {
-        "term": "think",
-        "count": 84,
+        "term": "without",
+        "count": 5,
         "weight": 0.128,
         "size": 18,
+        "tone": 4
+      },
+      {
+        "term": "incredible",
+        "count": 3,
+        "weight": 0.118,
+        "size": 18,
         "tone": 0
       },
       {
-        "term": "work",
-        "count": 83,
-        "weight": 0.125,
-        "size": 18,
+        "term": "developers",
+        "count": 3,
+        "weight": 0.111,
+        "size": 17,
         "tone": 1
       },
       {
-        "term": "had",
-        "count": 77,
-        "weight": 0.108,
+        "term": "classes",
+        "count": 4,
+        "weight": 0.094,
         "size": 17,
         "tone": 2
       },
       {
-        "term": "one",
-        "count": 73,
-        "weight": 0.096,
-        "size": 17,
+        "term": "2026",
+        "count": 7,
+        "weight": 0.077,
+        "size": 16,
         "tone": 3
       },
       {
-        "term": "good",
-        "count": 70,
-        "weight": 0.087,
-        "size": 17,
+        "term": "experience",
+        "count": 3,
+        "weight": 0.075,
+        "size": 16,
         "tone": 4
       },
       {
-        "term": "see",
-        "count": 69,
-        "weight": 0.085,
-        "size": 17,
-        "tone": 0
-      },
-      {
-        "term": "your",
-        "count": 69,
-        "weight": 0.085,
-        "size": 17,
-        "tone": 1
-      },
-      {
-        "term": "going",
-        "count": 64,
+        "term": "reported",
+        "count": 5,
         "weight": 0.07,
         "size": 16,
-        "tone": 2
-      },
-      {
-        "term": "about",
-        "count": 60,
-        "weight": 0.058,
-        "size": 16,
-        "tone": 3
-      },
-      {
-        "term": "all",
-        "count": 60,
-        "weight": 0.058,
-        "size": 16,
-        "tone": 4
-      },
-      {
-        "term": "people",
-        "count": 56,
-        "weight": 0.047,
-        "size": 15,
         "tone": 0
       },
       {
-        "term": "just",
-        "count": 52,
-        "weight": 0.035,
-        "size": 15,
+        "term": "product",
+        "count": 4,
+        "weight": 0.066,
+        "size": 16,
         "tone": 1
       },
       {
-        "term": "okay",
-        "count": 50,
-        "weight": 0.029,
-        "size": 15,
+        "term": "manager",
+        "count": 3,
+        "weight": 0.056,
+        "size": 16,
         "tone": 2
       },
       {
-        "term": "working",
-        "count": 49,
-        "weight": 0.026,
+        "term": "students",
+        "count": 4,
+        "weight": 0.037,
         "size": 15,
         "tone": 3
       },
       {
-        "term": "something",
-        "count": 48,
+        "term": "documentation",
+        "count": 2,
         "weight": 0.023,
         "size": 15,
         "tone": 4
       },
       {
-        "term": "say",
-        "count": 46,
-        "weight": 0.017,
+        "term": "demonstration",
+        "count": 3,
+        "weight": 0.022,
         "size": 15,
         "tone": 0
       },
       {
-        "term": "much",
-        "count": 46,
+        "term": "remember",
+        "count": 3,
         "weight": 0.017,
         "size": 15,
         "tone": 1
       },
       {
-        "term": "didn",
-        "count": 46,
-        "weight": 0.017,
-        "size": 15,
-        "tone": 2
-      },
-      {
-        "term": "said",
-        "count": 45,
-        "weight": 0.015,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "nice",
-        "count": 44,
-        "weight": 0.012,
-        "size": 14,
-        "tone": 4
-      },
-      {
-        "term": "how",
-        "count": 43,
-        "weight": 0.009,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "now",
-        "count": 43,
-        "weight": 0.009,
-        "size": 14,
-        "tone": 1
-      },
-      {
-        "term": "really",
-        "count": 43,
-        "weight": 0.009,
+        "term": "director",
+        "count": 3,
+        "weight": 0.016,
         "size": 14,
         "tone": 2
       },
       {
-        "term": "everything",
-        "count": 42,
-        "weight": 0.006,
+        "term": "performance",
+        "count": 3,
+        "weight": 0.013,
         "size": 14,
         "tone": 3
       },
       {
-        "term": "class",
-        "count": 40,
+        "term": "thinking",
+        "count": 4,
         "weight": 0.0,
         "size": 14,
         "tone": 4
@@ -2178,316 +2142,316 @@
     ],
     "Sem pillar": [
       {
-        "term": "you",
-        "count": 108,
+        "term": "shopping malls",
+        "count": 1,
         "weight": 1.0,
         "size": 44,
         "tone": 0
       },
       {
-        "term": "speaker",
-        "count": 80,
-        "weight": 0.717,
-        "size": 36,
-        "tone": 1
-      },
-      {
-        "term": "unknown",
-        "count": 79,
-        "weight": 0.707,
-        "size": 35,
-        "tone": 2
-      },
-      {
-        "term": "but",
-        "count": 39,
-        "weight": 0.303,
-        "size": 23,
-        "tone": 3
-      },
-      {
-        "term": "very",
-        "count": 35,
-        "weight": 0.263,
-        "size": 22,
-        "tone": 4
-      },
-      {
-        "term": "have",
-        "count": 34,
-        "weight": 0.253,
-        "size": 22,
-        "tone": 0
-      },
-      {
         "term": "shopping",
-        "count": 29,
-        "weight": 0.202,
-        "size": 20,
+        "count": 1,
+        "weight": 0.894,
+        "size": 41,
         "tone": 1
-      },
-      {
-        "term": "not",
-        "count": 27,
-        "weight": 0.182,
-        "size": 19,
-        "tone": 2
       },
       {
         "term": "malls",
-        "count": 23,
-        "weight": 0.141,
-        "size": 18,
-        "tone": 3
-      },
-      {
-        "term": "one",
-        "count": 21,
-        "weight": 0.121,
-        "size": 18,
-        "tone": 4
-      },
-      {
-        "term": "can",
-        "count": 20,
-        "weight": 0.111,
-        "size": 17,
-        "tone": 0
-      },
-      {
-        "term": "two",
-        "count": 19,
-        "weight": 0.101,
-        "size": 17,
-        "tone": 1
-      },
-      {
-        "term": "think",
-        "count": 19,
-        "weight": 0.101,
-        "size": 17,
+        "count": 1,
+        "weight": 0.817,
+        "size": 39,
         "tone": 2
       },
       {
-        "term": "buy",
-        "count": 19,
-        "weight": 0.101,
-        "size": 17,
+        "term": "shopping mall",
+        "count": 1,
+        "weight": 0.712,
+        "size": 35,
         "tone": 3
-      },
-      {
-        "term": "yes",
-        "count": 17,
-        "weight": 0.081,
-        "size": 16,
-        "tone": 4
-      },
-      {
-        "term": "what",
-        "count": 16,
-        "weight": 0.071,
-        "size": 16,
-        "tone": 0
-      },
-      {
-        "term": "more",
-        "count": 16,
-        "weight": 0.071,
-        "size": 16,
-        "tone": 1
-      },
-      {
-        "term": "many",
-        "count": 15,
-        "weight": 0.061,
-        "size": 16,
-        "tone": 2
       },
       {
         "term": "stores",
-        "count": 14,
-        "weight": 0.051,
-        "size": 16,
-        "tone": 3
-      },
-      {
-        "term": "new",
-        "count": 14,
-        "weight": 0.051,
-        "size": 16,
+        "count": 1,
+        "weight": 0.651,
+        "size": 34,
         "tone": 4
-      },
-      {
-        "term": "good",
-        "count": 14,
-        "weight": 0.051,
-        "size": 16,
-        "tone": 0
-      },
-      {
-        "term": "right",
-        "count": 14,
-        "weight": 0.051,
-        "size": 16,
-        "tone": 1
-      },
-      {
-        "term": "want",
-        "count": 14,
-        "weight": 0.051,
-        "size": 16,
-        "tone": 2
       },
       {
         "term": "mall",
-        "count": 13,
-        "weight": 0.04,
-        "size": 15,
-        "tone": 3
-      },
-      {
-        "term": "english",
-        "count": 13,
-        "weight": 0.04,
-        "size": 15,
-        "tone": 4
-      },
-      {
-        "term": "week",
-        "count": 13,
-        "weight": 0.04,
-        "size": 15,
+        "count": 1,
+        "weight": 0.626,
+        "size": 33,
         "tone": 0
-      },
-      {
-        "term": "all",
-        "count": 13,
-        "weight": 0.04,
-        "size": 15,
-        "tone": 1
-      },
-      {
-        "term": "okay",
-        "count": 13,
-        "weight": 0.04,
-        "size": 15,
-        "tone": 2
-      },
-      {
-        "term": "know",
-        "count": 13,
-        "weight": 0.04,
-        "size": 15,
-        "tone": 3
-      },
-      {
-        "term": "because",
-        "count": 12,
-        "weight": 0.03,
-        "size": 15,
-        "tone": 4
-      },
-      {
-        "term": "your",
-        "count": 12,
-        "weight": 0.03,
-        "size": 15,
-        "tone": 0
-      },
-      {
-        "term": "like",
-        "count": 12,
-        "weight": 0.03,
-        "size": 15,
-        "tone": 1
-      },
-      {
-        "term": "about",
-        "count": 11,
-        "weight": 0.02,
-        "size": 15,
-        "tone": 2
-      },
-      {
-        "term": "how",
-        "count": 11,
-        "weight": 0.02,
-        "size": 15,
-        "tone": 3
-      },
-      {
-        "term": "store",
-        "count": 11,
-        "weight": 0.02,
-        "size": 15,
-        "tone": 4
-      },
-      {
-        "term": "there",
-        "count": 11,
-        "weight": 0.02,
-        "size": 15,
-        "tone": 0
-      },
-      {
-        "term": "don",
-        "count": 11,
-        "weight": 0.02,
-        "size": 15,
-        "tone": 1
       },
       {
         "term": "retail",
-        "count": 10,
-        "weight": 0.01,
-        "size": 14,
-        "tone": 2
-      },
-      {
-        "term": "say",
-        "count": 10,
-        "weight": 0.01,
-        "size": 14,
-        "tone": 3
-      },
-      {
-        "term": "get",
-        "count": 10,
-        "weight": 0.01,
-        "size": 14,
-        "tone": 4
-      },
-      {
-        "term": "people",
-        "count": 10,
-        "weight": 0.01,
-        "size": 14,
-        "tone": 0
-      },
-      {
-        "term": "customer",
-        "count": 9,
-        "weight": 0.0,
-        "size": 14,
+        "count": 1,
+        "weight": 0.538,
+        "size": 30,
         "tone": 1
       },
       {
-        "term": "they",
-        "count": 9,
-        "weight": 0.0,
-        "size": 14,
+        "term": "case",
+        "count": 1,
+        "weight": 0.503,
+        "size": 29,
         "tone": 2
       },
       {
-        "term": "area",
-        "count": 9,
-        "weight": 0.0,
-        "size": 14,
+        "term": "price",
+        "count": 1,
+        "weight": 0.503,
+        "size": 29,
         "tone": 3
       },
       {
         "term": "revenue",
-        "count": 9,
+        "count": 1,
+        "weight": 0.503,
+        "size": 29,
+        "tone": 4
+      },
+      {
+        "term": "stores stores",
+        "count": 1,
+        "weight": 0.424,
+        "size": 27,
+        "tone": 0
+      },
+      {
+        "term": "price website",
+        "count": 1,
+        "weight": 0.305,
+        "size": 23,
+        "tone": 1
+      },
+      {
+        "term": "total revenue",
+        "count": 1,
+        "weight": 0.305,
+        "size": 23,
+        "tone": 2
+      },
+      {
+        "term": "english",
+        "count": 1,
+        "weight": 0.256,
+        "size": 22,
+        "tone": 3
+      },
+      {
+        "term": "case specifically want",
+        "count": 1,
+        "weight": 0.215,
+        "size": 20,
+        "tone": 4
+      },
+      {
+        "term": "less shopping malls",
+        "count": 1,
+        "weight": 0.215,
+        "size": 20,
+        "tone": 0
+      },
+      {
+        "term": "stores stores stores",
+        "count": 1,
+        "weight": 0.215,
+        "size": 20,
+        "tone": 1
+      },
+      {
+        "term": "customer",
+        "count": 1,
+        "weight": 0.171,
+        "size": 19,
+        "tone": 2
+      },
+      {
+        "term": "journey",
+        "count": 1,
+        "weight": 0.144,
+        "size": 18,
+        "tone": 3
+      },
+      {
+        "term": "project",
+        "count": 1,
+        "weight": 0.144,
+        "size": 18,
+        "tone": 4
+      },
+      {
+        "term": "website",
+        "count": 1,
+        "weight": 0.144,
+        "size": 18,
+        "tone": 0
+      },
+      {
+        "term": "average ticket",
+        "count": 1,
+        "weight": 0.137,
+        "size": 18,
+        "tone": 1
+      },
+      {
+        "term": "case specifically",
+        "count": 1,
+        "weight": 0.137,
+        "size": 18,
+        "tone": 2
+      },
+      {
+        "term": "eighty-seven stores",
+        "count": 1,
+        "weight": 0.137,
+        "size": 18,
+        "tone": 3
+      },
+      {
+        "term": "less shopping",
+        "count": 1,
+        "weight": 0.137,
+        "size": 18,
+        "tone": 4
+      },
+      {
+        "term": "mall project",
+        "count": 1,
+        "weight": 0.137,
+        "size": 18,
+        "tone": 0
+      },
+      {
+        "term": "new mall",
+        "count": 1,
+        "weight": 0.137,
+        "size": 18,
+        "tone": 1
+      },
+      {
+        "term": "opportunity meet",
+        "count": 1,
+        "weight": 0.137,
+        "size": 18,
+        "tone": 2
+      },
+      {
+        "term": "partage malls",
+        "count": 1,
+        "weight": 0.137,
+        "size": 18,
+        "tone": 3
+      },
+      {
+        "term": "pay price",
+        "count": 1,
+        "weight": 0.137,
+        "size": 18,
+        "tone": 4
+      },
+      {
+        "term": "project status",
+        "count": 1,
+        "weight": 0.137,
+        "size": 18,
+        "tone": 0
+      },
+      {
+        "term": "traditional stores",
+        "count": 1,
+        "weight": 0.137,
+        "size": 18,
+        "tone": 1
+      },
+      {
+        "term": "correct",
+        "count": 1,
+        "weight": 0.113,
+        "size": 17,
+        "tone": 2
+      },
+      {
+        "term": "director",
+        "count": 1,
+        "weight": 0.113,
+        "size": 17,
+        "tone": 3
+      },
+      {
+        "term": "digital",
+        "count": 1,
+        "weight": 0.078,
+        "size": 16,
+        "tone": 4
+      },
+      {
+        "term": "brasilia",
+        "count": 1,
+        "weight": 0.036,
+        "size": 15,
+        "tone": 0
+      },
+      {
+        "term": "classes",
+        "count": 1,
+        "weight": 0.036,
+        "size": 15,
+        "tone": 1
+      },
+      {
+        "term": "restaurants",
+        "count": 1,
+        "weight": 0.036,
+        "size": 15,
+        "tone": 2
+      },
+      {
+        "term": "retailers",
+        "count": 1,
+        "weight": 0.036,
+        "size": 15,
+        "tone": 3
+      },
+      {
+        "term": "tuesdays",
+        "count": 1,
+        "weight": 0.036,
+        "size": 15,
+        "tone": 4
+      },
+      {
+        "term": "understand",
+        "count": 1,
+        "weight": 0.036,
+        "size": 15,
+        "tone": 0
+      },
+      {
+        "term": "opportunity",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 1
+      },
+      {
+        "term": "pricing",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 2
+      },
+      {
+        "term": "status",
+        "count": 1,
+        "weight": 0.0,
+        "size": 14,
+        "tone": 3
+      },
+      {
+        "term": "ticket",
+        "count": 1,
         "weight": 0.0,
         "size": 14,
         "tone": 4
@@ -2495,316 +2459,316 @@
     ],
     "VLI Innovation Day": [
       {
-        "term": "não",
-        "count": 204,
+        "term": "revenue cloud",
+        "count": 3,
         "weight": 1.0,
         "size": 44,
         "tone": 0
       },
       {
-        "term": "você",
-        "count": 155,
-        "weight": 0.731,
+        "term": "vli",
+        "count": 4,
+        "weight": 0.948,
+        "size": 42,
+        "tone": 1
+      },
+      {
+        "term": "cloud",
+        "count": 3,
+        "weight": 0.82,
+        "size": 39,
+        "tone": 2
+      },
+      {
+        "term": "revenue",
+        "count": 5,
+        "weight": 0.721,
         "size": 36,
-        "tone": 1
-      },
-      {
-        "term": "aqui",
-        "count": 139,
-        "weight": 0.643,
-        "size": 33,
-        "tone": 2
-      },
-      {
-        "term": "gente",
-        "count": 121,
-        "weight": 0.544,
-        "size": 30,
         "tone": 3
       },
       {
-        "term": "vou",
-        "count": 106,
-        "weight": 0.462,
-        "size": 28,
+        "term": "campanhas",
+        "count": 2,
+        "weight": 0.6,
+        "size": 32,
         "tone": 4
       },
       {
-        "term": "vai",
-        "count": 102,
-        "weight": 0.44,
-        "size": 27,
-        "tone": 0
-      },
-      {
-        "term": "pra",
-        "count": 95,
-        "weight": 0.401,
+        "term": "price book",
+        "count": 2,
+        "weight": 0.398,
         "size": 26,
-        "tone": 1
+        "tone": 0
       },
       {
-        "term": "então",
-        "count": 88,
-        "weight": 0.363,
+        "term": "importância",
+        "count": 1,
+        "weight": 0.351,
         "size": 25,
-        "tone": 2
-      },
-      {
-        "term": "tem",
-        "count": 82,
-        "weight": 0.33,
-        "size": 24,
-        "tone": 3
-      },
-      {
-        "term": "speaker",
-        "count": 82,
-        "weight": 0.33,
-        "size": 24,
-        "tone": 4
-      },
-      {
-        "term": "unknown",
-        "count": 81,
-        "weight": 0.324,
-        "size": 24,
-        "tone": 0
-      },
-      {
-        "term": "ele",
-        "count": 65,
-        "weight": 0.236,
-        "size": 21,
         "tone": 1
       },
       {
-        "term": "fazer",
-        "count": 60,
-        "weight": 0.209,
-        "size": 20,
+        "term": "implementação revenue",
+        "count": 3,
+        "weight": 0.315,
+        "size": 23,
         "tone": 2
-      },
-      {
-        "term": "falar",
-        "count": 58,
-        "weight": 0.198,
-        "size": 20,
-        "tone": 3
-      },
-      {
-        "term": "acho",
-        "count": 50,
-        "weight": 0.154,
-        "size": 19,
-        "tone": 4
-      },
-      {
-        "term": "vocês",
-        "count": 47,
-        "weight": 0.137,
-        "size": 18,
-        "tone": 0
-      },
-      {
-        "term": "porque",
-        "count": 46,
-        "weight": 0.132,
-        "size": 18,
-        "tone": 1
-      },
-      {
-        "term": "entendeu",
-        "count": 46,
-        "weight": 0.132,
-        "size": 18,
-        "tone": 2
-      },
-      {
-        "term": "pode",
-        "count": 43,
-        "weight": 0.115,
-        "size": 17,
-        "tone": 3
       },
       {
         "term": "precificação",
-        "count": 38,
-        "weight": 0.088,
-        "size": 17,
-        "tone": 4
-      },
-      {
-        "term": "também",
-        "count": 36,
-        "weight": 0.077,
-        "size": 16,
-        "tone": 0
-      },
-      {
-        "term": "assim",
-        "count": 35,
-        "weight": 0.071,
-        "size": 16,
-        "tone": 1
-      },
-      {
-        "term": "muito",
-        "count": 34,
-        "weight": 0.066,
-        "size": 16,
-        "tone": 2
-      },
-      {
-        "term": "apresentação",
-        "count": 32,
-        "weight": 0.055,
-        "size": 16,
+        "count": 5,
+        "weight": 0.31,
+        "size": 23,
         "tone": 3
       },
       {
-        "term": "kilton",
-        "count": 31,
-        "weight": 0.049,
-        "size": 15,
+        "term": "price",
+        "count": 2,
+        "weight": 0.273,
+        "size": 22,
         "tone": 4
       },
       {
-        "term": "cara",
-        "count": 31,
-        "weight": 0.049,
-        "size": 15,
+        "term": "necessidade",
+        "count": 2,
+        "weight": 0.258,
+        "size": 22,
         "tone": 0
       },
       {
-        "term": "está",
-        "count": 31,
-        "weight": 0.049,
-        "size": 15,
+        "term": "empresa",
+        "count": 3,
+        "weight": 0.254,
+        "size": 22,
         "tone": 1
       },
       {
         "term": "marcelino",
-        "count": 30,
-        "weight": 0.044,
-        "size": 15,
+        "count": 4,
+        "weight": 0.196,
+        "size": 20,
         "tone": 2
       },
       {
-        "term": "dar",
-        "count": 29,
-        "weight": 0.038,
-        "size": 15,
+        "term": "apresentação",
+        "count": 4,
+        "weight": 0.173,
+        "size": 19,
         "tone": 3
       },
       {
-        "term": "seu",
-        "count": 29,
-        "weight": 0.038,
-        "size": 15,
+        "term": "acesso",
+        "count": 3,
+        "weight": 0.16,
+        "size": 19,
         "tone": 4
       },
       {
-        "term": "time",
-        "count": 28,
-        "weight": 0.033,
+        "term": "grupo",
+        "count": 3,
+        "weight": 0.13,
+        "size": 18,
+        "tone": 0
+      },
+      {
+        "term": "desconto",
+        "count": 2,
+        "weight": 0.121,
+        "size": 18,
+        "tone": 1
+      },
+      {
+        "term": "processos",
+        "count": 2,
+        "weight": 0.121,
+        "size": 18,
+        "tone": 2
+      },
+      {
+        "term": "produto",
+        "count": 3,
+        "weight": 0.118,
+        "size": 18,
+        "tone": 3
+      },
+      {
+        "term": "innovation",
+        "count": 2,
+        "weight": 0.116,
+        "size": 17,
+        "tone": 4
+      },
+      {
+        "term": "participante",
+        "count": 3,
+        "weight": 0.1,
+        "size": 17,
+        "tone": 0
+      },
+      {
+        "term": "apresentar",
+        "count": 3,
+        "weight": 0.092,
+        "size": 17,
+        "tone": 1
+      },
+      {
+        "term": "entendendo",
+        "count": 2,
+        "weight": 0.091,
+        "size": 17,
+        "tone": 2
+      },
+      {
+        "term": "demonstrar",
+        "count": 3,
+        "weight": 0.09,
+        "size": 17,
+        "tone": 3
+      },
+      {
+        "term": "definir",
+        "count": 3,
+        "weight": 0.09,
+        "size": 17,
+        "tone": 4
+      },
+      {
+        "term": "descontos",
+        "count": 2,
+        "weight": 0.081,
+        "size": 16,
+        "tone": 0
+      },
+      {
+        "term": "anima",
+        "count": 3,
+        "weight": 0.075,
+        "size": 16,
+        "tone": 1
+      },
+      {
+        "term": "rastreabilidade",
+        "count": 2,
+        "weight": 0.067,
+        "size": 16,
+        "tone": 2
+      },
+      {
+        "term": "case",
+        "count": 2,
+        "weight": 0.059,
+        "size": 16,
+        "tone": 3
+      },
+      {
+        "term": "user store",
+        "count": 1,
+        "weight": 0.055,
+        "size": 16,
+        "tone": 4
+      },
+      {
+        "term": "negociação",
+        "count": 2,
+        "weight": 0.046,
         "size": 15,
         "tone": 0
       },
       {
-        "term": "ter",
-        "count": 28,
-        "weight": 0.033,
+        "term": "inovação",
+        "count": 2,
+        "weight": 0.046,
         "size": 15,
         "tone": 1
       },
       {
-        "term": "vli",
-        "count": 26,
-        "weight": 0.022,
+        "term": "estrutura",
+        "count": 3,
+        "weight": 0.042,
         "size": 15,
         "tone": 2
       },
       {
-        "term": "até",
-        "count": 26,
-        "weight": 0.022,
+        "term": "salesforce",
+        "count": 2,
+        "weight": 0.038,
         "size": 15,
         "tone": 3
       },
       {
-        "term": "sei",
-        "count": 26,
-        "weight": 0.022,
+        "term": "salesforce day",
+        "count": 1,
+        "weight": 0.036,
         "size": 15,
         "tone": 4
       },
       {
         "term": "material",
-        "count": 25,
-        "weight": 0.016,
-        "size": 14,
+        "count": 4,
+        "weight": 0.036,
+        "size": 15,
         "tone": 0
       },
       {
-        "term": "tenho",
-        "count": 25,
-        "weight": 0.016,
-        "size": 14,
+        "term": "mostrar",
+        "count": 3,
+        "weight": 0.032,
+        "size": 15,
         "tone": 1
       },
       {
-        "term": "coisa",
-        "count": 25,
-        "weight": 0.016,
-        "size": 14,
+        "term": "práticas",
+        "count": 2,
+        "weight": 0.031,
+        "size": 15,
         "tone": 2
       },
       {
-        "term": "bom",
-        "count": 24,
-        "weight": 0.011,
+        "term": "coloquei",
+        "count": 4,
+        "weight": 0.016,
         "size": 14,
         "tone": 3
       },
       {
-        "term": "meu",
-        "count": 24,
-        "weight": 0.011,
+        "term": "governança",
+        "count": 2,
+        "weight": 0.012,
         "size": 14,
         "tone": 4
       },
       {
-        "term": "empresa",
-        "count": 23,
-        "weight": 0.005,
+        "term": "negociações",
+        "count": 2,
+        "weight": 0.012,
         "size": 14,
         "tone": 0
       },
       {
-        "term": "ali",
-        "count": 23,
-        "weight": 0.005,
+        "term": "vpn vli",
+        "count": 1,
+        "weight": 0.001,
         "size": 14,
         "tone": 1
       },
       {
-        "term": "falando",
-        "count": 23,
-        "weight": 0.005,
+        "term": "introdução",
+        "count": 2,
+        "weight": 0.001,
         "size": 14,
         "tone": 2
       },
       {
-        "term": "revenue",
-        "count": 22,
+        "term": "implementação",
+        "count": 3,
         "weight": 0.0,
         "size": 14,
         "tone": 3
       },
       {
-        "term": "cliente",
-        "count": 22,
+        "term": "sobre revenue",
+        "count": 2,
         "weight": 0.0,
         "size": 14,
         "tone": 4

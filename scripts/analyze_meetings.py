@@ -20,12 +20,51 @@ except ImportError:  # pragma: no cover
 
 
 STOPWORDS = {
-    "a", "ao", "aos", "as", "ate", "com", "como", "da", "das", "de", "do", "dos", "e", "em",
-    "entre", "foi", "foram", "mais", "mas", "na", "nas", "no", "nos", "o", "os", "ou", "para",
-    "por", "que", "se", "sem", "ser", "sua", "sao", "um", "uma", "the", "and", "for", "from",
-    "with", "that", "this", "was", "were", "are", "will", "should", "need", "needs", "participant",
-    "meeting", "reuniao", "team", "item", "itens", "sobre", "ainda", "cada", "isso", "esta", "esse",
-    "essa", "eles", "elas", "voce", "voce", "todos", "todas", "tudo", "todo", "onde", "qual", "quais",
+    "a", "ao", "aos", "as", "ate", "até", "com", "como", "da", "das", "de", "do", "dos", "e", "em",
+    "entre", "foi", "foram", "mais", "mas", "na", "nas", "no", "nos", "o", "os", "ou", "para", "pra",
+    "por", "porque", "que", "se", "sem", "ser", "sua", "são", "sao", "um", "uma", "uns", "umas",
+    "não", "nao", "sim", "então", "entao", "também", "tambem", "muito", "muita", "muitos", "muitas",
+    "aqui", "ali", "agora", "quando", "onde", "qual", "quais", "coisa", "coisas", "beleza", "acho",
+    "assim", "vai", "vou", "vamos", "ter", "fazer", "pode", "poder", "todos", "todas", "tudo", "todo",
+    "ele", "ela", "eles", "elas", "você", "voce", "vocês", "voces", "meu", "minha", "seu", "sua",
+    "gente", "cara", "ok", "okay", "né", "ne", "né?", "ta", "tá", "so", "só", "pois", "néh",
+    "the", "and", "for", "from", "with", "that", "this", "was", "were", "are", "is", "am", "be",
+    "been", "being", "will", "would", "should", "could", "can", "may", "might", "need", "needs",
+    "you", "your", "yours", "we", "our", "ours", "they", "them", "their", "he", "she", "his", "her",
+    "it", "its", "i", "me", "my", "mine", "to", "of", "in", "on", "at", "by", "or", "an", "a",
+    "have", "has", "had", "do", "does", "did", "doing", "done", "there", "here", "then", "than",
+    "what", "where", "when", "why", "how", "which", "who", "just", "like", "yeah", "yes", "no",
+    "right", "think", "know", "see", "some", "all", "but", "about", "because", "going", "work",
+    "time", "story", "stories", "one", "two", "first", "second", "really", "very", "good",
+    "participant", "participants", "speaker", "unknown", "unknown_speaker", "meeting", "meetings",
+    "reuniao", "reunião", "team", "item", "items", "itens", "pt", "parte", "kilton",
+    "not", "only", "next", "make", "sure", "thank", "thanks", "much", "people", "person",
+    "something", "someone", "anything", "everything", "pessoal", "entendeu", "colocar", "depois",
+    "precisa", "preciso", "exemplo", "falando", "falar", "working", "problem", "problema",
+    "informacao", "informação", "information", "amanha", "amanhã", "entender", "pessoa", "bom",
+    "dia", "olha", "look", "let", "get", "got", "come", "came", "talk", "talking", "call",
+    "fernandes", "fabricio", "fabrício", "matheus", "valerie", "luciana", "paola", "samuel",
+    "larissa", "adriana", "matt", "mohan", "drashti", "thomas", "tomas", "jess", "jessica",
+    "gil", "gilvandro", "bruno", "henrique", "rafael", "marcelo", "camilo", "victor",
+}
+
+DOMAIN_HINTS = {
+    "agent", "agentforce", "anima", "billing", "case", "catalog", "catalogo", "catálogo", "chatter",
+    "cloud", "contract", "cpq", "csat", "c-sat", "det", "flow", "flows", "grooming", "govcloud",
+    "jira", "kmod", "language", "linear", "marketing", "nqe", "omni", "org62", "persona",
+    "personas", "pricing", "priority", "quip", "revenue", "routing", "salesforce", "scrum",
+    "slack", "sprint", "survey", "uat", "vli", "revrack", "revrec", "fne", "f&e",
+    "access", "acesso", "alfabetização", "backlog", "basecamp", "botao", "botão", "campaign",
+    "campanhas", "cadastro", "catálogos", "catalogos", "cobrança", "cobranca", "cotação",
+    "cotacoes", "cotações", "dashboard", "database", "demo", "deploy", "document", "documento",
+    "documentação", "documentacao", "epic", "erro", "error", "esteira", "fila", "filas",
+    "fixed", "form", "forms", "grupo", "grupos", "história", "historia", "integration",
+    "integração", "integracao", "manual", "negocio", "negócio", "opportunity", "perfil",
+    "perfis", "permission", "permissao", "permissão", "planejamento", "planning", "price",
+    "produção", "producao", "produto", "produtos", "release", "review", "sanidade", "scope",
+    "security", "segurança", "seguranca", "sequence", "status", "tarefa", "tarefas", "teste",
+    "testes", "ticket", "treinamento", "user", "usuário", "usuario", "workshop",
+    "shopping", "mall", "malls", "retail", "revenue", "stores",
 }
 
 
@@ -50,6 +89,14 @@ def tokenize(text: str) -> list[str]:
     return cleaned
 
 
+def clean_text(text: str) -> str:
+    text = re.sub(r"https?://\S+", " ", text)
+    text = re.sub(r"\(\d{1,2}:\d{2}(?::\d{2})?\)", " ", text)
+    text = re.sub(r"\bparticipant\s+\d+\b", " ", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bunknown[_\s-]?speaker\b", " ", text, flags=re.IGNORECASE)
+    return text
+
+
 def meeting_text(meeting: dict) -> str:
     sections = [
         meeting.get("title", ""),
@@ -60,7 +107,39 @@ def meeting_text(meeting: dict) -> str:
         " ".join(meeting.get("blockers", [])),
         " ".join(item.get("text", "") for item in meeting.get("action_items", [])),
     ]
-    return " ".join(sections)
+    return clean_text(" ".join(sections))
+
+
+def is_noise_term(term: str) -> bool:
+    tokens = term.split()
+    if not tokens:
+        return True
+    if any(token in STOPWORDS for token in tokens):
+        return True
+    if len(tokens) == 1:
+        token = tokens[0]
+        if len(token) < 4 and token.lower() not in {"cpq", "uat", "det", "vli"}:
+            return True
+        if token.lower() not in DOMAIN_HINTS and not re.search(r"[0-9]", token) and len(token) < 7:
+            return True
+    elif not any(token in DOMAIN_HINTS for token in tokens):
+        # Multi-word phrases are useful only when at least one word carries domain meaning.
+        return True
+    return False
+
+
+def topic_score(term: str, score: float) -> float:
+    tokens = term.split()
+    multiplier = 1.0
+    if len(tokens) == 2:
+        multiplier += 0.35
+    elif len(tokens) >= 3:
+        multiplier += 0.55
+    if any(token in DOMAIN_HINTS for token in tokens):
+        multiplier += 0.45
+    if re.search(r"\b[A-Za-z]+[0-9]+|[0-9]+[A-Za-z]+\b", term):
+        multiplier += 0.2
+    return score * multiplier
 
 
 def tfidf_terms(meetings: list[dict], limit: int = 8) -> dict[str, list[dict]]:
@@ -78,8 +157,9 @@ def tfidf_terms(meetings: list[dict], limit: int = 8) -> dict[str, list[dict]]:
         lowercase=True,
         stop_words=list(STOPWORDS),
         token_pattern=r"(?u)\b[A-Za-zÀ-ÿ0-9][A-Za-zÀ-ÿ0-9\-]{2,}\b",
-        ngram_range=(1, 2),
-        max_features=180,
+        ngram_range=(1, 3),
+        max_df=0.72,
+        max_features=420,
     )
     matrix = vectorizer.fit_transform(docs)
     feature_names = vectorizer.get_feature_names_out()
@@ -89,8 +169,9 @@ def tfidf_terms(meetings: list[dict], limit: int = 8) -> dict[str, list[dict]]:
         top_indexes = row.argsort()[-limit * 2 :][::-1]
         for feature_idx in top_indexes:
             score = float(row[feature_idx])
-            if score > 0:
-                by_pillar[meeting["pillar"]][feature_names[feature_idx]] += score
+            term = feature_names[feature_idx]
+            if score > 0 and not is_noise_term(term):
+                by_pillar[meeting["pillar"]][term] += topic_score(term, score)
     return {
         pillar: [{"term": term, "score": round(score, 4)} for term, score in counts.most_common(limit)]
         for pillar, counts in by_pillar.items()
@@ -98,22 +179,48 @@ def tfidf_terms(meetings: list[dict], limit: int = 8) -> dict[str, list[dict]]:
 
 
 def build_word_cloud(meetings: list[dict], selected_pillar: str | None = None, limit: int = 60) -> list[dict]:
-    counter: Counter[str] = Counter()
-    for meeting in meetings:
-        if selected_pillar and meeting["pillar"] != selected_pillar:
-            continue
-        counter.update(tokenize(meeting_text(meeting)))
-
-    if not counter:
+    scoped = [meeting for meeting in meetings if not selected_pillar or meeting["pillar"] == selected_pillar]
+    docs = [meeting_text(meeting) for meeting in scoped]
+    if not docs:
         return []
 
-    most_common = counter.most_common(limit)
-    max_count = most_common[0][1]
-    min_count = most_common[-1][1]
-    spread = max(max_count - min_count, 1)
+    if TfidfVectorizer is None:
+        counter: Counter[str] = Counter()
+        for doc in docs:
+            counter.update(tokenize(doc))
+        ranked = [(term, float(count), count) for term, count in counter.most_common(limit) if not is_noise_term(term)]
+    else:
+        vectorizer = TfidfVectorizer(
+            lowercase=True,
+            stop_words=list(STOPWORDS),
+            token_pattern=r"(?u)\b[A-Za-zÀ-ÿ0-9][A-Za-zÀ-ÿ0-9\-]{2,}\b",
+            ngram_range=(1, 3),
+            max_df=0.68 if len(docs) > 8 else 1.0,
+            min_df=2 if len(docs) > 12 else 1,
+            max_features=900,
+            sublinear_tf=True,
+        )
+        matrix = vectorizer.fit_transform(docs)
+        feature_names = vectorizer.get_feature_names_out()
+        scores = matrix.sum(axis=0).A1
+        doc_counts = (matrix > 0).sum(axis=0).A1
+        candidates = []
+        for index, term in enumerate(feature_names):
+            if is_noise_term(term):
+                continue
+            score = topic_score(term, float(scores[index]))
+            candidates.append((term, score, int(doc_counts[index])))
+        ranked = sorted(candidates, key=lambda item: item[1], reverse=True)[:limit]
+
+    if not ranked:
+        return []
+
+    max_score = ranked[0][1]
+    min_score = ranked[-1][1]
+    spread = max(max_score - min_score, 0.001)
     words = []
-    for index, (term, count) in enumerate(most_common):
-        weight = (count - min_count) / spread
+    for index, (term, score, count) in enumerate(ranked):
+        weight = (score - min_score) / spread
         words.append(
             {
                 "term": term,

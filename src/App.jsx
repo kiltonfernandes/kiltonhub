@@ -125,8 +125,8 @@ function App() {
           <span>Workflow horario sincroniza reunioes, recalcula NLP e publica o JSON do app.</span>
         </div>
         <div>
-          <strong>Word cloud sem chute</strong>
-          <span>Recorrencia, stopwords e TF-IDF gerados no Python antes do frontend renderizar.</span>
+          <strong>Assuntos sem chute</strong>
+          <span>Stopwords, n-grams e TF-IDF gerados no Python antes do frontend renderizar.</span>
         </div>
         <div>
           <strong>Fonte auditavel</strong>
@@ -136,7 +136,7 @@ function App() {
 
       <section className="dashboard-grid">
         <article className="panel word-panel">
-          <PanelTitle kicker="Recorrencia lexical" title={selectedPillar === 'Todos' ? 'Word cloud das transcricoes' : `Word cloud: ${selectedPillar}`} />
+          <PanelTitle kicker="Assuntos extraidos por NLP" title={selectedPillar === 'Todos' ? 'Temas recorrentes nas reunioes' : `Temas recorrentes: ${selectedPillar}`} />
           <WordCloud words={wordCloud} />
         </article>
 
@@ -226,7 +226,7 @@ function App() {
             <PillarDetail pillar={selectedPillarData} />
           ) : (
             <div className="overview-copy">
-              <p>Use os filtros para acompanhar uma empresa/area ou um epic. A word cloud vem das transcricoes e resumos processados em Python, com stopwords e TF-IDF para destacar recorrencias relevantes.</p>
+              <p>Use os filtros para acompanhar uma empresa/area ou um epic. Os temas vêm das transcricoes e resumos processados em Python com stopwords, n-grams e TF-IDF para destacar assuntos relevantes.</p>
               <p>O Notion funciona como backend: o GitHub Action sincroniza a database de hora em hora, gera o JSON analitico e publica o frontend atualizado.</p>
             </div>
           )}
