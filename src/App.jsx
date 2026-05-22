@@ -8,6 +8,18 @@ const statusLabel = {
   open: 'Aberto',
   waiting: 'Aguardando',
   done: 'Fechado',
+  checked: 'Concluido',
+}
+
+const completedStorageKey = 'meeting-cockpit.completed-actions.v1'
+
+function readCompletedActions() {
+  if (typeof window === 'undefined') return {}
+  try {
+    return JSON.parse(window.localStorage.getItem(completedStorageKey) ?? '{}')
+  } catch {
+    return {}
+  }
 }
 
 function formatDate(date) {
@@ -23,12 +35,18 @@ function App() {
   const [selectedPillar, setSelectedPillar] = useState('Todos')
   const [selectedEpic, setSelectedEpic] = useState('Todos')
   const [query, setQuery] = useState('')
+  const [completedActions, setCompletedActions] = useState(readCompletedActions)
+  const [showCompletedActions, setShowCompletedActions] = useState(false)
 
   useEffect(() => {
     fetch('/data/meeting_analytics.json')
       .then((response) => response.json())
       .then(setAnalytics)
   }, [])
+
+  useEffect(() => {
+    localStorage.setItem(completedStorageKey, JSON.stringify(completedActions))
+  }, [completedActions])
 
   const pillars = analytics?.pillars ?? []
   const epics = analytics?.epics ?? []
@@ -54,8 +72,19 @@ function App() {
 
   const visibleActions = useMemo(() => {
     if (!analytics) return []
-    return analytics.actions.filter((item) => selectedPillar === 'Todos' || item.pillar === selectedPillar).slice(0, 8)
-  }, [analytics, selectedPillar])
+    return analytics.actions
+      .map((item) => ({ ...item, checked: Boolean(completedActions[item.id]) }))
+      .filter((item) => selectedPillar === 'Todos' || item.pillar === selectedPillar)
+      .filter((item) => showCompletedActions || !item.checked)
+      .slice(0, 12)
+  }, [analytics, completedActions, selectedPillar, showCompletedActions])
+
+  const actionProgress = useMemo(() => {
+    if (!analytics) return { total: 0, done: 0, open: 0 }
+    const scoped = analytics.actions.filter((item) => selectedPillar === 'Todos' || item.pillar === selectedPillar)
+    const done = scoped.filter((item) => completedActions[item.id]).length
+    return { total: scoped.length, done, open: scoped.length - done }
+  }, [analytics, completedActions, selectedPillar])
 
   const visibleBlockers = useMemo(() => {
     if (!analytics) return []
@@ -166,16 +195,41 @@ function App() {
         </article>
 
         <article className="panel actions-panel">
-          <PanelTitle kicker="Follow-up" title="Pendencias abertas" />
-          <ItemList items={visibleActions} empty="Nenhuma pendencia para esse filtro." render={(item) => (
-            <>
-              <span className={`status-dot ${item.status}`} />
-              <div>
-                <strong>{item.text}</strong>
-                <small>{item.pillar} | {item.owner} | {formatDate(item.date)} | {statusLabel[item.status] ?? item.status}</small>
-              </div>
-            </>
-          )} />
+          <div className="panel-heading action-heading">
+            <div>
+              <p>Follow-up</p>
+              <h2>{actionProgress.open} pendencias abertas</h2>
+            </div>
+            <label className="toggle-done">
+              <input
+                checked={showCompletedActions}
+                onChange={(event) => setShowCompletedActions(event.target.checked)}
+                type="checkbox"
+              />
+              <span>Concluidas</span>
+            </label>
+          </div>
+          <div className="action-progress">
+            <span style={{ width: `${actionProgress.total ? (actionProgress.done / actionProgress.total) * 100 : 0}%` }} />
+          </div>
+          <small className="action-progress-label">
+            {actionProgress.done} concluidas de {actionProgress.total} tarefas neste filtro
+          </small>
+          <ActionList
+            items={visibleActions}
+            empty={showCompletedActions ? 'Nenhuma tarefa para esse filtro.' : 'Nenhuma pendencia aberta para esse filtro.'}
+            onToggle={(item) => {
+              setCompletedActions((current) => {
+                const next = { ...current }
+                if (next[item.id]) {
+                  delete next[item.id]
+                } else {
+                  next[item.id] = new Date().toISOString()
+                }
+                return next
+              })
+            }}
+          />
         </article>
 
         <article className="panel blockers-panel">
@@ -299,6 +353,33 @@ function Timeline({ data }) {
 function ItemList({ items, empty, render }) {
   if (!items.length) return <div className="empty-state">{empty}</div>
   return <div className="item-list">{items.map((item, index) => <article key={`${item.text}-${index}`}>{render(item)}</article>)}</div>
+}
+
+function ActionList({ items, empty, onToggle }) {
+  if (!items.length) return <div className="empty-state">{empty}</div>
+  return (
+    <div className="action-list">
+      {items.map((item) => (
+        <article className={item.checked ? 'checked' : ''} key={item.id}>
+          <button
+            aria-label={item.checked ? 'Marcar tarefa como aberta' : 'Marcar tarefa como concluida'}
+            className="check-button"
+            onClick={() => onToggle(item)}
+            type="button"
+          >
+            {item.checked ? '✓' : ''}
+          </button>
+          <div>
+            <strong>{item.text}</strong>
+            <small>
+              {item.pillar} | {item.owner} | {formatDate(item.date)} | {item.checked ? statusLabel.checked : statusLabel[item.status] ?? item.status}
+            </small>
+            <a href={item.meeting_url} target="_blank" rel="noreferrer">{item.meeting_title}</a>
+          </div>
+        </article>
+      ))}
+    </div>
+  )
 }
 
 function PillarDetail({ pillar }) {

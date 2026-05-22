@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import math
 import re
@@ -295,7 +296,27 @@ def build_timeline(meetings: list[dict]) -> list[dict]:
 def build_analytics(meetings: list[dict]) -> dict:
     dated = [{**meeting, "_date": parse_date(meeting["date"])} for meeting in meetings]
     dates = [meeting["_date"] for meeting in dated]
-    actions = [item | {"pillar": meeting["pillar"], "meeting_title": meeting["title"], "meeting_url": meeting["url"], "date": meeting["_date"].date().isoformat()} for meeting in dated for item in meeting.get("action_items", [])]
+    actions = []
+    for meeting in dated:
+        for index, item in enumerate(meeting.get("action_items", [])):
+            action_key = "|".join(
+                [
+                    meeting["id"],
+                    str(index),
+                    item.get("owner", ""),
+                    item.get("text", ""),
+                ]
+            )
+            actions.append(
+                item
+                | {
+                    "id": hashlib.sha1(action_key.encode("utf-8")).hexdigest()[:16],
+                    "pillar": meeting["pillar"],
+                    "meeting_title": meeting["title"],
+                    "meeting_url": meeting["url"],
+                    "date": meeting["_date"].date().isoformat(),
+                }
+            )
     blockers = [{"text": blocker, "pillar": meeting["pillar"], "meeting_title": meeting["title"], "date": meeting["_date"].date().isoformat()} for meeting in dated for blocker in meeting.get("blockers", [])]
     decisions = [{"text": decision, "pillar": meeting["pillar"], "meeting_title": meeting["title"], "date": meeting["_date"].date().isoformat()} for meeting in dated for decision in meeting.get("decisions", [])]
     questions = [{"text": question, "pillar": meeting["pillar"], "meeting_title": meeting["title"], "date": meeting["_date"].date().isoformat()} for meeting in dated for question in meeting.get("key_questions", [])]

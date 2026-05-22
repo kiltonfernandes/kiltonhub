@@ -249,6 +249,50 @@
   margin-bottom: 16px;
 }
 
+.action-heading {
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.toggle-done {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 34px;
+  border: 1px solid #dce6e1;
+  border-radius: 999px;
+  background: #fff;
+  padding: 0 10px;
+  color: #465a68;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.toggle-done input {
+  accent-color: #00a87a;
+}
+
+.action-progress {
+  overflow: hidden;
+  height: 8px;
+  border-radius: 999px;
+  background: #e7efeb;
+}
+
+.action-progress span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #00b894, #2f6bff);
+}
+
+.action-progress-label {
+  display: block;
+  margin: 8px 0 12px;
+  color: #617381;
+  font-weight: 800;
+}
+
 .word-panel,
 .meetings-panel {
   grid-column: 1 / -1;
@@ -385,6 +429,72 @@
   gap: 10px;
   padding: 12px 0;
   border-bottom: 1px solid #edf2ef;
+}
+
+.action-list {
+  display: grid;
+  gap: 0;
+}
+
+.action-list article {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr);
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid #edf2ef;
+}
+
+.action-list article.checked {
+  opacity: 0.68;
+}
+
+.action-list article.checked strong {
+  text-decoration: line-through;
+}
+
+.check-button {
+  display: grid;
+  width: 22px;
+  height: 22px;
+  margin-top: 1px;
+  place-items: center;
+  border: 2px solid #ffb020;
+  border-radius: 7px;
+  background: #fff7e6;
+  color: #0b2e3f;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 950;
+  line-height: 1;
+}
+
+.action-list article.checked .check-button {
+  border-color: #00a87a;
+  background: #ddf8ef;
+  color: #007a65;
+}
+
+.action-list strong {
+  display: block;
+  color: #10202b;
+}
+
+.action-list small {
+  display: block;
+  color: #617381;
+}
+
+.action-list a {
+  display: inline-block;
+  margin-top: 5px;
+  color: #1459d9;
+  font-size: 12px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.action-list a:hover {
+  text-decoration: underline;
 }
 
 .status-dot {
